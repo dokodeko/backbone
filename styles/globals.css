@@ -1,4 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+:root {
+  --verde: #6cbd4b;
+}
+.fondo_pagina {
+  background-image: linear-gradient(
+    to bottom,
+    #55bc51,
+    #00c088,
+    #00c0b9,
+    #00bcdc,
+    #00b5ec,
+    #3ab8f0,
+    #55bcf4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+* {
+  font-family: "Red Hat Text", sans-serif;
+}
 
 .md-container {
   max-width: 800px;
