@@ -1,0 +1,15 @@
+.boton {
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.825rem;
+  border-radius: 1.25rem;
+}
+.fuente {
+  font-weight: 700;
+}
+.background_trasparent {
+  background-color: transparent;
+  border-color: red;
+  color: #fff;
+}

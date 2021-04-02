@@ -1,4 +1,6 @@
-export default function Boton(props) {
-  const { texto } = props;
-  return <button>{texto}</button>;
-}
+import style from "./boton.module.css";
+const Boton = (props) => {
+  const { texto, color } = props;
+  return <boton className={color + " " + style.boton}>{texto}</boton>;
+};
+export default Boton;

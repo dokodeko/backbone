@@ -2,10 +2,12 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Link from "next/link";
 import Boton from "../ui/Boton";
+import style from "../ui/boton.module.css";
 
 const customLink = {
   color: "#fff",
 };
+
 const Header = () => {
   return (
     <Navbar bg="transparent" className="navegacion">
@@ -20,9 +22,11 @@ const Header = () => {
             <Nav.Link style={customLink}>CLM</Nav.Link>
           </Link>
           <Link href="/prueba" passHref>
-            <Nav.Link style={customLink}>Link</Nav.Link>
+            <Nav.Link style={customLink} className={style.fuente}>
+              Link
+            </Nav.Link>
           </Link>
-          <Boton texto="Request a demo" />
+          <Boton texto="Request a demo" color={style.background_trasparent} />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
