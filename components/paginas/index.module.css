@@ -20,3 +20,20 @@
 .boton {
   background-color: var(--verde);
 }
+/* index analytics */
+.titulo_analytics {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenedor_analytics {
+  margin-top: 9rem;
+}
+.contenedor_analytics > p {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+

@@ -12,5 +12,10 @@
   background-color: transparent;
   border-color: red;
   color: #fff;
-  
+}
+
+/* Cards */
+.card_custom {
+  border-radius: 25px;
+  border: 2px solid var(--verde);
 }
