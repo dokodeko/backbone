@@ -1,0 +1,22 @@
+.cont_izquierda {
+  width: 40%;
+}
+.fondo {
+  background-image: url("/png/hero_index.png");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+  height: 600px;
+}
+.cont_izquierda h1 {
+  margin-top: 3rem;
+  font-size: 2.75rem;
+}
+.cont_izquierda p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.boton {
+  background-color: var(--verde);
+}

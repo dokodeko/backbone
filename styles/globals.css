@@ -52,3 +52,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+.titulo {
+  font-weight: 700;
+}
+.colorBlanco {
+  color: #fff;
+}
+.colorVerde {
+  color: var(--verde);
+}
+.flex_box {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,9 +1,10 @@
 import Layout from "../components/layout/Layout";
+import HeroIndex from "../components/paginas/HeroIndex";
 
 export default function Home() {
   return (
     <Layout>
-      <div className="color">Home</div>
+      <HeroIndex />
     </Layout>
   );
 }
