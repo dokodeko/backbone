@@ -1,5 +1,16 @@
 import style from "./index.module.css";
-import Card from "../ui/Card";
+import Card from "../ui/Card/Card";
+import CardTituloVerde from "../ui/Card/CardTituloVerde";
+
+const CardObjet = {
+  Texto: "Pruba",
+
+  TituloVerde: {
+    primero: "ACCELERATE",
+    ColorVerde: "colorVerde",
+    segundo: "DIGITAL TRANSFORMATION",
+  },
+};
 
 const AnalyticsIndex = () => {
   return (
@@ -20,8 +31,13 @@ const AnalyticsIndex = () => {
         within companies.
       </p>
       <div className="flex_box w-100">
-        <Card texto="Prueba">
-          <h4></h4>
+        <Card texto="prsad">
+          <CardTituloVerde
+            texto1="sdgjdsfnhgsdkgfbe"
+            texto2="sfsadgfasd"
+            salto={true}
+            color={true}
+          />
         </Card>
       </div>
     </section>
