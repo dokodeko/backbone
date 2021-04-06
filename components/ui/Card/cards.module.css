@@ -1,6 +1,7 @@
 .card_custom {
   border-radius: 25px;
   border: 2px solid var(--verde);
+  
 }
 
 .colorVerde {
@@ -8,4 +9,13 @@
 }
 .colorVerde span {
   color: #fff;
+}
+.colorBlanco {
+  color: #fff;
+}
+.colorBlanco span {
+  color: var(--verde);
+}
+.titulo_card {
+  text-align: center;
 }
