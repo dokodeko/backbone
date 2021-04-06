@@ -1,7 +1,16 @@
 .card_custom {
   border-radius: 25px;
   border: 2px solid var(--verde);
-  
+  padding: 4rem 2rem;
+}
+.card_custom p {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.844rem;
+  line-height: 1.93;
+}
+.fondo_card_gradiente {
+  background-image: url("/png/fondo_card.png");
 }
 
 .colorVerde {
@@ -18,4 +27,5 @@
 }
 .titulo_card {
   text-align: center;
+  font-weight: 700;
 }

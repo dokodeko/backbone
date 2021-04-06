@@ -28,6 +28,7 @@
 }
 .contenedor_analytics {
   margin-top: 9rem;
+  margin-bottom: 4rem;
 }
 .contenedor_analytics > p {
   width: 45%;
@@ -41,5 +42,13 @@
   width: 30%;
 }
 .contenedor_analytics_cards {
+  width: 75%;
+
   justify-content: space-around;
+}
+.fondo_card {
+  background-image: url("/png/fondo_card.png");
+  background-repeat: no-repeat;
+  background-origin: center center;
+  background-size: 100%;
 }

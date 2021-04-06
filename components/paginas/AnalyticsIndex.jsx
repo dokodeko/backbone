@@ -52,10 +52,15 @@ const AnalyticsIndex = () => {
         processes, and upskill workforce. It is agnostic to any industry or area
         within companies.
       </p>
-      <div className={`flex_box w-100 ${style.contenedor_analytics_cards}`}>
+      <div className={`flex_box mx-auto ${style.contenedor_analytics_cards}`}>
         {items.map((item, index) => {
           return (
-            <Card key={index} texto={item.texto} totalCards={style.card_3}>
+            <Card
+              key={index}
+              texto={item.texto}
+              totalCards={style.card_3}
+              fondo={style.fondo_card}
+            >
               <CardTituloVerde
                 key={index}
                 texto1={item.texto1}
