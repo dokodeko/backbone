@@ -17,13 +17,25 @@
 /* Parrafos */
 .parrafo {
   color: #fff;
+  margin-top: 2rem;
 }
 .parrafo span {
   color: var(--verde);
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
 .cont_izquierdo {
   width: 30%;
+  margin-left: 0;
+  margin-right: auto;
+  padding-top: 3rem;
 }
 .cont_derecho {
   width: 30%;
+  margin-left: auto;
+  margin-right: -13rem;
+}
+
+.contendor_parrafo {
+  margin-bottom: 8rem;
 }
