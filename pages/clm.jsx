@@ -1,10 +1,11 @@
 import Layout from "../components/layout/Layout";
+import HeroClm from "../components/paginas/HeroClm";
 
 export default function Prueba() {
   return (
     <>
       <Layout>
-        <h2>Prueba</h2>
+        <HeroClm />
       </Layout>
     </>
   );

@@ -22,12 +22,12 @@ const Header = () => {
 
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Link href="/" passHref>
+          <Link href="/clm" passHref>
             <Nav.Link style={customLink}>CLM</Nav.Link>
           </Link>
           <Link href="/prueba" passHref>
             <Nav.Link style={customLink} className={styleUi.fuente}>
-              Link
+              Boolean APA
             </Nav.Link>
           </Link>
           <Boton texto="Request a demo" color={styleUi.background_trasparent} />
