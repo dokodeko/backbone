@@ -1,4 +1,5 @@
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import Head from "next/head";
 
 const Layout = (props) => {
@@ -11,6 +12,7 @@ const Layout = (props) => {
       <div className="fondo_pagina">
         <NavBar />
         <main>{props.children}</main>
+        <Footer />
       </div>
     </>
   );

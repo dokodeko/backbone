@@ -19,6 +19,7 @@
 .cont_izquierda p {
   margin-top: 2rem;
   margin-bottom: 4rem;
+  color: #fff;
 }
 .boton {
   background-color: var(--verde);

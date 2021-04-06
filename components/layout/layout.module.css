@@ -1,3 +1,22 @@
 .nav_custom {
   margin-top: 1rem;
 }
+.footer {
+  width: 100%;
+}
+.cont_logo {
+  width: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cont_texto {
+  margin-top: 2rem;
+  text-align: center;
+  color: #fff;
+}
+.cont_texto a {
+  color: #fff;
+}
+.logo{
+  width: 256px;
+}

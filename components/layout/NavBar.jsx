@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <Navbar bg="transparent" className={`contenedor ${styleLayout.nav_custom}`}>
       <Link href="/" passHref>
-        <Navbar.Brand>Back Bone Systems</Navbar.Brand>
+        <Navbar.Brand>
+          <img src="/png/logo.png" className={styleLayout.logo} alt="logo" />
+        </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
