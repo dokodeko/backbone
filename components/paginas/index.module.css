@@ -44,11 +44,41 @@
 .contenedor_analytics_cards {
   width: 75%;
 
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .fondo_card {
   background-image: url("/png/fondo_card.png");
   background-repeat: no-repeat;
   background-origin: center center;
-  background-size: 100%;
+  background-size: 100% 100%;
+}
+/* engine */
+.contenedor_engine {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.contendor_lista {
+  justify-content: center;
+}
+.contendor_lista img {
+  max-width: 100%;
+  width: 100%;
+  padding-top: 0.3rem;
+}
+.cont_imagen {
+  width: 60%;
+}
+.contendor_lista li {
+  color: #fff;
+  list-style: none;
+  margin-bottom: 3.9rem;
+}
+.lista1,
+.lista2 {
+  width: 20%;
+}
+
+.lista1 li {
+  text-align: right;
+  padding-right: 1rem;
 }
