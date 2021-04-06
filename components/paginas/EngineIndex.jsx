@@ -1,7 +1,7 @@
 import style from "./index.module.css";
 import CardTituloVerde from "../ui/Card/CardTituloVerde";
 
-const Engine = () => {
+const EngineIndex = () => {
   return (
     <section className={`contenedor ${style.contenedor_engine} `}>
       <CardTituloVerde
@@ -9,6 +9,7 @@ const Engine = () => {
         texto2="APA ENGINE"
         salto={false}
         tamanoFuente="titulo_tamano"
+        posicion={style.texto_centro}
       />
       <div className={`flex_box ${style.contendor_lista}`}>
         <div className={style.lista1}>
@@ -36,4 +37,4 @@ const Engine = () => {
     </section>
   );
 };
-export default Engine;
+export default EngineIndex;

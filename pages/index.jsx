@@ -1,13 +1,15 @@
 import Layout from "../components/layout/Layout";
 import HeroIndex from "../components/paginas/HeroIndex";
 import AnalyticsIndex from "../components/paginas/AnalyticsIndex";
-import Engine from "../components/paginas/Engine";
+import EngineIndex from "../components/paginas/EngineIndex";
+import ServicesIndex from "../components/paginas/ServicesIndex";
 export default function Home() {
   return (
     <Layout>
       <HeroIndex />
       <AnalyticsIndex />
-      <Engine />
+      <EngineIndex />
+      <ServicesIndex />
     </Layout>
   );
 }

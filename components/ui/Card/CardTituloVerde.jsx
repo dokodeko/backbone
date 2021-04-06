@@ -1,10 +1,10 @@
 import style from "./cards.module.css";
 
 export default function CardTituloVerde(props) {
-  const { texto1, texto2, tamanoFuente } = props;
+  const { texto1, texto2, tamanoFuente, posicion } = props;
   return (
     <h4
-      className={`${style.titulo_card} ${tamanoFuente} ${
+      className={`${style.titulo_card} ${tamanoFuente} ${posicion} ${
         (style.titulo_card, props.color ? style.colorVerde : style.colorBlanco)
       }`}
     >

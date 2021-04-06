@@ -14,4 +14,16 @@
   color: #fff;
 }
 
-/* Cards */
+/* Parrafos */
+.parrafo {
+  color: #fff;
+}
+.parrafo span {
+  color: var(--verde);
+}
+.cont_izquierdo {
+  width: 30%;
+}
+.cont_derecho {
+  width: 30%;
+}

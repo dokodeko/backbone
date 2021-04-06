@@ -6,7 +6,7 @@ import CardTituloVerde from "../ui/Card/CardTituloVerde";
 const items = [
   {
     id: 1,
-
+    posicion: style.texto_centro,
     texto1: "ACCELERATE DIGITAL",
     texto2: "TRANSFORMATION",
     salto: true,
@@ -16,6 +16,8 @@ const items = [
   },
   {
     id: 2,
+    posicion: style.texto_centro,
+
     texto1: "GENERATE",
     texto2: "INSTANT ROI",
     salto: true,
@@ -25,6 +27,8 @@ const items = [
   },
   {
     id: 3,
+    posicion: style.texto_centro,
+
     texto1: "ADAPT AND ",
     texto2: "EVOLVE",
     salto: true,
@@ -63,6 +67,7 @@ const AnalyticsIndex = () => {
             >
               <CardTituloVerde
                 key={index}
+                posicion={item.posicion}
                 texto1={item.texto1}
                 texto2={item.texto2}
                 color={item.color}
