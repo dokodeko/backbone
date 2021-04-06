@@ -37,3 +37,9 @@
   margin-bottom: 4rem;
 }
 
+.card_3 {
+  width: 30%;
+}
+.contenedor_analytics_cards {
+  justify-content: space-around;
+}

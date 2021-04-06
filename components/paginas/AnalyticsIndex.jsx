@@ -1,16 +1,38 @@
 import style from "./index.module.css";
+
 import Card from "../ui/Card/Card";
 import CardTituloVerde from "../ui/Card/CardTituloVerde";
 
-const CardObjet = {
-  Texto: "Pruba",
+const items = [
+  {
+    id: 1,
 
-  TituloVerde: {
-    primero: "ACCELERATE",
-    ColorVerde: "colorVerde",
-    segundo: "DIGITAL TRANSFORMATION",
+    texto1: "ACCELERATE DIGITAL",
+    texto2: "TRANSFORMATION",
+    salto: true,
+    color: true,
+    texto:
+      "With our unified solution, avoid months or years of product development to drive the digital transformation that is necessary to stay relevant in today's modern market",
   },
-};
+  {
+    id: 2,
+    texto1: "GENERATE",
+    texto2: "INSTANT ROI",
+    salto: true,
+    color: false,
+    texto:
+      "Automated processes and upskilled workforce impact your bottom line directly through cost reduction and revenue maximization. ",
+  },
+  {
+    id: 3,
+    texto1: "ADAPT AND ",
+    texto2: "EVOLVE",
+    salto: true,
+    color: true,
+    texto:
+      "Your company is an ever-evolving being with changing needs. Adaptability is engrained into our engine so that your processes adapt too. ",
+  },
+];
 
 const AnalyticsIndex = () => {
   return (
@@ -30,15 +52,20 @@ const AnalyticsIndex = () => {
         processes, and upskill workforce. It is agnostic to any industry or area
         within companies.
       </p>
-      <div className="flex_box w-100">
-        <Card texto="prsad">
-          <CardTituloVerde
-            texto1="sdgjdsfnhgsdkgfbe"
-            texto2="sfsadgfasd"
-            salto={true}
-            color={true}
-          />
-        </Card>
+      <div className={`flex_box w-100 ${style.contenedor_analytics_cards}`}>
+        {items.map((item, index) => {
+          return (
+            <Card key={index} texto={item.texto} totalCards={style.card_3}>
+              <CardTituloVerde
+                key={index}
+                texto1={item.texto1}
+                texto2={item.texto2}
+                color={item.color}
+                salto={item.salto}
+              />
+            </Card>
+          );
+        })}
       </div>
     </section>
   );
