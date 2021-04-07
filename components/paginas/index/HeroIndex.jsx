@@ -1,4 +1,4 @@
-import Boton from "../ui/Boton";
+import Boton from "../../ui/Boton";
 import style from "./index.module.css";
 const HeroIndex = () => {
   return (

@@ -1,5 +1,5 @@
-import Parrafos from "../ui/Parrafos";
-import CardTituloVerde from "../ui/Card/CardTituloVerde";
+import Parrafos from "../../ui/Parrafos";
+import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 import style from "./index.module.css";
 
 const services = [

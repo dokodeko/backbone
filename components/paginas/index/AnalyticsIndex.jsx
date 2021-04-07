@@ -1,7 +1,7 @@
 import style from "./index.module.css";
 
-import Card from "../ui/Card/Card";
-import CardTituloVerde from "../ui/Card/CardTituloVerde";
+import Card from "../../ui/Card/Card";
+import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 
 const items = [
   {

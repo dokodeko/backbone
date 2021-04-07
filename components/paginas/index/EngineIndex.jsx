@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import CardTituloVerde from "../ui/Card/CardTituloVerde";
+import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 
 const EngineIndex = () => {
   return (

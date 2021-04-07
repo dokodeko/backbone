@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 :root {
   --verde: #6cbd4b;
+  --azul: #3feea5;
 }
 .fondo_pagina {
   background-color: #0b262d;
