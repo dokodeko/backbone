@@ -1,0 +1,32 @@
+.cambio h4 {
+  color: var(--azul);
+  font-weight: 700;
+  line-height: 1;
+  font-size: 44px;
+}
+.cambio h4 span {
+  color: #fff;
+}
+.cambio p {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.cambio p span {
+  font-weight: 700;
+}
+/* HeroClm */
+.cont_texto {
+  width: 35%;
+  padding-top: 7rem;
+}
+.boton {
+  background-color: var(--azul);
+}
+.cont_imagen {
+  width: 35%;
+  margin-right: 8%;
+  margin-left: auto;
+}
+.cont_imagen img {
+  
+}
