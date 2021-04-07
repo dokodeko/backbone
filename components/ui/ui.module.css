@@ -39,3 +39,28 @@
 .contendor_parrafo {
   margin-bottom: 8rem;
 }
+/* Sections */
+.cont_sections {
+  margin-top: 5rem;
+  width: 95%;
+  margin-left: auto;
+  margin-right: 0;
+}
+.cont_sections h5 {
+  color: #fff;
+}
+.cont_sections h5 span {
+  color: var(--azul);
+}
+.cont_sections p {
+  color: #fff;
+}
+.cont_sections p span {
+  color: var(--verde);
+}
+.cont_1 {
+  width: 50%;
+}
+.cont_2 {
+  width: 50%;
+}
