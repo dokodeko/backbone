@@ -4,9 +4,9 @@ const HeroClm = () => {
   return (
     <div className="contenedor flex_box mt-4">
       <div className={`${style.cont_texto} ${style.cambio}`}>
-        <h4>
+        <h1>
           SUPERCHARGE <br /> YOUR <span>FINTECH</span>
-        </h4>
+        </h1>
         <p className="colorBlanco">
           Backbone's cloud-based engine helps large-scale financial institutions
           streamline their operations regarding{" "}

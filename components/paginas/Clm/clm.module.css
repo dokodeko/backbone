@@ -1,13 +1,16 @@
-.cambio h4 {
+.cambio h1,
+.texto_fintech h3 {
   color: var(--azul);
   font-weight: 700;
   line-height: 1;
   font-size: 44px;
 }
-.cambio h4 span {
+.cambio h1 span,
+.texto_fintech h3 span {
   color: #fff;
 }
-.cambio p {
+.cambio p,
+.texto_fintech p {
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -27,6 +30,37 @@
   margin-right: 8%;
   margin-left: auto;
 }
-.cont_imagen img {
-  
+/* Fintech */
+.imagen_fintech {
+  width: 35%;
+  margin-left: 5%;
+  height: 420px;
+  background-image: url("/png/fintech.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  position: relative;
+}
+.imagen_fintech div {
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+}
+#Onboarding {
+  top: 17%;
+  left: 2%;
+}
+#Compliance {
+  top: 68%;
+  left: -9%;
+}
+#Monitoring {
+  top: 102%;
+  left: 51%;
+}
+.texto_fintech {
+  width: 38%;
+  margin-right: 5%;
+  padding-top: 5rem;
+  margin-left: auto;
 }
