@@ -2,9 +2,10 @@ import Layout from "../components/layout/Layout";
 import HeroClm from "../components/paginas/Clm/HeroClm";
 import FintechClm from "../components/paginas/Clm/FintechClm";
 import SectionCustom from "../components/ui/Sections";
-
 import Card from "../components/ui/Card/Card";
 import CardImagen from "../components/ui/Card/CardImagen";
+
+import style from "../components/ui/ui.module.css";
 const section1 = {
   numero: "01 ",
   titulo: "IDENTITY",
@@ -17,11 +18,7 @@ const section1 = {
 const section2 = {
   numero: "02",
   titulo: "ONBOARDING",
-  parrafo1: "Onboard more customers ",
-  textoVerde: "quickly ",
-  parrafo2: "and ",
-  textoVerde2: "safely ",
-  parrafo3: "with better decision making.",
+
   listas: [
     {
       texto:
@@ -64,14 +61,14 @@ export default function Prueba() {
           <SectionCustom
             numero={section2.numero}
             titulo={section2.titulo}
-            parrafo1={section2.parrafo1}
-            textoVerde={section2.textoVerde}
-            parrafo2={section2.parrafo2}
-            textoVerde2={section2.textoVerde2}
-            parrafo3={section2.parrafo3}
             cards={
               <>
-                <ul>
+                <p className="mt-n1">
+                  Onboard more customers <span> quickly</span> and
+                  <span> safely</span> with better decision <br />
+                  making.
+                </p>
+                <ul className={style.lista}>
                   {section2.listas.map((lista, index) => {
                     return <li className="colorBlanco">{lista.texto}</li>;
                   })}
