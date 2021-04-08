@@ -28,6 +28,7 @@ const SectionCustom = (props) => {
           </p>
           <div className={`flex_box`}>{props.cards}</div>
         </div>
+        
         {props.estadoImagen ? (
           <div className={`${posicion} ${style.cont_2}`}>
             <img src={imagen} />

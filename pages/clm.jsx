@@ -105,6 +105,7 @@ export default function Clm() {
             parrafo2={section1.parrafo2}
             imagen={section1.imagen}
             estadoImagen={section1.estadoImagen}
+            posicion={style.custom_imagen}
             cards={
               <>
                 {section1.cards.map((card, index) => {
@@ -156,6 +157,8 @@ export default function Clm() {
             parrafo2={section3.parrafo2}
             imagen={section3.imagen}
             estadoImagen={section3.estadoImagen}
+            posicion={style.custom_imagen}
+
             cards={
               <>
                 {section3.cards.map((card, index) => {

@@ -114,3 +114,9 @@
 .custom_titulo {
   margin-top: 1rem !important;
 }
+.custom_imagen img {
+  width: 60%;
+  display: block;
+  margin-right: -10rem;
+  margin-left: auto;
+}
