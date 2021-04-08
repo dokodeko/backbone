@@ -55,7 +55,35 @@ const section2 = {
     { texto: "Your own risk tolerance" },
   ],
 };
-
+const section3 = {
+  numero: "01 ",
+  titulo: "IDENTITY",
+  parrafo1: "This is your control ",
+  textoVerde: "center and interface ",
+  parrafo2:
+    "between the real world and your team’s rules. Leverage internal and external data to execute informed manual or automatic decisions, while minimizing back office burden.",
+  estadoImagen: true,
+  imagen: "/png/frame.png",
+  cards: [
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/scard_1.png",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+    },
+  ],
+};
 export default function Clm() {
   return (
     <>
@@ -111,6 +139,34 @@ export default function Clm() {
                     );
                   })}
                 </ul>
+              </>
+            }
+          />
+          <SectionCustom
+            numero={section3.numero}
+            titulo={section3.titulo}
+            parrafo1={section3.parrafo1}
+            textoVerde={section3.textoVerde}
+            parrafo2={section3.parrafo2}
+            imagen={section3.imagen}
+            estadoImagen={section3.estadoImagen}
+            cards={
+              <>
+                {section3.cards.map((card, index) => {
+                  return (
+                    <Card
+                      key={index}
+                      texto={card.texto}
+                      textoBold={card.textoBlanco}
+                      texto2={card.texto2}
+                      totalCards={style.cards_4}
+                      fondo={style.fondo_card_clm}
+                      custom_titulo={style.custom_titulo}
+                    >
+                      <CardImagen key={index} imagen={card.imagen} />
+                    </Card>
+                  );
+                })}
               </>
             }
           />
