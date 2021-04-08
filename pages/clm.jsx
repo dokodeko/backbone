@@ -9,13 +9,31 @@ import style from "../components/ui/ui.module.css";
 const section1 = {
   numero: "01 ",
   titulo: "IDENTITY",
-
   parrafo1: "This is your control ",
   textoVerde: "center and interface ",
   parrafo2:
     "between the real world and your team’s rules. Leverage internal and external data to execute informed manual or automatic decisions, while minimizing back office burden.",
   estadoImagen: true,
   imagen: "/png/frame.png",
+  cards: [
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/scard_1.png",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+    },
+  ],
 };
 const section2 = {
   numero: "02",
@@ -55,9 +73,21 @@ export default function Clm() {
             estadoImagen={section1.estadoImagen}
             cards={
               <>
-                <Card>
-                  <CardImagen />
-                </Card>
+                {section1.cards.map((card, index) => {
+                  return (
+                    <Card
+                      key={index}
+                      texto={card.texto}
+                      textoBold={card.textoBlanco}
+                      texto2={card.texto2}
+                      totalCards={style.cards_4}
+                      fondo={style.fondo_card_clm}
+                      custom_titulo={style.custom_titulo}
+                    >
+                      <CardImagen key={index} imagen={card.imagen} />
+                    </Card>
+                  );
+                })}
               </>
             }
           />

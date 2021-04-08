@@ -55,17 +55,17 @@
 .cont_sections p {
   color: #fff;
 }
-.cont_sections p span {
-  color: var(--verde);
+.textoBold {
+  font-weight: 700;
 }
+
 .cont_1 {
   width: 50%;
 }
 .cont_2 {
   width: 50%;
 }
-.lista li {
-}
+
 .lista {
   padding-left: 0.8rem;
 }
@@ -95,4 +95,22 @@
 #level {
   top: 67%;
   right: 8%;
+}
+.cards_4 {
+  width: 24%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem !important;
+}
+.cards_4:first-of-type {
+  margin-left: 0;
+}
+.cards_4:last-of-type {
+  margin-right: 0;
+}
+.fondo_card_clm {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.custom_titulo {
+  margin-top: 1rem !important;
 }

@@ -12,7 +12,9 @@
 .fondo_card_gradiente {
   background-image: url("/png/fondo_card.png");
 }
-
+.texto_titulo {
+  line-height: 1.21 !important;
+}
 .colorVerde {
   color: var(--verde);
 }
@@ -25,6 +27,19 @@
 .colorBlanco span {
   color: var(--verde);
 }
-.titulo_card {
-  font-weight: 700;
+
+.texto_titulo span {
+  font-weight: 600;
 }
+.cont_imagen {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 50px;
+}
+.cont_imagen img {
+  width: 35px;
+  height: 35px;
+}
+

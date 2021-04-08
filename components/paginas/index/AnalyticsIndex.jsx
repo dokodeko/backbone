@@ -67,7 +67,7 @@ const AnalyticsIndex = () => {
             >
               <CardTituloVerde
                 key={index}
-                posicion={item.posicion}
+                posicion={item.posicion} 
                 texto1={item.texto1}
                 texto2={item.texto2}
                 color={item.color}
