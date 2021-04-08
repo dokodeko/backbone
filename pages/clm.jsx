@@ -24,14 +24,17 @@ const section1 = {
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
+      imagen: "/png/scard_2.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
+      imagen: "/png/scard_3.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
+      imagen: "/png/scard_4.png",
     },
   ],
 };
@@ -73,14 +76,17 @@ const section3 = {
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
+      imagen: "/png/scard_2.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
+      imagen: "/png/scard_3.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
+      imagen: "/png/scard_4.png",
     },
   ],
 };
