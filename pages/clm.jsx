@@ -9,16 +9,18 @@ import style from "../components/ui/ui.module.css";
 const section1 = {
   numero: "01 ",
   titulo: "IDENTITY",
+
   parrafo1: "This is your control ",
   textoVerde: "center and interface ",
   parrafo2:
     "between the real world and your team’s rules. Leverage internal and external data to execute informed manual or automatic decisions, while minimizing back office burden.",
+  estadoImagen: true,
   imagen: "/png/frame.png",
 };
 const section2 = {
   numero: "02",
   titulo: "ONBOARDING",
-
+  imagen: "/png/mapa.png",
   listas: [
     {
       texto:
@@ -36,7 +38,7 @@ const section2 = {
   ],
 };
 
-export default function Prueba() {
+export default function Clm() {
   return (
     <>
       <Layout>
@@ -50,6 +52,7 @@ export default function Prueba() {
             textoVerde={section1.textoVerde}
             parrafo2={section1.parrafo2}
             imagen={section1.imagen}
+            estadoImagen={section1.estadoImagen}
             cards={
               <>
                 <Card>
@@ -61,6 +64,7 @@ export default function Prueba() {
           <SectionCustom
             numero={section2.numero}
             titulo={section2.titulo}
+            imagen={section2.imagen}
             cards={
               <>
                 <p className="mt-n1">
@@ -70,7 +74,11 @@ export default function Prueba() {
                 </p>
                 <ul className={style.lista}>
                   {section2.listas.map((lista, index) => {
-                    return <li className="colorBlanco">{lista.texto}</li>;
+                    return (
+                      <li className="colorBlanco" key={index}>
+                        {lista.texto}
+                      </li>
+                    );
                   })}
                 </ul>
               </>

@@ -28,9 +28,23 @@ const SectionCustom = (props) => {
           </p>
           <div className={`flex_box`}>{props.cards}</div>
         </div>
-        <div className={`${posicion} ${style.cont_2}`}>
-          <img src={imagen} />
-        </div>
+        {props.estadoImagen ? (
+          <div className={`${posicion} ${style.cont_2}`}>
+            <img src={imagen} />
+          </div>
+        ) : (
+          <div className={style.fondoMapa}>
+            <p id={style.status}>
+              Status/account level
+              <br /> decisions
+            </p>
+            <p id={style.escalotions}>Escalations</p>
+            <p id={style.level}>
+              Aditional level
+              <br /> requests
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

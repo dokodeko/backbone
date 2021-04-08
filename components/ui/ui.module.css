@@ -69,3 +69,30 @@
 .lista {
   padding-left: 0.8rem;
 }
+.fondoMapa {
+  background-image: url("/png/mapa.png");
+  width: 43%;
+  position: relative;
+  margin-right: 7%;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.fondoMapa p {
+  position: absolute;
+  font-size: 0.844rem;
+  line-height: 1;
+}
+#status {
+  top: 23%;
+  right: 2%;
+}
+#escalotions {
+  top: 46%;
+  right: 11%;
+}
+#level {
+  top: 67%;
+  right: 8%;
+}
