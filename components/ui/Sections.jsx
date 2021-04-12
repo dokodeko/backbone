@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import style from "./ui.module.css";
+import animaciones from "./animaciones.module.css";
 import useOnScreen from "../../hooks/useObserver";
 
 const SectionCustom = (props) => {
@@ -20,7 +21,11 @@ const SectionCustom = (props) => {
     <div className={style.cont_sections} ref={ref}>
       {props.imagen}
       <div className="flex_box">
-        <div className={style.cont_1}>
+        <div
+          className={`${style.cont_1} ${
+            onScreen ? animaciones.fadeInLeft : ""
+          }`}
+        >
           <h5>
             {numero}. <span>{titulo}</span>
           </h5>
@@ -36,7 +41,7 @@ const SectionCustom = (props) => {
         {props.estadoImagen ? (
           <div
             className={`${posicion} ${style.cont_2} ${
-              onScreen ? style.observando2 : ""
+              onScreen ? animaciones.fadeInRight2 : ""
             }`}
           >
             <img src={imagen} />

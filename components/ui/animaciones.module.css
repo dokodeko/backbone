@@ -39,6 +39,17 @@
   animation-fill-mode: both;
   margin-right: 9%;
 }
+.fadeInRight2 {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fadeInRight2 img {
+  margin-right: 17%;
+}
 @-webkit-keyframes fadeInRight {
   0% {
     opacity: 0;
