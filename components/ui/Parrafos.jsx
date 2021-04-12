@@ -1,5 +1,5 @@
 import style from "./ui.module.css";
-import { useState, useEffect, useRef } from "react";
+import { useRef } from "react";
 import useOnScreen from "../../hooks/useObserver";
 
 const Parrafos = (props) => {

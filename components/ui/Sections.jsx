@@ -1,4 +1,6 @@
+import { useRef } from "react";
 import style from "./ui.module.css";
+import useOnScreen from "../../hooks/useObserver";
 
 const SectionCustom = (props) => {
   const {
@@ -12,8 +14,10 @@ const SectionCustom = (props) => {
     posicion,
     imagen,
   } = props;
+  const ref = useRef();
+  const onScreen = useOnScreen(ref);
   return (
-    <div className={style.cont_sections}>
+    <div className={style.cont_sections} ref={ref}>
       {props.imagen}
       <div className="flex_box">
         <div className={style.cont_1}>
@@ -28,9 +32,13 @@ const SectionCustom = (props) => {
           </p>
           <div className={`flex_box`}>{props.cards}</div>
         </div>
-        
+
         {props.estadoImagen ? (
-          <div className={`${posicion} ${style.cont_2}`}>
+          <div
+            className={`${posicion} ${style.cont_2} ${
+              onScreen ? style.observando2 : ""
+            }`}
+          >
             <img src={imagen} />
           </div>
         ) : (

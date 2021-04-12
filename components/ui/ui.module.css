@@ -123,3 +123,7 @@
   margin-right: -10rem;
   margin-left: auto;
 }
+.observando2 img {
+  margin-right: 14%;
+  transition: all 3s ease;
+}
