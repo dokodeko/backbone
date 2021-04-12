@@ -21,22 +21,22 @@ const section1 = {
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
-      imagen: "/png/scard_1.png",
+      imagen: "/png/identy/scard_1.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
-      imagen: "/png/scard_2.png",
+      imagen: "/png/identy/scard_2.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
-      imagen: "/png/scard_3.png",
+      imagen: "/png/identy/scard_3.png",
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
-      imagen: "/png/scard_4.png",
+      imagen: "/png/identy/scard_4.png",
     },
   ],
 };
@@ -74,19 +74,19 @@ const section3 = {
   imagen: "/png/frame.png",
   cards: [
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_1.png",
+      textoBlanco: "Watchlists",
+      texto2: "External data sources",
+      imagen: "/png/monitoring/card_1.png",
     },
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_2.png",
+      textoBlanco: "Transaction Monitoring",
+      texto2: "Suspicious individual events",
+      imagen: "/png/monitoring/card_2.png",
     },
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_3.png",
+      textoBlanco: "Risk Profiling",
+      texto2: "Suspicious overall events",
+      imagen: "/png/monitoring/card_3.png",
     },
   ],
 };
@@ -100,29 +100,25 @@ const section4 = {
   imagen: "/png/frame.png",
   cards: [
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_1.png",
+      textoBlanco: "Automated regulatory reports",
+
+      imagen: "/png/compliance/card_1.png",
     },
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_2.png",
+      texto2: "Case management",
+      imagen: "/png/compliance/card_2.png",
     },
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_3.png",
+      texto2: "Institutional risk assessment",
+      imagen: "/png/compliance/card_3.png",
     },
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_4.png",
+      texto2: "Anonymous inbox",
+      imagen: "/png/compliance/card_4.png",
     },
     {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_4.png",
+      texto2: "Audit & authority requirements",
+      imagen: "/png/compliance/card_5.png",
     },
   ],
 };
