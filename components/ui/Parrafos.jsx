@@ -1,4 +1,6 @@
 import style from "./ui.module.css";
+import { useState, useEffect, useRef } from "react";
+import useOnScreen from "../../hooks/useObserver";
 
 const Parrafos = (props) => {
   const {
@@ -10,9 +12,12 @@ const Parrafos = (props) => {
     textoParrafo4,
     imagen,
   } = props;
+  const ref = useRef();
+  const onScreen = useOnScreen(ref);
+
   return (
     <div className={`flex_box ${style.contendor_parrafo}`}>
-      <div className={`${style.cont_izquierdo}`}>
+      <div className={`${style.cont_izquierdo}`} ref={ref}>
         {props.children}
 
         <p className={` ${style.parrafo}`}>
@@ -31,10 +36,13 @@ const Parrafos = (props) => {
           {textoParrafo4}
         </p>
       </div>
-      <div className={`${style.cont_derecho}`}>
+      <div
+        className={`${style.cont_derecho} ${onScreen ? style.observando : ""}`}
+      >
         <img src={imagen} alt="" />
       </div>
     </div>
   );
 };
+
 export default Parrafos;

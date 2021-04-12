@@ -1,6 +1,7 @@
 import Parrafos from "../../ui/Parrafos";
 import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 import style from "./index.module.css";
+import { useRef, useEffect } from "react";
 
 const services = [
   {

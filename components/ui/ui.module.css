@@ -35,7 +35,10 @@
   margin-left: auto;
   margin-right: -13rem;
 }
-
+.observando {
+  margin-right: 7%;
+  transition: all 3s ease;
+}
 .contendor_parrafo {
   margin-bottom: 8rem;
 }
