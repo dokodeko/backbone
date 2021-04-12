@@ -86,11 +86,6 @@ const section3 = {
       texto2: "and send back instructions",
       imagen: "/png/scard_3.png",
     },
-    {
-      textoBlanco: "Ingest data",
-      texto2: "and send back instructions",
-      imagen: "/png/scard_4.png",
-    },
   ],
 };
 const section4 = {
@@ -116,6 +111,11 @@ const section4 = {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
       imagen: "/png/scard_3.png",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/scard_4.png",
     },
     {
       textoBlanco: "Ingest data",
@@ -205,7 +205,7 @@ export default function Clm() {
                       texto={card.texto}
                       textoBold={card.textoBlanco}
                       texto2={card.texto2}
-                      totalCards={style.cards_4}
+                      totalCards={style.cards_3}
                       fondo={style.fondo_card_clm}
                       custom_titulo={style.custom_titulo}
                     >
@@ -234,7 +234,7 @@ export default function Clm() {
                       texto={card.texto}
                       textoBold={card.textoBlanco}
                       texto2={card.texto2}
-                      totalCards={style.cards_4}
+                      totalCards={style.cards_5}
                       fondo={style.fondo_card_clm}
                       custom_titulo={style.custom_titulo}
                     >

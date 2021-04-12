@@ -105,11 +105,27 @@
   margin-right: auto;
   padding: 0rem !important;
 }
-.cards_4:first-of-type {
+.cards_4:first-of-type,
+.cards_3:first-of-type,
+.cards_5:first-of-type {
   margin-left: 0;
 }
-.cards_4:last-of-type {
+.cards_4:last-of-type,
+.cards_3:last-of-type,
+.cards_5:last-of-type {
   margin-right: 0;
+}
+.cards_3 {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem !important;
+}
+.cards_5 {
+  width: 19%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem !important;
 }
 .fondo_card_clm {
   background-color: rgba(255, 255, 255, 0.2);
