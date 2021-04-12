@@ -1,4 +1,5 @@
 import style from "./ui.module.css";
+import animaciones from "./animaciones.module.css";
 import { useRef } from "react";
 import useOnScreen from "../../hooks/useObserver";
 
@@ -16,8 +17,12 @@ const Parrafos = (props) => {
   const onScreen = useOnScreen(ref);
 
   return (
-    <div className={`flex_box ${style.contendor_parrafo}`}>
-      <div className={`${style.cont_izquierdo}`} ref={ref}>
+    <div className={`flex_box ${style.contendor_parrafo}`} ref={ref}>
+      <div
+        className={`${style.cont_izquierdo} ${
+          onScreen ? animaciones.fadeInLeft : ""
+        }`}
+      >
         {props.children}
 
         <p className={` ${style.parrafo}`}>
@@ -37,7 +42,9 @@ const Parrafos = (props) => {
         </p>
       </div>
       <div
-        className={`${style.cont_derecho} ${onScreen ? style.observando : ""}`}
+        className={`${style.cont_derecho} ${
+          onScreen ? animaciones.fadeInRight : ""
+        }`}
       >
         <img src={imagen} alt="" />
       </div>
