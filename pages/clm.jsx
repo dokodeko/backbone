@@ -1,11 +1,13 @@
 import Layout from "../components/layout/Layout";
 import HeroClm from "../components/paginas/Clm/HeroClm";
 import FintechClm from "../components/paginas/Clm/FintechClm";
+import RealTimeCLm from "../components/paginas/Clm/RealTimeClm";
 import SectionCustom from "../components/ui/Sections";
 import Card from "../components/ui/Card/Card";
 import CardImagen from "../components/ui/Card/CardImagen";
 
 import style from "../components/ui/ui.module.css";
+import RealTImeClm from "../components/paginas/Clm/RealTimeClm";
 const section1 = {
   numero: "01 ",
   titulo: "IDENTITY",
@@ -246,6 +248,7 @@ export default function Clm() {
             }
           />
         </section>
+        <RealTImeClm />
       </Layout>
     </>
   );

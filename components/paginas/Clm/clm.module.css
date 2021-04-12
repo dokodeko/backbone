@@ -64,3 +64,31 @@
   padding-top: 5rem;
   margin-left: auto;
 }
+/* RealTimeCLm */
+.contenedor_real {
+  margin-top: 9rem;
+  margin-bottom: 8rem;
+}
+.contclm_izquierda {
+  width: 35%;
+}
+.contclm_derecha {
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+}
+.titulo_clm {
+  font-size: 1.4rem;
+}
+.contclm_imagenes {
+  width: 60%;
+  margin-top: 2rem;
+}
+.real_imagenes {
+  width: 50%;
+  color: #fff;
+}
+.real_imagenes img {
+  width: 30px;
+  margin-right: 1rem;
+}
