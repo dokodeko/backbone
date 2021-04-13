@@ -54,19 +54,23 @@
 }
 .cont_sections h5 {
   color: #fff;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
 }
 .cont_sections h5 span {
   color: var(--azul);
 }
-.cont_sections p {
-  color: #fff;
-}
+
 .textoBold {
   font-weight: 700;
 }
 
 .cont_1 {
   width: 50%;
+}
+.cont_1 p {
+  width: 80%;
+  margin-bottom: 2.5rem;
 }
 .cont_2 {
   width: 50%;
@@ -102,11 +106,15 @@
   top: 67%;
   right: 8%;
 }
-.cards_4 {
-  width: 24%;
+.cards_4,
+.cards_5,
+.cards_3 {
   margin-left: auto;
   margin-right: auto;
-  padding: 0rem !important;
+  padding: 2rem 0rem !important;
+}
+.cards_4 {
+  width: 23%;
 }
 .cards_4:first-of-type,
 .cards_3:first-of-type,
@@ -119,22 +127,24 @@
   margin-right: 0;
 }
 .cards_3 {
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0rem !important;
+  width: 23%;
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+
 }
 .cards_5 {
-  width: 19%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0rem !important;
+  width: 18%;
 }
 .fondo_card_clm {
   background-color: rgba(255, 255, 255, 0.2);
 }
-.custom_titulo {
-  margin-top: 1rem !important;
+.parrafo_custom {
+  margin: 0rem auto !important;
+  line-height: 1.31 !important;
+}
+.custom_padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .custom_imagen img {
   width: 60%;

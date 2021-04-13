@@ -29,10 +29,10 @@ const SectionCustom = (props) => {
           <h5>
             {numero}. <span>{titulo}</span>
           </h5>
-          <p>
-            {parrafo1} <span className="colorVerde">{textoVerde}</span>
+          <p className="colorBlanco">
+            {parrafo1} <span className="colorAzul">{textoVerde}</span>
             {parrafo2}
-            <span className="colorVerde">{textoVerde2}</span>
+            <span className="colorAzul">{textoVerde2}</span>
             {parrafo3}
           </p>
           <div className={`flex_box`}>{props.cards}</div>

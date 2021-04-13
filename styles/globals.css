@@ -33,6 +33,9 @@ img {
 .colorVerde {
   color: var(--verde);
 }
+.colorAzul {
+  color: var(--azul);
+}
 .flex_box {
   display: flex;
   flex-wrap: wrap;

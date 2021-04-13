@@ -1,13 +1,12 @@
 import Layout from "../components/layout/Layout";
 import HeroClm from "../components/paginas/Clm/HeroClm";
 import FintechClm from "../components/paginas/Clm/FintechClm";
-import RealTimeCLm from "../components/paginas/Clm/RealTimeClm";
 import SectionCustom from "../components/ui/Sections";
 import Card from "../components/ui/Card/Card";
 import CardImagen from "../components/ui/Card/CardImagen";
+import RealTImeClm from "../components/paginas/Clm/RealTimeClm";
 
 import style from "../components/ui/ui.module.css";
-import RealTImeClm from "../components/paginas/Clm/RealTimeClm";
 const section1 = {
   numero: "01 ",
   titulo: "IDENTITY",
@@ -149,7 +148,7 @@ export default function Clm() {
                       texto2={card.texto2}
                       totalCards={style.cards_4}
                       fondo={style.fondo_card_clm}
-                      custom_titulo={style.custom_titulo}
+                      custom_parrafo={style.parrafo_custom}
                     >
                       <CardImagen key={index} imagen={card.imagen} />
                     </Card>
@@ -164,10 +163,10 @@ export default function Clm() {
             imagen={section2.imagen}
             cards={
               <>
-                <p className="mt-n1">
+                <p className="mt-n1 mb-0 colorBlanco">
                   Onboard more customers{" "}
-                  <span className="colorVerde"> quickly</span> and
-                  <span className="colorVerde"> safely</span> with better
+                  <span className="colorAzul"> quickly</span> and
+                  <span className="colorAzul"> safely</span> with better
                   decision <br />
                   making.
                 </p>
@@ -206,6 +205,7 @@ export default function Clm() {
                       totalCards={style.cards_3}
                       fondo={style.fondo_card_clm}
                       custom_titulo={style.custom_titulo}
+                      custom_parrafo={style.parrafo_custom}
                     >
                       <CardImagen key={index} imagen={card.imagen} />
                     </Card>
@@ -235,6 +235,8 @@ export default function Clm() {
                       totalCards={style.cards_5}
                       fondo={style.fondo_card_clm}
                       custom_titulo={style.custom_titulo}
+                      custom_parrafo={style.parrafo_custom}
+
                     >
                       <CardImagen key={index} imagen={card.imagen} />
                     </Card>
