@@ -201,6 +201,31 @@
     margin-left: 0.5rem !important;
     margin-right: 0.5rem !important;
   }
+  .cont_sections h5 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .cont_1 p {
+    width: 90%;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  .lista {
+    width: 93%;
+  }
+  .lista li {
+    margin-bottom: 0.3rem;
+  }
+}
+@media (max-width: 768px) {
+  .fondoMapa {
+    height: 260px;
+    margin-top: 4rem;
+    background-position-y: bottom;
+  }
+  .fondoMapa p {
+    font-size: 0.53rem;
+  }
 }
 @media (max-width: 767px) {
   .boton {

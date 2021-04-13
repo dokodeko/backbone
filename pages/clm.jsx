@@ -163,7 +163,7 @@ export default function Clm() {
             imagen={section2.imagen}
             cards={
               <>
-                <p className="mt-n1 mb-0 colorBlanco">
+                <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
                   Onboard more customers{" "}
                   <span className="colorAzul"> quickly</span> and
                   <span className="colorAzul"> safely</span> with better
