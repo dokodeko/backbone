@@ -68,6 +68,7 @@
 }
 .contendor_lista {
   justify-content: center;
+  margin-top: 4rem;
 }
 .contendor_lista img {
   padding-top: 0.3rem;
@@ -94,4 +95,7 @@
   width: 90%;
   margin-left: auto;
   margin-right: 0;
+}
+.titulo_sevicios {
+  font-size: 2.25rem;
 }

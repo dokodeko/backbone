@@ -11,6 +11,10 @@ const EngineIndex = () => {
         tamanoFuente="titulo_tamano"
         posicion={style.texto_centro}
       />
+      <p className={`mb-0`}>
+        Centralize your data, perform automation, exploration and decisioning,
+        and <br /> execute real-life actions.
+      </p>
       <div className={`flex_box ${style.contendor_lista}`}>
         <div className={style.lista1}>
           <ul>

@@ -27,7 +27,7 @@ const Parrafos = (props) => {
 
         <p className={` ${style.parrafo}`}>
           {textoParrafo}
-          <span>{textoVerde}</span>
+          <span className="titulo">{textoVerde}</span>
           {textoParrafo2}
           {props.salto ? (
             <>
@@ -37,7 +37,7 @@ const Parrafos = (props) => {
             ""
           )}
           {textoParrafo3}
-          <span>{textoVerde2}</span>
+          <span className="titulo">{textoVerde2}</span>
           {textoParrafo4}
         </p>
       </div>
@@ -46,7 +46,7 @@ const Parrafos = (props) => {
           onScreen ? animaciones.fadeInRight : ""
         }`}
       >
-        <img src={imagen} alt="" />
+        <img src={imagen} alt="" className={style.imagen_parrafo} />
       </div>
     </div>
   );

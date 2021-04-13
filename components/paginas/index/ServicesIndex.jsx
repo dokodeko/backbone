@@ -1,7 +1,6 @@
 import Parrafos from "../../ui/Parrafos";
 import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 import style from "./index.module.css";
-import { useRef, useEffect } from "react";
 
 const services = [
   {
@@ -90,6 +89,7 @@ const ServicesIndex = () => {
               texto1={service.titulo.texto1}
               salto={service.titulo.salto}
               texto2={service.titulo.texto2}
+              tamanoFuente={style.titulo_sevicios}
             />
           </Parrafos>
         );
