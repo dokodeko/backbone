@@ -5,7 +5,7 @@ const RealTImeClm = () => {
     <div className={`contenedor flex_box ${style.contenedor_real}`}>
       <div className={`${style.contclm_izquierda}`}>
         <h3 className="colorBlanco titulo titulos_tamano">
-          REAL TIME <span className="colorVerde">SERVICES</span>
+          REAL TIME <span className="colorAzul">SERVICES</span>
         </h3>
         <p className="colorBlanco mt-4">
           Embed reliable real time verification services into your onboarding
@@ -20,13 +20,13 @@ const RealTImeClm = () => {
       </div>
       <div className={`${style.contclm_derecha}`}>
         <h5 className={`colorBlanco titulo ${style.titulo_clm}`}>
-          <span className="colorVerde "> 99% </span> UPTIME
+          <span className="colorAzul "> 99% </span> UPTIME
         </h5>
         <h5 className={`colorBlanco titulo ${style.titulo_clm}`}>
-          <span className="colorVerde "> 2,000+ </span> CURRENCY
+          <span className="colorAzul "> 2,000+ </span> CURRENCY
         </h5>{" "}
         <h5 className={`colorBlanco titulo ${style.titulo_clm}`}>
-          <span className="colorVerde "> TOP MARKET </span> RESPONSE TIMES
+          <span className="colorAzul "> TOP MARKET </span> RESPONSE TIMES
         </h5>
         <div className={`flex_box ${style.contclm_imagenes}`}>
           <p className={style.real_imagenes}>
