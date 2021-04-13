@@ -226,6 +226,31 @@
   .fondoMapa p {
     font-size: 0.53rem;
   }
+  .cards_4,
+  .cards_5,
+  .cards_3 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.8rem 0rem !important;
+  }
+  .parrafo_custom {
+    line-height: 1 !important;
+  }
+  .cards_5 {
+    width: 32%;
+    margin-bottom: 0.5rem;
+  }
+  .cards_5:nth-child(4) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cards_5:last-of-type {
+    margin-right: auto;
+    margin-left: 0.4rem;
+  }
+  .cards_3 {
+    width: 28%;
+  }
 }
 @media (max-width: 767px) {
   .boton {
