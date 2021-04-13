@@ -115,4 +115,10 @@
   .texto_fintech {
     padding-top: 4rem;
   }
+  .contclm_izquierda {
+    width: 44%;
+  }
+  .contclm_imagenes {
+    width: 94%;
+  }
 }
