@@ -68,6 +68,7 @@
 }
 .contendor_lista {
   justify-content: center;
+  font-weight: 700;
   margin-top: 4rem;
 }
 .contendor_lista img {
@@ -88,7 +89,7 @@
 
 .lista1 li {
   text-align: right;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 /* Services */
 .contenedor_services {
@@ -98,4 +99,33 @@
 }
 .titulo_sevicios {
   font-size: 2.25rem;
+}
+@media (max-width: 1500px) {
+  .fondo {
+    background-size: 70% 100%;
+  }
+  .cont_izquierda {
+    width: 48%;
+  }
+  .contendor_lista li {
+    margin-bottom: 3.12rem;
+  }
+}
+@media (max-width: 1300px) {
+  .cont_izquierda {
+    width: 51%;
+  }
+  .contenedor_analytics_cards {
+    width: 86%;
+  }
+  .cont_imagen {
+    width: 54%;
+  }
+  .lista1,
+  .lista2 {
+    width: 23%;
+  }
+  .contendor_lista li {
+    margin-bottom: 2.17rem;
+  }
 }
