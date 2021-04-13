@@ -231,11 +231,11 @@ export default function Clm() {
                       key={index}
                       texto={card.texto}
                       textoBold={card.textoBlanco}
-                      texto2={card.texto2}
+                      texto={card.texto2}
                       totalCards={style.cards_5}
                       fondo={style.fondo_card_clm}
                       custom_titulo={style.custom_titulo}
-                      custom_parrafo={style.parrafo_custom}
+                      custom_parrafo={style.parrafo_custom2}
 
                     >
                       <CardImagen key={index} imagen={card.imagen} />

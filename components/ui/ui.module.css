@@ -130,21 +130,31 @@
   width: 23%;
   margin-right: 1rem !important;
   margin-left: 1rem !important;
-
 }
 .cards_5 {
   width: 18%;
 }
 .fondo_card_clm {
   background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px !important;
+  border-color: var(--azul) !important;
 }
 .parrafo_custom {
+  margin: 0rem auto !important;
+  line-height: 1.31 !important;
+}
+.parrafo_custom2 {
+  width: 75% !important;
   margin: 0rem auto !important;
   line-height: 1.31 !important;
 }
 .custom_padding {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.custom_imagen {
+  display: flex;
+  align-items: center;
 }
 .custom_imagen img {
   width: 60%;

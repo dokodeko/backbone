@@ -34,7 +34,7 @@
 .cont_imagen {
   display: flex;
   justify-content: center;
-
+  margin-bottom: 0.5rem;
   width: 100%;
   height: 50px;
 }
