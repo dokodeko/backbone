@@ -157,7 +157,7 @@
   align-items: center;
 }
 .custom_imagen img {
-  width: 60%;
+  width: 80%;
   display: block;
   margin-right: -10rem;
   margin-left: auto;
@@ -195,5 +195,6 @@
   }
   .imagen_parrafo {
     height: auto;
+    width: 95%;
   }
 }

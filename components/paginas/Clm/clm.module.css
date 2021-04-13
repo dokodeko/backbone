@@ -92,3 +92,8 @@
   width: 30px;
   margin-right: 1rem;
 }
+@media (max-width: 1500px) {
+  .contclm_imagenes {
+    width: 70%;
+  }
+}
