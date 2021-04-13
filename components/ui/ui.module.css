@@ -165,8 +165,15 @@
 .observando2 img {
   margin-right: 14%;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .cont_izquierdo {
     width: 38%;
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 767px) {
+  .boton {
+    font-size: 0.6rem;
   }
 }
