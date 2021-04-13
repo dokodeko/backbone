@@ -169,6 +169,7 @@
     height: auto;
     background-size: 70%;
     height: 300px;
+    margin-top: 1rem;
     background-position-y: bottom;
   }
   .cont_izquierda {

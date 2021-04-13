@@ -24,6 +24,10 @@
 .logo {
   width: 256px;
 }
+.links {
+  color: #fff !important;
+  margin-right: 1rem;
+}
 .fondo_2 {
   background-image: url("/png/fondos/fondo_02.png");
   background-repeat: no-repeat;
@@ -33,6 +37,13 @@
 }
 @media (max-width: 767px) {
   .nav_custom {
-    padding-top: 1rem;
+    padding: 1rem 0.3rem 0.5rem 0.3rem;
+  }
+  .links {
+    margin-right: 0rem;
+    font-size: 0.6rem;
+  }
+  .logo {
+    width: 120px;
   }
 }

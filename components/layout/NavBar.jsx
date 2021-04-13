@@ -5,11 +5,6 @@ import Boton from "../ui/Boton";
 import styleUi from "../ui/ui.module.css";
 import styleLayout from "./layout.module.css";
 
-const customLink = {
-  color: "#fff",
-  marginRight: "1rem",
-};
-
 const Header = () => {
   return (
     <Navbar bg="transparent" className={`contenedor ${styleLayout.nav_custom}`}>
@@ -22,10 +17,10 @@ const Header = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Link href="/clm" passHref>
-            <Nav.Link style={customLink}>CLM</Nav.Link>
+            <Nav.Link className={`${styleLayout.links}`}>CLM</Nav.Link>
           </Link>
           <Link href="/" passHref>
-            <Nav.Link style={customLink} className={styleUi.fuente}>
+            <Nav.Link className={`${styleUi.fuente} ${styleLayout.links}`}>
               Boolean APA
             </Nav.Link>
           </Link>
