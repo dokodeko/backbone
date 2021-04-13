@@ -58,7 +58,7 @@
 .fondo_card {
   background-image: url("/png/fondo_card.png");
   background-repeat: no-repeat;
-  background-origin: center center;
+
   background-size: 100% 100%;
 }
 /* engine */
@@ -151,11 +151,14 @@
     height: 500px;
   }
   .titulo_analytics {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1.3rem;
   }
   .contenedor_analytics > p {
-    width: 55%;
+    width: 59%;
+  }
+  .contenedor_analytics_cards {
+    width: 93%;
   }
 }
 @media (max-width: 768px) {
@@ -175,6 +178,18 @@
     margin-bottom: 2rem;
     width: 83%;
   }
+  .contenedor_analytics > p {
+    width: 85%;
+  }
+  .contenedor_analytics_cards {
+    width: 100%;
+  }
+  .card_3 {
+    width: 32%;
+  }
+  .funete_cards {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 767px) {
   .fondo {
@@ -183,7 +198,6 @@
     height: 320px;
     margin-top: 1rem;
     background-position-y: bottom;
-    
   }
   .cont_izquierda {
     width: 100%;
