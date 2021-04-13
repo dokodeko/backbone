@@ -202,10 +202,61 @@
   .cont_izquierda {
     width: 100%;
   }
-  .cont_izquierda h1 {
+  .card_3 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
   }
   .cont_izquierda p {
     font-size: 0.7rem;
     margin-bottom: 2rem;
+  }
+  .titulo_analytics {
+    font-size: 1.5rem;
+  }
+  .contenedor_analytics > p {
+    font-size: 0.7rem;
+  }
+  .contenedor_engine {
+    margin-top: 5rem;
+  }
+  .contenedor_engine > p {
+    font-size: 0.7rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cont_imagen {
+    width: 60%;
+  }
+  .lista1 {
+    width: 15%;
+  }
+  .lista2 {
+    width: 25%;
+  }
+  .lista1 ul,
+  .lista2 ul {
+    padding: 0;
+    padding-top: 0.2rem;
+  }
+  .lista1 li,
+  .lista2 li {
+    font-size: 0.35rem;
+    padding: 0;
+    margin-bottom: 0.71rem;
+  }
+  .lista1 li {
+    padding-right: 0.2rem;
+  }
+  .lista2 li {
+    padding-left: 0.2rem;
+  }
+  .contenedor_services {
+    width: 98%;
+  }
+  .titulo_sevicios {
+    font-size: 1rem;
   }
 }

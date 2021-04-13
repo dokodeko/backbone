@@ -11,7 +11,7 @@ const EngineIndex = () => {
         tamanoFuente="titulo_tamano"
         posicion={style.texto_centro}
       />
-      <p className={`mb-0`}>
+      <p className={`mb-0 colorBlanco text-center`}>
         Centralize your data, perform automation, exploration and decisioning,
         and <br /> execute real-life actions.
       </p>

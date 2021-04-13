@@ -74,3 +74,8 @@
     transform: none;
   }
 }
+@media (max-width: 767px) {
+  .fadeInRight {
+    margin-right: 0;
+  }
+}
