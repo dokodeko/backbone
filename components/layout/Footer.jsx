@@ -8,7 +8,7 @@ const Footer = () => {
       </div>
       <div className={styleLayout.cont_texto}>
         <a href="mailto:info@backbonesystems.io">info@backbonesystems.io</a>
-        <p>© 2021 Backbone Systems. All Rights Reserved</p>
+        <p className="mb-0 ">© 2021 Backbone Systems. All Rights Reserved</p>
       </div>
     </footer>
   );

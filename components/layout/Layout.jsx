@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Head from "next/head";
+import style from "../../styles/paginas.module.css";
 
 const Layout = (props) => {
   return (
@@ -15,8 +16,10 @@ const Layout = (props) => {
         />
       </Head>
       <div className="fondo_pagina">
-        <NavBar />
-        <main>{props.children}</main>
+        <div className={style.fondoHero}>
+          <NavBar />
+          <main>{props.children}</main>
+        </div>
         <Footer />
       </div>
     </>
