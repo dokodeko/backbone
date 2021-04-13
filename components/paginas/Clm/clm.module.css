@@ -122,3 +122,39 @@
     width: 94%;
   }
 }
+
+@media (max-width: 768px) {
+  .cambio h1,
+  .texto_fintech h3 {
+    font-size: 29px;
+  }
+  .cont_texto {
+    padding-top: 2rem;
+    width: 47%;
+  }
+  .cont_imagen {
+    width: 40%;
+    margin-right: 4%;
+  }
+  .cambio p {
+    margin-bottom: 1.5rem;
+  }
+  .imagen_fintech {
+    height: 330px;
+  }
+  #Onboarding {
+    top: 16%;
+    left: -6%;
+  }
+  #Compliance {
+    left: -14%;
+  }
+  #Monitoring {
+    left: 48%;
+  }
+  .texto_fintech {
+    width: 42%;
+    padding-top: 2rem;
+    margin-right: 1%;
+  }
+}
