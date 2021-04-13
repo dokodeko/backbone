@@ -24,7 +24,7 @@ const Header = () => {
           <Link href="/clm" passHref>
             <Nav.Link style={customLink}>CLM</Nav.Link>
           </Link>
-          <Link href="/prueba" passHref>
+          <Link href="/" passHref>
             <Nav.Link style={customLink} className={styleUi.fuente}>
               Boolean APA
             </Nav.Link>

@@ -7,7 +7,7 @@ const Card = (props) => {
   return (
     <div className={`${style.card_custom} ${totalCards} ${fondo}`}>
       {props.children}
-      <p className={`colorBlanco ${style.texto_titulo} ${custom_titulo}`}>
+      <p className={`colorBlanco } ${custom_titulo}`}>
         {texto}{" "}
         <span>
           {textoBold}

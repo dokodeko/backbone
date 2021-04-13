@@ -4,7 +4,7 @@ export default function CardTituloVerde(props) {
   const { texto1, texto2, tamanoFuente, posicion } = props;
   return (
     <h4
-      className={`${style.titulo_card} ${tamanoFuente} ${posicion} ${
+      className={`titulo ${style.titulo_card} ${tamanoFuente} ${posicion} ${
         (style.titulo_card, props.color ? style.colorVerde : style.colorBlanco)
       }`}
     >
@@ -12,3 +12,4 @@ export default function CardTituloVerde(props) {
     </h4>
   );
 }
+ 

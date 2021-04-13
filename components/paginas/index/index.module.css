@@ -44,7 +44,9 @@
   margin-bottom: 4rem;
   line-height: 1.72;
 }
-
+.funete_cards {
+  font-size: 1.125rem;
+}
 .card_3 {
   width: 30%;
 }

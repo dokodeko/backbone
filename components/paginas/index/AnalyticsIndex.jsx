@@ -7,9 +7,9 @@ const items = [
   {
     id: 1,
     posicion: style.texto_centro,
-    texto1: "ACCELERATE DIGITAL",
-    texto2: "TRANSFORMATION",
-    salto: true,
+    texto1: "ACCELERATE",
+    texto2: "DIGITAL TRANSFORMATION",
+
     color: true,
     texto:
       "With our unified solution, avoid months or years of product development to drive the digital transformation that is necessary to stay relevant in today's modern market",
@@ -67,11 +67,12 @@ const AnalyticsIndex = () => {
             >
               <CardTituloVerde
                 key={index}
-                posicion={item.posicion} 
+                posicion={item.posicion}
                 texto1={item.texto1}
                 texto2={item.texto2}
                 color={item.color}
                 salto={item.salto}
+                tamanoFuente={style.funete_cards}
               />
             </Card>
           );
