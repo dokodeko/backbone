@@ -45,11 +45,11 @@ const AnalyticsIndex = () => {
       className={`contenedor flex_box ${style.contenedor_analytics}`}
     >
       <h2
-        className={`colorVerde text-center titulo_tamano titulo ${style.titulo_analytics}`}
+        className={`colorBlanco text-center titulo_tamano titulo ${style.titulo_analytics}`}
       >
         WHAT IS
         <br />
-        <span className="colorBlanco">ANALYTIC PROCESS AUTOMATION</span>
+        <span className="colorVerde">ANALYTIC PROCESS AUTOMATION</span>
       </h2>
       <p className="colorBlanco">
         Analytic Process Automation is the technology to empower data, automate

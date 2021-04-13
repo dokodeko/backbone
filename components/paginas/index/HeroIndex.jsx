@@ -9,10 +9,11 @@ const HeroIndex = () => {
           <br /> <span className="colorBlanco">INTELLIGENT</span>
         </h1>
         <p>
-          Boolean is an analytic process automation (APA) engine that empowers
-          your enterprise through your data, processes and people, making your
-          institution a seamlessly interconnected, intelligent and autonomous
-          being.
+          <span className="titulo">Boolean </span>is an analytic process
+          automation (APA) engine that
+          <span className="titulo"> empowers your enterprise</span> through your
+          data, processes and people, making your institution a seamlessly
+          interconnected, intelligent and autonomous being.
         </p>
         <Boton texto="Request a demo" color={style.boton} />
       </div>

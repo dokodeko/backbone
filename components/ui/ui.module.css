@@ -10,7 +10,7 @@
 }
 .background_trasparent {
   background-color: transparent;
-  border-color: red;
+  border-color: var(--verde);
   color: #fff;
 }
 

@@ -13,11 +13,10 @@ const customLink = {
 const Header = () => {
   return (
     <Navbar bg="transparent" className={`contenedor ${styleLayout.nav_custom}`}>
-      <Link href="/" passHref>
-        <Navbar.Brand>
-          <img src="/png/logo.png" className={styleLayout.logo} alt="logo" />
-        </Navbar.Brand>
-      </Link>
+      <Navbar.Brand>
+        <img src="/png/logo.png" className={styleLayout.logo} alt="logo" />
+      </Navbar.Brand>
+
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
       <Navbar.Collapse id="basic-navbar-nav">
