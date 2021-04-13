@@ -35,6 +35,11 @@
   background-position-x: right;
   background-position-y: 20%;
 }
+@media (max-width: 768px) {
+  .logo {
+    width: 200px;
+  }
+}
 @media (max-width: 767px) {
   .nav_custom {
     padding: 1rem 0.3rem 0.5rem 0.3rem;
