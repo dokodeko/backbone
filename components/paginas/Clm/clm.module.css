@@ -1,13 +1,13 @@
 .cambio h1,
 .texto_fintech h3 {
-  color: var(--azul);
+  color: #fff;
   font-weight: 700;
   line-height: 1;
   font-size: 44px;
 }
 .cambio h1 span,
 .texto_fintech h3 span {
-  color: #fff;
+  color: var(--azul);
 }
 .cambio p,
 .texto_fintech p {
@@ -19,14 +19,14 @@
 }
 /* HeroClm */
 .cont_texto {
-  width: 35%;
+  width: 32%;
   padding-top: 7rem;
 }
 .boton {
   background-color: var(--azul);
 }
 .cont_imagen {
-  width: 35%;
+  width: 30%;
   margin-right: 8%;
   margin-left: auto;
 }

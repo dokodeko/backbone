@@ -4,7 +4,7 @@ const HeroClm = () => {
   return (
     <div className="contenedor flex_box mt-4">
       <div className={`${style.cont_texto} ${style.cambio}`}>
-        <h1>
+        <h1 className="colorBlanco">
           SUPERCHARGE <br /> YOUR <span>FINTECH</span>
         </h1>
         <p className="colorBlanco">
