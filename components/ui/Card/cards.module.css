@@ -47,6 +47,9 @@
   .card_custom {
     padding: 3rem 1.5rem;
   }
+  .card_custom {
+    border-width: 1px;
+  }
 }
 @media (max-width: 768px) {
   .card_custom {

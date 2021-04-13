@@ -97,3 +97,22 @@
     width: 70%;
   }
 }
+@media (max-width: 1024px) {
+  .cont_texto {
+    width: 41%;
+    padding-top: 3rem;
+  }
+  .cambio h1,
+  .texto_fintech h3 {
+    font-size: 34px;
+  }
+  .cont_imagen {
+    width: 36%;
+  }
+  .imagen_fintech {
+    width: 48%;
+  }
+  .texto_fintech {
+    padding-top: 4rem;
+  }
+}
