@@ -157,4 +157,31 @@
     padding-top: 2rem;
     margin-right: 1%;
   }
+  .real_imagenes img {
+    width: 26px;
+    margin-right: 0.5rem;
+  }
+  .contclm_imagenes {
+    width: 105%;
+  }
+  .titulo_clm {
+    font-size: 1.3rem;
+  }
+  .contclm_izquierda p {
+    font-size: 0.9rem;
+  }
+  .contclm_izquierda h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .cambio h1,
+  .texto_fintech h3 {
+    font-size: 1rem;
+  }
+  .cambio p,
+  .texto_fintech p {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
 }

@@ -39,6 +39,9 @@
   .logo {
     width: 200px;
   }
+  .cont_logo {
+    width: 5%;
+  }
 }
 @media (max-width: 767px) {
   .nav_custom {
