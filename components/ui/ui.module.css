@@ -277,4 +277,17 @@
     height: auto;
     width: 95%;
   }
+  .cont_sections {
+    margin-right: auto;
+  }
+  .cont_1,
+  .cont_2 {
+    width: 100%;
+  }
+  .cont_2 {
+    margin-top: 2rem;
+  }
+  .fondoMapa {
+    width: 100%;
+  }
 }
