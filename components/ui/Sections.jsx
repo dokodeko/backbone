@@ -19,7 +19,7 @@ const SectionCustom = (props) => {
   const onScreen = useOnScreen(ref);
   return (
     <div className={style.cont_sections} ref={ref}>
-      {props.imagen}
+      {props.imagenInteractiva}
       <div className="flex_box">
         <div
           className={`${style.cont_1} ${

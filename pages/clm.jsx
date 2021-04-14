@@ -5,6 +5,7 @@ import SectionCustom from "../components/ui/Sections";
 import Card from "../components/ui/Card/Card";
 import CardImagen from "../components/ui/Card/CardImagen";
 import RealTImeClm from "../components/paginas/Clm/RealTimeClm";
+import ImagenInteractiva from "../components/ui/ImagenInteractiva";
 
 import style from "../components/ui/ui.module.css";
 const section1 = {
@@ -16,6 +17,7 @@ const section1 = {
     "between the real world and your team’s rules. Leverage internal and external data to execute informed manual or automatic decisions, while minimizing back office burden.",
   estadoImagen: true,
   imagen: "/png/frame.png",
+  fondoImagen: "/png/logos/p01.png",
   cards: [
     {
       textoBlanco: "Ingest data",
@@ -97,6 +99,7 @@ const section4 = {
   parrafo2: "to avoid fines whilst minimizing friction with your clients. ",
   estadoImagen: true,
   imagen: "/png/frame.png",
+
   cards: [
     {
       textoBlanco: "Automated regulatory reports",
@@ -137,6 +140,9 @@ export default function Clm() {
             imagen={section1.imagen}
             estadoImagen={section1.estadoImagen}
             posicion={style.custom_imagen}
+            imagenInteractiva={
+              <ImagenInteractiva fondoImagen={section1.fondoImagen} />
+            }
             cards={
               <>
                 {section1.cards.map((card, index) => {
@@ -236,7 +242,6 @@ export default function Clm() {
                       fondo={style.fondo_card_clm}
                       custom_titulo={style.custom_titulo}
                       custom_parrafo={style.parrafo_custom2}
-
                     >
                       <CardImagen key={index} imagen={card.imagen} />
                     </Card>
