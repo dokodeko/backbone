@@ -194,10 +194,13 @@
 @media (max-width: 767px) {
   .fondo {
     height: auto;
-    background-size: 75% 50%;
-    height: 320px;
+    background-size: 92% 250px;
+    height: 495px;
     margin-top: 1rem;
-    background-position-y: bottom;
+    background-position: bottom center;
+  }
+  .cont_izquierda h1 {
+    font-size: 1.7rem;
   }
   .cont_izquierda {
     width: 100%;
@@ -209,7 +212,8 @@
     margin-bottom: 2rem;
   }
   .cont_izquierda p {
-    font-size: 0.7rem;
+    width: 96%;
+    font-size: 0.8rem;
     margin-bottom: 2rem;
   }
   .titulo_analytics {
@@ -257,6 +261,6 @@
     width: 98%;
   }
   .titulo_sevicios {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }

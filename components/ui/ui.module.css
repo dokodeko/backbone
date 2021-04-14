@@ -170,7 +170,9 @@
 .imagen_interactiva {
   width: 200px;
   margin-bottom: 2rem;
-
+  position: fixed;
+  top: 20%;
+  display: none;
 }
 @media (max-width: 1400px) {
   .cont_izquierdo {
@@ -265,18 +267,18 @@
     padding: 0.3rem 0.67rem;
   }
   .cont_izquierdo {
-    width: 54%;
+    width: 98%;
     padding-top: 1rem;
   }
   .parrafo {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin-top: 1rem;
   }
   .contendor_parrafo {
     margin-bottom: 3rem;
   }
   .cont_derecho {
-    width: 45%;
+    width: 90%;
     display: flex;
     align-items: center;
   }

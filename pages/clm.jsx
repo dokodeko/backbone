@@ -45,7 +45,6 @@ const section2 = {
   numero: "02",
   titulo: "ONBOARDING",
   imagen: "/png/mapa.png",
-  fondoImagen: "/png/logos/p02.png",
 
   listas: [
     {
@@ -75,7 +74,6 @@ const section3 = {
     "from your customers with a full-picture continuous monitoring and establish automated procedures for our own criteria.",
   estadoImagen: true,
   imagen: "/png/frame.png",
-  fondoImagen: "/png/logos/p03.png",
 
   cards: [
     {
@@ -103,7 +101,6 @@ const section4 = {
   parrafo2: "to avoid fines whilst minimizing friction with your clients. ",
   estadoImagen: true,
   imagen: "/png/frame.png",
-  fondoImagen: "/png/logos/p04.png",
 
   cards: [
     {
