@@ -184,4 +184,15 @@
     font-size: 0.7rem;
     margin-top: 1rem;
   }
+  .contclm_izquierda {
+    width: 100%;
+    text-align: center;
+  }
+  .contclm_derecha {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .titulo_clm {
+    text-align: center;
+  }
 }
