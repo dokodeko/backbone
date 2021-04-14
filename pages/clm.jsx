@@ -45,6 +45,8 @@ const section2 = {
   numero: "02",
   titulo: "ONBOARDING",
   imagen: "/png/mapa.png",
+  fondoImagen: "/png/logos/p02.png",
+
   listas: [
     {
       texto:
@@ -73,6 +75,8 @@ const section3 = {
     "from your customers with a full-picture continuous monitoring and establish automated procedures for our own criteria.",
   estadoImagen: true,
   imagen: "/png/frame.png",
+  fondoImagen: "/png/logos/p03.png",
+
   cards: [
     {
       textoBlanco: "Watchlists",
@@ -99,6 +103,7 @@ const section4 = {
   parrafo2: "to avoid fines whilst minimizing friction with your clients. ",
   estadoImagen: true,
   imagen: "/png/frame.png",
+  fondoImagen: "/png/logos/p04.png",
 
   cards: [
     {
@@ -167,6 +172,9 @@ export default function Clm() {
             numero={section2.numero}
             titulo={section2.titulo}
             imagen={section2.imagen}
+            imagenInteractiva={
+              <ImagenInteractiva fondoImagen={section2.fondoImagen} />
+            }
             cards={
               <>
                 <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
@@ -199,6 +207,9 @@ export default function Clm() {
             imagen={section3.imagen}
             estadoImagen={section3.estadoImagen}
             posicion={style.custom_imagen}
+            imagenInteractiva={
+              <ImagenInteractiva fondoImagen={section3.fondoImagen} />
+            }
             cards={
               <>
                 {section3.cards.map((card, index) => {
@@ -229,6 +240,9 @@ export default function Clm() {
             imagen={section4.imagen}
             estadoImagen={section4.estadoImagen}
             posicion={style.custom_imagen}
+            imagenInteractiva={
+              <ImagenInteractiva fondoImagen={section4.fondoImagen} />
+            }
             cards={
               <>
                 {section4.cards.map((card, index) => {

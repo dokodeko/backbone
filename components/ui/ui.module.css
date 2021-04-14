@@ -170,6 +170,7 @@
 .imagen_interactiva {
   width: 200px;
   margin-bottom: 2rem;
+
 }
 @media (max-width: 1400px) {
   .cont_izquierdo {
