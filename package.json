@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "produccion": "next build && next export"
+    "produccion": "next export"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",

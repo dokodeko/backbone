@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="mailto:info@backbonesystems.io">info@backbonesystems.io</a>
         <p className="mb-0 ">© 2021 Backbone Systems. All Rights Reserved</p>
       </div>
-    </footer>
+    </footer> 
   );
 };
 export default Footer;
