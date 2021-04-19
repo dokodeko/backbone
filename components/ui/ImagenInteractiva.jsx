@@ -1,8 +1,10 @@
 import style from "./ui.module.css";
 const ImagenInteractiva = (props) => {
-  const { fondoImagen } = props;
-  return <div className={`${style.imagen_interactiva}`}>
-      <img src={fondoImagen}/>
-  </div>;
+  const { Imagen, estilo } = props;
+  return (
+    <div className={`${style.imagen_interactiva} ${estilo}`}>
+      <img src={Imagen} id="ii" />
+    </div>
+  );
 };
 export default ImagenInteractiva;

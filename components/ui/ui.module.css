@@ -168,12 +168,16 @@
 /* Imagen Interactiva */
 
 .imagen_interactiva {
-  width: 100px;
+  width: 200px;
+  margin-left: 6%;
   margin-bottom: 2rem;
-  position: fixed;
-  top: 20%;
-  display: none;
+  display: block;
+  height: 200px;
 }
+.imagen_interactiva img {
+  max-width: 200px;
+}
+
 @media (max-width: 1400px) {
   .cont_izquierdo {
     width: 38%;

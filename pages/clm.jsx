@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Layout from "../components/layout/Layout";
 import HeroClm from "../components/paginas/Clm/HeroClm";
 import FintechClm from "../components/paginas/Clm/FintechClm";
@@ -7,7 +8,11 @@ import CardImagen from "../components/ui/Card/CardImagen";
 import RealTImeClm from "../components/paginas/Clm/RealTimeClm";
 import ImagenInteractiva from "../components/ui/ImagenInteractiva";
 
+import useObserverCustom from "../hooks/useObserverCustom";
+import useOnScreen from "../hooks/useObserver";
+
 import style from "../components/ui/ui.module.css";
+
 const section1 = {
   numero: "01 ",
   titulo: "IDENTITY",
@@ -127,12 +132,16 @@ const section4 = {
   ],
 };
 export default function Clm() {
+  const ref2 = useRef();
+  const OnScreen = useOnScreen(ref2);
   return (
-    <>
+    <div className={OnScreen ? "p-fixed" : ""}>
       <Layout>
         <HeroClm />
         <FintechClm />
         <section>
+          <ImagenInteractiva Imagen="/png/logos/p01.png" />
+
           <SectionCustom
             numero={section1.numero}
             titulo={section1.titulo}
@@ -142,9 +151,6 @@ export default function Clm() {
             imagen={section1.imagen}
             estadoImagen={section1.estadoImagen}
             posicion={style.custom_imagen}
-            imagenInteractiva={
-              <ImagenInteractiva fondoImagen={section1.fondoImagen} />
-            }
             cards={
               <>
                 {section1.cards.map((card, index) => {
@@ -165,69 +171,66 @@ export default function Clm() {
               </>
             }
           />
-          <SectionCustom
-            numero={section2.numero}
-            titulo={section2.titulo}
-            imagen={section2.imagen}
-            imagenInteractiva={
-              <ImagenInteractiva fondoImagen={section2.fondoImagen} />
-            }
-            cards={
-              <>
-                <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
-                  Onboard more customers{" "}
-                  <span className="colorAzul"> quickly</span> and
-                  <span className="colorAzul"> safely</span> with better
-                  decision <br />
-                  making.
-                </p>
-                <ul className={style.lista}>
-                  {section2.listas.map((lista, index) => {
+
+          <div ref={ref2}>
+            <SectionCustom
+              numero={section2.numero}
+              titulo={section2.titulo}
+              imagen={section2.imagen}
+              cards={
+                <>
+                  <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
+                    Onboard more customers{" "}
+                    <span className="colorAzul"> quickly</span> and
+                    <span className="colorAzul"> safely</span> with better
+                    decision <br />
+                    making.
+                  </p>
+                  <ul className={style.lista}>
+                    {section2.listas.map((lista, index) => {
+                      return (
+                        <li className="colorBlanco" key={index}>
+                          {lista.texto}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              }
+            />
+            <SectionCustom
+              numero={section3.numero}
+              titulo={section3.titulo}
+              parrafo1={section3.parrafo1}
+              textoVerde={section3.textoVerde}
+              parrafo2={section3.parrafo2}
+              textoVerde2={section3.textoVerde2}
+              parrafo3={section3.parrafo3}
+              imagen={section3.imagen}
+              estadoImagen={section3.estadoImagen}
+              posicion={style.custom_imagen}
+              cards={
+                <>
+                  {section3.cards.map((card, index) => {
                     return (
-                      <li className="colorBlanco" key={index}>
-                        {lista.texto}
-                      </li>
+                      <Card
+                        key={index}
+                        texto={card.texto}
+                        textoBold={card.textoBlanco}
+                        texto2={card.texto2}
+                        totalCards={style.cards_3}
+                        fondo={style.fondo_card_clm}
+                        custom_titulo={style.custom_titulo}
+                        custom_parrafo={style.parrafo_custom}
+                      >
+                        <CardImagen key={index} imagen={card.imagen} />
+                      </Card>
                     );
                   })}
-                </ul>
-              </>
-            }
-          />
-          <SectionCustom
-            numero={section3.numero}
-            titulo={section3.titulo}
-            parrafo1={section3.parrafo1}
-            textoVerde={section3.textoVerde}
-            parrafo2={section3.parrafo2}
-            textoVerde2={section3.textoVerde2}
-            parrafo3={section3.parrafo3}
-            imagen={section3.imagen}
-            estadoImagen={section3.estadoImagen}
-            posicion={style.custom_imagen}
-            imagenInteractiva={
-              <ImagenInteractiva fondoImagen={section3.fondoImagen} />
-            }
-            cards={
-              <>
-                {section3.cards.map((card, index) => {
-                  return (
-                    <Card
-                      key={index}
-                      texto={card.texto}
-                      textoBold={card.textoBlanco}
-                      texto2={card.texto2}
-                      totalCards={style.cards_3}
-                      fondo={style.fondo_card_clm}
-                      custom_titulo={style.custom_titulo}
-                      custom_parrafo={style.parrafo_custom}
-                    >
-                      <CardImagen key={index} imagen={card.imagen} />
-                    </Card>
-                  );
-                })}
-              </>
-            }
-          />
+                </>
+              }
+            />{" "}
+          </div>
           <SectionCustom
             numero={section4.numero}
             titulo={section4.titulo}
@@ -237,9 +240,6 @@ export default function Clm() {
             imagen={section4.imagen}
             estadoImagen={section4.estadoImagen}
             posicion={style.custom_imagen}
-            imagenInteractiva={
-              <ImagenInteractiva fondoImagen={section4.fondoImagen} />
-            }
             cards={
               <>
                 {section4.cards.map((card, index) => {
@@ -264,6 +264,6 @@ export default function Clm() {
         </section>
         <RealTImeClm />
       </Layout>
-    </>
+    </div>
   );
 }
