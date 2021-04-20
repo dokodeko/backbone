@@ -132,15 +132,17 @@ const section4 = {
   ],
 };
 export default function Clm() {
-  const ref2 = useRef();
+  const ref2 = new useRef();
+/*   const ref1 = new useRef(); */
   const OnScreen = useOnScreen(ref2);
+
   return (
     <div className={OnScreen ? "p-fixed" : "p-fixed-out"}>
       <Layout>
         <HeroClm />
         <FintechClm />
         <section>
-          <ImagenInteractiva Imagen="/png/logos/p01.png" />
+          <ImagenInteractiva imagenSrc="/png/logos/p01.png" />
 
           <SectionCustom
             numero={section1.numero}
