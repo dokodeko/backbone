@@ -19,7 +19,7 @@ const Header = () => {
           <Link href="/clm" passHref>
             <Nav.Link className={`${styleLayout.links}`}>CLM</Nav.Link>
           </Link>
-          <Link href="/" passHref>
+          <Link href="/bolean-app" passHref>
             <Nav.Link className={`${styleUi.fuente} ${styleLayout.links}`}>
               Boolean APA
             </Nav.Link>
