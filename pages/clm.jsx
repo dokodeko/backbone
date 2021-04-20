@@ -135,7 +135,7 @@ export default function Clm() {
   const ref2 = useRef();
   const OnScreen = useOnScreen(ref2);
   return (
-    <div className={OnScreen ? "p-fixed" : ""}>
+    <div className={OnScreen ? "p-fixed" : "p-fixed-out"}>
       <Layout>
         <HeroClm />
         <FintechClm />

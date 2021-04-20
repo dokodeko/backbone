@@ -47,10 +47,10 @@
 }
 /* Sections */
 .cont_sections {
-  margin-top: 5rem;
   width: 95%;
   margin-left: auto;
   margin-right: 0;
+  margin-bottom: 10rem;
 }
 .cont_sections h5 {
   color: #fff;
@@ -173,6 +173,7 @@
   margin-bottom: 2rem;
   display: block;
   height: 200px;
+  transition: ease all 3s;
 }
 .imagen_interactiva img {
   max-width: 200px;

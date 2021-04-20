@@ -65,8 +65,13 @@ img {
 .p-fixed #ii {
   position: fixed;
   top: 20%;
-  transition: all 3s ease;
+  transition: all 0.75s cubic-bezier(0.71, 0, 0.33, 1.56) 0ms;
+  transform: rotate(360deg);
 }
+.p-fixed-out #ii {
+  transition: all 0.75s ease;
+}
+
 @media (max-width: 1024px) {
 }
 @media (max-width: 767px) {
