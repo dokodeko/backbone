@@ -1,6 +1,6 @@
 import style from "./clm.module.css";
 
-const RealTImeClm = () => {
+const RealTImeClm = (props) => {
   return (
     <div className={`contenedor flex_box ${style.contenedor_real}`}>
       <div className={`${style.contclm_izquierda}`}>
@@ -12,6 +12,7 @@ const RealTImeClm = () => {
           flows without having to stitch together multiple vendors or sticking
           to one-size-fits-all KYC solutions.
         </p>
+        {props.referencia}
         <p className="colorBlanco">
           Backbone offers atomic APIs that use in-house technology and native
           integrations with the leading providers to address the main data point

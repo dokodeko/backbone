@@ -179,6 +179,10 @@
   max-width: 200px;
 }
 
+.p_fixed > img {
+  position: fixed;
+  top: 20%;
+}
 @media (max-width: 1400px) {
   .cont_izquierdo {
     width: 38%;

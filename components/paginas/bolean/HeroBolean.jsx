@@ -1,6 +1,6 @@
 import Boton from "../../ui/Boton";
 import style from "./index.module.css";
-const HeroIndex = () => {
+const HeroBolean = () => {
   return (
     <section className={`contenedor flex_box ${style.fondo}`} id="hero_index">
       <div className={style.cont_izquierda}>
@@ -20,4 +20,4 @@ const HeroIndex = () => {
     </section>
   );
 };
-export default HeroIndex;
+export default HeroBolean;

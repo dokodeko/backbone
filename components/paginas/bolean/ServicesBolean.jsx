@@ -68,7 +68,7 @@ const services = [
   },
 ];
 
-const ServicesIndex = () => {
+const ServicesBolean = () => {
   return (
     <div className={style.contenedor_services}>
       {services.map((service, index) => {
@@ -97,4 +97,4 @@ const ServicesIndex = () => {
     </div>
   );
 };
-export default ServicesIndex;
+export default ServicesBolean;

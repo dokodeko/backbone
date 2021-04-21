@@ -1,18 +1,18 @@
 import Layout from "../components/layout/Layout";
-import HeroIndex from "../components/paginas/index/HeroIndex";
-import AnalyticsIndex from "../components/paginas/index/AnalyticsIndex";
-import EngineIndex from "../components/paginas/index/EngineIndex";
-import ServicesIndex from "../components/paginas/index/ServicesIndex";
+import HeroBolean from "../components/paginas/bolean/HeroBolean";
+import AnalyticsBolean from "../components/paginas/bolean/AnalyticsBolean";
+import EngineBolean from "../components/paginas/bolean/EngineBolean";
+import ServicesBolean from "../components/paginas/bolean/ServicesBolean";
 import style from "../components/layout/layout.module.css";
 export default function BoleanApp() {
   return (
     <Layout>
-      <HeroIndex />
+      <HeroBolean />
       <div className={style.fondo_2}>
-        <AnalyticsIndex />
-        <EngineIndex />
+        <AnalyticsBolean />
+        <EngineBolean />
       </div>
-      <ServicesIndex />
+      <ServicesBolean />
     </Layout>
   );
 }

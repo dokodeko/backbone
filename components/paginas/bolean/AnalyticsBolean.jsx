@@ -38,7 +38,7 @@ const items = [
   },
 ];
 
-const AnalyticsIndex = () => {
+const AnalyticsBolean = () => {
   return (
     <section
       id="analytics_index"
@@ -81,4 +81,4 @@ const AnalyticsIndex = () => {
     </section>
   );
 };
-export default AnalyticsIndex;
+export default AnalyticsBolean;

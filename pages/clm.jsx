@@ -8,39 +8,46 @@ import CardImagen from "../components/ui/Card/CardImagen";
 import RealTImeClm from "../components/paginas/Clm/RealTimeClm";
 import ImagenInteractiva from "../components/ui/ImagenInteractiva";
 
-import useObserverCustom from "../hooks/useObserverCustom";
 import useOnScreen from "../hooks/useObserver";
-
+import animaciones from "../components/ui/animaciones.module.css";
 import style from "../components/ui/ui.module.css";
-import {section1,section2,section3,section4} from './constants/clm'
+
+import { section1, section2, section3, section4 } from "./constants/clm";
 
 export default function Clm() {
-
+  const ref1 = new useRef();
   const ref2 = new useRef();
   const ref3 = new useRef();
   const ref4 = new useRef();
 
   const OnScreen = useOnScreen(ref2);
+  const OnScreen1 = useOnScreen(ref1);
   const OnScreen2 = useOnScreen(ref3);
   const OnScreen3 = useOnScreen(ref4);
 
   const getImage = () => {
+    if (OnScreen3) return "/png/logos/p04.png";
+    if (OnScreen2) return "/png/logos/p03.png";
+    if (OnScreen) return "/png/logos/p02.png";
 
-    if(OnScreen3) return '/png/logos/p04.png'
-    if(OnScreen2) return '/png/logos/p03.png'
-    if(OnScreen) return '/png/logos/p02.png'
-
-    return '/png/logos/p01.png'
-
-  }
-
+    return "/png/logos/p01.png";
+  };
+  /*  const changeImagePosition = () => {
+    if(OnScreen) return 
+  }; */
   return (
-    <div className={OnScreen ? "p-fixed" : "p-fixed-out"}>
+    <div>
       <Layout>
         <HeroClm />
         <FintechClm />
         <section>
-          <ImagenInteractiva imagenSrc={getImage()} />
+          <ImagenInteractiva
+            imagenSrc={getImage()}
+            estilo={
+              (OnScreen ? `${style.p_fixed} ${animaciones.fadeIn}` : "",
+              OnScreen1 ? animaciones.fadeOut : "")
+            }
+          />
 
           <SectionCustom
             numero={section1.numero}
@@ -131,10 +138,9 @@ export default function Clm() {
                   </>
                 }
               />
-            </div>
-            {" "}
+            </div>{" "}
           </div>
-          <div ref={ref4} >
+          <div ref={ref4}>
             <SectionCustom
               numero={section4.numero}
               titulo={section4.titulo}
@@ -167,7 +173,7 @@ export default function Clm() {
             />
           </div>
         </section>
-        <RealTImeClm />
+        <RealTImeClm referencia={<div ref={ref1}></div>} />
       </Layout>
     </div>
   );

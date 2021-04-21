@@ -1,7 +1,7 @@
 import style from "./index.module.css";
 import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 
-const EngineIndex = () => {
+const EngineBolean = () => {
   return (
     <section className={`contenedor ${style.contenedor_engine} `}>
       <CardTituloVerde
@@ -41,4 +41,4 @@ const EngineIndex = () => {
     </section>
   );
 };
-export default EngineIndex;
+export default EngineBolean;
