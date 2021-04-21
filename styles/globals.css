@@ -2,6 +2,7 @@
 :root {
   --verde: #6cbd4b;
   --azul: #3feea5;
+  --azul2: #00e7de;
 }
 .fondo_pagina {
   background-color: #0b262d;
@@ -35,6 +36,9 @@ img {
 }
 .colorAzul {
   color: var(--azul);
+}
+.colorAzul2 {
+  color: var(--azul2);
 }
 .flex_box {
   display: flex;

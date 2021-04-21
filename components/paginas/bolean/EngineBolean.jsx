@@ -1,4 +1,4 @@
-import style from "./index.module.css";
+import style from "./bolean.module.css";
 import CardTituloVerde from "../../ui/Card/CardTituloVerde";
 
 const EngineBolean = () => {

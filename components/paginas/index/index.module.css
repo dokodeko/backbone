@@ -1,0 +1,18 @@
+.contenedor_index_hero {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+.contenedor_index_hero h1 {
+  text-align: center;
+  line-height: 1.12;
+  margin-bottom: 2rem;
+  font-size: 2.75rem;
+}
+.contenedor_index_hero p {
+  width: 43%;
+  font-size: 1.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.31;
+  text-align: center;
+}

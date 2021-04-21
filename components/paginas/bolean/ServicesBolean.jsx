@@ -1,6 +1,6 @@
 import Parrafos from "../../ui/Parrafos";
 import CardTituloVerde from "../../ui/Card/CardTituloVerde";
-import style from "./index.module.css";
+import style from "./bolean.module.css";
 
 const services = [
   {
