@@ -43,6 +43,21 @@
   height: 40px;
   object-fit: contain;
 }
+.cont_imagen2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cont_imagen2 img {
+  width: 55px;
+  height: auto;
+}
+.flecha {
+  position: absolute;
+  top: 45%;
+  width: 20%;
+  right: -19%;
+}
 @media (max-width: 1024px) {
   .card_custom {
     padding: 3rem 1.5rem;

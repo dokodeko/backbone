@@ -4,7 +4,7 @@ const CardImagen = (props) => {
   const { imagen } = props;
 
   return (
-    <div className={style.cont_imagen}>
+    <div className={!props.tamano ? style.cont_imagen : style.cont_imagen2}>
       <img src={imagen} />
     </div>
   );

@@ -59,7 +59,7 @@ const AnalyticsBolean = () => {
       <div className={`flex_box mx-auto ${style.contenedor_analytics_cards}`}>
         {items.map((item, index) => {
           return (
-            <Card
+            <Card 
               key={index}
               texto={item.texto}
               totalCards={style.card_3}

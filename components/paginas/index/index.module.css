@@ -16,3 +16,31 @@
   line-height: 1.31;
   text-align: center;
 }
+
+.fondo_card {
+  background-image: url("/png/fondo_card.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.contenedor_cards_index {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_3 {
+  width: 26%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem !important;
+  border-color: var(--azul2) !important;
+  position: relative;
+}
+.parrafo_cards_index {
+  color: var(--azul2) !important;
+  font-weight: 700;
+  margin-bottom: 0rem;
+}
+.parrafo_cards_index span {
+  color: #fff;
+}
