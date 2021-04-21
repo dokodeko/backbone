@@ -1,6 +1,6 @@
 import style from "./index.module.css";
 
-const OutEngines = () => {
+const OutEnginesIndex = () => {
   return (
     <div className={`${style.cont_engines_index}`}>
       <h3 className="colorBlanco titulo">
@@ -67,4 +67,4 @@ const OutEngines = () => {
     </div>
   );
 };
-export default OutEngines;
+export default OutEnginesIndex;

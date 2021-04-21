@@ -1,6 +1,7 @@
 import Layout from "../components/layout/Layout";
+import CardsIndex from "../components/paginas/index/CardsIndex";
 import HeroIndex from "../components/paginas/index/HeroIndex";
-import OutEngines from "../components/paginas/index/OutEngines";
+import OutEnginesIndex from "../components/paginas/index/OutEnginesIndex";
 import TruestedIndex from "../components/paginas/index/TruestedIndex";
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <Layout>
       <HeroIndex />
       <TruestedIndex />
-      <OutEngines />
+      <OutEnginesIndex />
+      <CardsIndex />
     </Layout>
   );
 }
