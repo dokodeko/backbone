@@ -27,6 +27,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 9rem;
 }
 .card_3 {
   width: 26%;
@@ -43,4 +44,29 @@
 }
 .parrafo_cards_index span {
   color: #fff;
+}
+.texto_truested_index {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.texto_truested_index h2 {
+  font-size: 2.5rem;
+}
+.cont_img_truested {
+  margin-top: 5rem;
+}
+
+.cont_img_truested div {
+  flex: 0 0 20%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+
+}
+.cont_img_truested img{
+  object-fit: contain;
 }
