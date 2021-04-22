@@ -79,4 +79,7 @@
   .card_custom {
     padding: 2rem;
   }
+  .flecha {
+    display: none;
+  }
 }

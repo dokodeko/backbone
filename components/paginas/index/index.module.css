@@ -265,5 +265,64 @@
   .card_4:last-of-type {
     margin-bottom: 0rem;
   }
-
+  .contenedor_index_hero {
+    margin-bottom: 5rem;
+  }
+  .contenedor_index_hero h1 {
+    font-size: 2rem;
+  }
+  .contenedor_index_hero p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  .contenedor_cards_index {
+    margin-bottom: 3rem;
+  }
+  .card_3 {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+  .texto_truested_index {
+    margin-bottom: 3rem;
+  }
+  .texto_truested_index h2 {
+    font-size: 2rem;
+  }
+  .cont_img_truested div {
+    flex: 0 0 40%;
+    margin-bottom: 2rem;
+  }
+  .cont_engines_1 {
+    flex: 0 0 90%;
+  }
+  .engines_img1 {
+    margin-left: auto;
+    margin-top: 3rem;
+    display: flex;
+    margin-right: auto;
+  }
+  .cont_engines_2 {
+    flex: 0 0 90%;
+  }
+  .engines_img2 {
+    margin-top: 3rem;
+  }
+  .texto_engines_index:last-of-type {
+    flex-direction: column-reverse;
+  }
+  .cont_card_index h3 {
+    font-size: 2rem;
+  }
+  .card_4 {
+    width: 90%;
+  }
+  .cont_contac h4 {
+    font-size: 1.5rem;
+  }
+  .cont_contac_fielset {
+    width: 90%;
+  }
+  .boton_contact{
+    width: 30%;
+  }
 }
