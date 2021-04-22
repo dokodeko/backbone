@@ -132,30 +132,21 @@ const section4 = {
 };
 
 export default function Clm() {
+  const ref1 = new useRef();
   const ref2 = new useRef();
-
+  const ref3 = new useRef();
   const ref4 = new useRef();
   const ref5 = new useRef();
-  const ref6 = new useRef();
-  const ref7 = new useRef();
-  const ref8 = new useRef();
-  const ref9 = new useRef();
-  const ref10 = new useRef();
-
-  const OnScreen = useOnScreen(ref2);
-
-  const OnScreen3 = useOnScreen(ref4);
+  const OnScreen1 = useOnScreen(ref1);
+  const OnScreen2 = useOnScreen(ref2);
+  const OnScreen3 = useOnScreen(ref3);
+  const OnScreen4 = useOnScreen(ref4);
   const OnScreen5 = useOnScreen(ref5);
-  const onSCreen6 = useOnScreen(ref6);
-  const OnScreen7 = useOnScreen(ref7);
-  const OnScreen8 = useOnScreen(ref8);
-  const OnScreen9 = useOnScreen(ref9);
-  const OnScreen10 = useOnScreen(ref10);
 
   const getImage = () => {
-    if (OnScreen9) return "/png/logos/p04.png";
-    if (OnScreen8) return "/png/logos/p03.png";
-    if (OnScreen7) return "/png/logos/p02.png";
+    if (OnScreen4) return "/png/logos/p04.png";
+    if (OnScreen3) return "/png/logos/p03.png";
+    if (OnScreen2) return "/png/logos/p02.png";
 
     return "/png/logos/p01.png";
   };
@@ -166,21 +157,14 @@ export default function Clm() {
         <HeroClm />
         <FintechClm />
         <section>
-          <div
-            className={
-              OnScreen5 ? ` ${animaciones.fadeOut}` : animaciones.fadeIn
+          <ImagenInteractiva
+            imagenSrc={getImage()}
+            estilo={
+              OnScreen1
+                ? `${style.p_fixed} ${animaciones.fadeIn}`
+                : `${style.transicion}`
             }
-          >
-            <ImagenInteractiva
-              imagenSrc={getImage()}
-              estilo={
-                OnScreen
-                  ? `${style.p_fixed} ${animaciones.fadeIn}`
-                  : `${style.transicion}`
-              }
-            />
-          </div>
-
+          />
           <SectionCustom
             numero={section1.numero}
             titulo={section1.titulo}
@@ -190,7 +174,7 @@ export default function Clm() {
             imagen={section1.imagen}
             estadoImagen={section1.estadoImagen}
             posicion={style.custom_imagen}
-            opacidades={OnScreen7 ? animaciones.fadeOut : animaciones.fadeIn}
+            opacidades={OnScreen2 ? animaciones.fadeOut : animaciones.fadeIn}
             cards={
               <>
                 {section1.cards.map((card, index) => {
@@ -211,110 +195,71 @@ export default function Clm() {
               </>
             }
           />
-
-          <div ref={ref2}>
+          <div ref={ref1}>
             <ImagenInteractiva
               imagenSrc={getImage()}
               estilo={style.logo_movil}
             />
-            <SectionCustom
-              numero={section2.numero}
-              titulo={section2.titulo}
-              imagen={section2.imagen}
-              opacidades={OnScreen8 ? animaciones.fadeOut : animaciones.fade}
-              cards={
-                <>
-                  <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
-                    Onboard more customers{" "}
-                    <span className="colorAzul"> quickly</span> and
-                    <span className="colorAzul"> safely</span> with better
-                    decision <br />
-                    making.
-                  </p>
-                  <ul className={style.lista}>
-                    <div ref={ref7}></div>
-                    {section2.listas.map((lista, index) => {
-                      return (
-                        <li className="colorBlanco" key={index}>
-                          {lista.texto}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </>
-              }
-            />
-
-            <ImagenInteractiva
-              imagenSrc={getImage()}
-              estilo={style.logo_movil}
-            />
-            <SectionCustom
-              numero={section3.numero}
-              titulo={section3.titulo}
-              parrafo1={section3.parrafo1}
-              textoVerde={section3.textoVerde}
-              parrafo2={section3.parrafo2}
-              textoVerde2={section3.textoVerde2}
-              parrafo3={section3.parrafo3}
-              imagen={section3.imagen}
-              estadoImagen={section3.estadoImagen}
-              posicion={style.custom_imagen}
-              opacidades={OnScreen9 ? animaciones.fadeOut : animaciones.fadeIn}
-              cards={
-                <>
-                  <div ref={ref8}></div>
-                  {section3.cards.map((card, index) => {
-                    return (
-                      <Card
-                        key={index}
-                        texto={card.texto}
-                        textoBold={card.textoBlanco}
-                        texto2={card.texto2}
-                        totalCards={style.cards_3}
-                        fondo={style.fondo_card_clm}
-                        custom_titulo={style.custom_titulo}
-                        custom_parrafo={style.parrafo_custom}
-                      >
-                        <CardImagen key={index} imagen={card.imagen} />
-                      </Card>
-                    );
-                  })}
-                </>
-              }
-            />
-
-            <div ref={ref9}></div>
-            <div ref={ref4}>
-              <ImagenInteractiva
-                imagenSrc={getImage()}
-                estilo={style.logo_movil}
-              />
+            <div ref={ref2}>
               <SectionCustom
-                numero={section4.numero}
-                titulo={section4.titulo}
-                parrafo1={section4.parrafo1}
-                textoVerde={section4.textoVerde}
-                parrafo2={section4.parrafo2}
-                imagen={section4.imagen}
-                estadoImagen={section4.estadoImagen}
+                numero={section2.numero}
+                titulo={section2.titulo}
+                imagen={section2.imagen}
+                opacidades={OnScreen3 ? animaciones.fadeOut : animaciones.fade}
+                cards={
+                  <>
+                    <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
+                      Onboard more customers{" "}
+                      <span className="colorAzul"> quickly</span> and
+                      <span className="colorAzul"> safely</span> with better
+                      decision <br />
+                      making.
+                    </p>
+                    <ul className={style.lista}>
+                      {section2.listas.map((lista, index) => {
+                        return (
+                          <li className="colorBlanco" key={index}>
+                            {lista.texto}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </>
+                }
+              />
+            </div>
+            <ImagenInteractiva
+              imagenSrc={getImage()}
+              estilo={style.logo_movil}
+            />
+            <div ref={ref3}>
+              <SectionCustom
+                numero={section3.numero}
+                titulo={section3.titulo}
+                parrafo1={section3.parrafo1}
+                textoVerde={section3.textoVerde}
+                parrafo2={section3.parrafo2}
+                textoVerde2={section3.textoVerde2}
+                parrafo3={section3.parrafo3}
+                imagen={section3.imagen}
+                estadoImagen={section3.estadoImagen}
                 posicion={style.custom_imagen}
                 opacidades={
-                  OnScreen10 ? animaciones.fadeOut : animaciones.fadeIn
+                  OnScreen4 ? animaciones.fadeOut : animaciones.fadeIn
                 }
                 cards={
                   <>
-                    {section4.cards.map((card, index) => {
+                    {section3.cards.map((card, index) => {
                       return (
                         <Card
                           key={index}
                           texto={card.texto}
                           textoBold={card.textoBlanco}
-                          texto={card.texto2}
-                          totalCards={style.cards_5}
+                          texto2={card.texto2}
+                          totalCards={style.cards_3}
                           fondo={style.fondo_card_clm}
                           custom_titulo={style.custom_titulo}
-                          custom_parrafo={style.parrafo_custom2}
+                          custom_parrafo={style.parrafo_custom}
                         >
                           <CardImagen key={index} imagen={card.imagen} />
                         </Card>
@@ -325,16 +270,44 @@ export default function Clm() {
               />
             </div>
           </div>
-          <div ref={ref6} className="test"></div>
+          <ImagenInteractiva imagenSrc={getImage()} estilo={style.logo_movil} />{" "}
+          <div ref={ref4}>
+            <SectionCustom
+              numero={section4.numero}
+              titulo={section4.titulo}
+              parrafo1={section4.parrafo1}
+              textoVerde={section4.textoVerde}
+              parrafo2={section4.parrafo2}
+              imagen={section4.imagen}
+              estadoImagen={section4.estadoImagen}
+              posicion={style.custom_imagen}
+              opacidades={OnScreen5 ? animaciones.fadeOut : animaciones.fadeIn}
+              cards={
+                <>
+                  {section4.cards.map((card, index) => {
+                    return (
+                      <Card
+                        key={index}
+                        texto={card.texto}
+                        textoBold={card.textoBlanco}
+                        texto={card.texto2}
+                        totalCards={style.cards_5}
+                        fondo={style.fondo_card_clm}
+                        custom_titulo={style.custom_titulo}
+                        custom_parrafo={style.parrafo_custom2}
+                      >
+                        <CardImagen key={index} imagen={card.imagen} />
+                      </Card>
+                    );
+                  })}
+                </>
+              }
+            />
+          </div>
         </section>
-        <RealTImeClm
-          referencia={
-            <>
-              <div ref={ref10}></div>
-              <div ref={ref5}> </div>
-            </>
-          }
-        />
+        <div ref={ref5}>
+          <RealTImeClm referencia={<></>} />
+        </div>
       </Layout>
     </div>
   );
