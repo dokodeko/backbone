@@ -12,34 +12,154 @@ import useOnScreen from "../hooks/useObserver";
 import animaciones from "../components/ui/animaciones.module.css";
 import style from "../components/ui/ui.module.css";
 
-import { section1, section2, section3, section4 } from "./constants/clm";
+const section1 = {
+  numero: "01 ",
+  titulo: "IDENTITY",
+  parrafo1: "This is your control ",
+  textoVerde: "center and interface ",
+  parrafo2:
+    "between the real world and your team’s rules. Leverage internal and external data to execute informed manual or automatic decisions, while minimizing back office burden.",
+  estadoImagen: true,
+  imagen: "/png/frame.png",
+  fondoImagen: "/png/logos/p01.png",
+  cards: [
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/identy/scard_1.png",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/identy/scard_2.png",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/identy/scard_3.png",
+    },
+    {
+      textoBlanco: "Ingest data",
+      texto2: "and send back instructions",
+      imagen: "/png/identy/scard_4.png",
+    },
+  ],
+};
+const section2 = {
+  numero: "02",
+  titulo: "ONBOARDING",
+  imagen: "/png/mapa.png",
+
+  listas: [
+    {
+      texto:
+        "Onboard more customers quickly and safely with better decision making.",
+    },
+    {
+      texto:
+        "Ingest data from external verification services or our selected native integrations",
+    },
+    {
+      texto: "Establish your rules for automatic decisions or manual revisions",
+    },
+    { texto: "Establish scenario-based flows and data requirements " },
+    { texto: "Your own risk tolerance" },
+  ],
+};
+const section3 = {
+  numero: "03 ",
+  titulo: "MONITORING",
+
+  parrafo1: "Detect ",
+  textoVerde: "money laundering ",
+  parrafo2: "& other types of ",
+  textoVerde2: "financial crime ",
+  parrafo3:
+    "from your customers with a full-picture continuous monitoring and establish automated procedures for our own criteria.",
+  estadoImagen: true,
+  imagen: "/png/frame.png",
+
+  cards: [
+    {
+      textoBlanco: "Watchlists",
+      texto2: "External data sources",
+      imagen: "/png/monitoring/card_1.png",
+    },
+    {
+      textoBlanco: "Transaction Monitoring",
+      texto2: "Suspicious individual events",
+      imagen: "/png/monitoring/card_2.png",
+    },
+    {
+      textoBlanco: "Risk Profiling",
+      texto2: "Suspicious overall events",
+      imagen: "/png/monitoring/card_3.png",
+    },
+  ],
+};
+const section4 = {
+  numero: "04 ",
+  titulo: "COMPLIANCE",
+  parrafo1: "Streamline ",
+  textoVerde: "compliance operations ",
+  parrafo2: "to avoid fines whilst minimizing friction with your clients. ",
+  estadoImagen: true,
+  imagen: "/png/frame.png",
+
+  cards: [
+    {
+      textoBlanco: "Automated regulatory reports",
+
+      imagen: "/png/compliance/card_1.png",
+    },
+    {
+      texto2: "Case management",
+      imagen: "/png/compliance/card_2.png",
+    },
+    {
+      texto2: "Institutional risk assessment",
+      imagen: "/png/compliance/card_3.png",
+    },
+    {
+      texto2: "Anonymous inbox",
+      imagen: "/png/compliance/card_4.png",
+    },
+    {
+      texto2: "Audit & authority requirements",
+      imagen: "/png/compliance/card_5.png",
+    },
+  ],
+};
 
 export default function Clm() {
   const ref2 = new useRef();
-  const ref3 = new useRef();
+
   const ref4 = new useRef();
   const ref5 = new useRef();
   const ref6 = new useRef();
+  const ref7 = new useRef();
+  const ref8 = new useRef();
+  const ref9 = new useRef();
+  const ref10 = new useRef();
 
   const OnScreen = useOnScreen(ref2);
 
-  const OnScreen2 = useOnScreen(ref3);
   const OnScreen3 = useOnScreen(ref4);
   const OnScreen5 = useOnScreen(ref5);
   const onSCreen6 = useOnScreen(ref6);
+  const OnScreen7 = useOnScreen(ref7);
+  const OnScreen8 = useOnScreen(ref8);
+  const OnScreen9 = useOnScreen(ref9);
+  const OnScreen10 = useOnScreen(ref10);
 
   const getImage = () => {
-    if (OnScreen3) return "/png/logos/p04.png";
-    if (OnScreen2) return "/png/logos/p03.png";
-    if (OnScreen) return "/png/logos/p02.png";
+    if (OnScreen9) return "/png/logos/p04.png";
+    if (OnScreen8) return "/png/logos/p03.png";
+    if (OnScreen7) return "/png/logos/p02.png";
 
     return "/png/logos/p01.png";
   };
-  const opacityOff = () => {
-    if (OnScreen) return style.opacityoff;
-    if (OnScreen2) return style.opacityoff;
-    return;
-  };
+
   return (
     <div>
       <Layout>
@@ -70,7 +190,7 @@ export default function Clm() {
             imagen={section1.imagen}
             estadoImagen={section1.estadoImagen}
             posicion={style.custom_imagen}
-            opacidades={OnScreen2 ? animaciones.fadeOut : ""}
+            opacidades={OnScreen7 ? animaciones.fadeOut : animaciones.fadeIn}
             cards={
               <>
                 {section1.cards.map((card, index) => {
@@ -101,7 +221,7 @@ export default function Clm() {
               numero={section2.numero}
               titulo={section2.titulo}
               imagen={section2.imagen}
-              opacidades={OnScreen3 ? animaciones.fadeOut : ""}
+              opacidades={OnScreen8 ? animaciones.fadeOut : animaciones.fade}
               cards={
                 <>
                   <p className="mt-n1 mb-2 mb-lg-0 colorBlanco">
@@ -112,6 +232,7 @@ export default function Clm() {
                     making.
                   </p>
                   <ul className={style.lista}>
+                    <div ref={ref7}></div>
                     {section2.listas.map((lista, index) => {
                       return (
                         <li className="colorBlanco" key={index}>
@@ -123,44 +244,47 @@ export default function Clm() {
                 </>
               }
             />
-            <div ref={ref3} className={onSCreen6 ? animaciones.fadeOut : ""}>
-              <ImagenInteractiva
-                imagenSrc={getImage()}
-                estilo={style.logo_movil}
-              />
-              <SectionCustom
-                numero={section3.numero}
-                titulo={section3.titulo}
-                parrafo1={section3.parrafo1}
-                textoVerde={section3.textoVerde}
-                parrafo2={section3.parrafo2}
-                textoVerde2={section3.textoVerde2}
-                parrafo3={section3.parrafo3}
-                imagen={section3.imagen}
-                estadoImagen={section3.estadoImagen}
-                posicion={style.custom_imagen}
-                cards={
-                  <>
-                    {section3.cards.map((card, index) => {
-                      return (
-                        <Card
-                          key={index}
-                          texto={card.texto}
-                          textoBold={card.textoBlanco}
-                          texto2={card.texto2}
-                          totalCards={style.cards_3}
-                          fondo={style.fondo_card_clm}
-                          custom_titulo={style.custom_titulo}
-                          custom_parrafo={style.parrafo_custom}
-                        >
-                          <CardImagen key={index} imagen={card.imagen} />
-                        </Card>
-                      );
-                    })}
-                  </>
-                }
-              />
-            </div>{" "}
+
+            <ImagenInteractiva
+              imagenSrc={getImage()}
+              estilo={style.logo_movil}
+            />
+            <SectionCustom
+              numero={section3.numero}
+              titulo={section3.titulo}
+              parrafo1={section3.parrafo1}
+              textoVerde={section3.textoVerde}
+              parrafo2={section3.parrafo2}
+              textoVerde2={section3.textoVerde2}
+              parrafo3={section3.parrafo3}
+              imagen={section3.imagen}
+              estadoImagen={section3.estadoImagen}
+              posicion={style.custom_imagen}
+              opacidades={OnScreen9 ? animaciones.fadeOut : animaciones.fadeIn}
+              cards={
+                <>
+                  <div ref={ref8}></div>
+                  {section3.cards.map((card, index) => {
+                    return (
+                      <Card
+                        key={index}
+                        texto={card.texto}
+                        textoBold={card.textoBlanco}
+                        texto2={card.texto2}
+                        totalCards={style.cards_3}
+                        fondo={style.fondo_card_clm}
+                        custom_titulo={style.custom_titulo}
+                        custom_parrafo={style.parrafo_custom}
+                      >
+                        <CardImagen key={index} imagen={card.imagen} />
+                      </Card>
+                    );
+                  })}
+                </>
+              }
+            />
+
+            <div ref={ref9}></div>
             <div ref={ref4}>
               <ImagenInteractiva
                 imagenSrc={getImage()}
@@ -175,6 +299,9 @@ export default function Clm() {
                 imagen={section4.imagen}
                 estadoImagen={section4.estadoImagen}
                 posicion={style.custom_imagen}
+                opacidades={
+                  OnScreen10 ? animaciones.fadeOut : animaciones.fadeIn
+                }
                 cards={
                   <>
                     {section4.cards.map((card, index) => {
@@ -203,6 +330,7 @@ export default function Clm() {
         <RealTImeClm
           referencia={
             <>
+              <div ref={ref10}></div>
               <div ref={ref5}> </div>
             </>
           }
