@@ -92,6 +92,10 @@
   width: 30px;
   margin-right: 1rem;
 }
+.opacidad {
+  opacity: 0 !important;
+  transition: all ease 3s;
+}
 @media (max-width: 1500px) {
   .contclm_imagenes {
     width: 70%;

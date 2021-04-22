@@ -19,11 +19,13 @@ export default function Clm() {
   const ref2 = new useRef();
   const ref3 = new useRef();
   const ref4 = new useRef();
+  const ref5 = new useRef();
 
   const OnScreen = useOnScreen(ref2);
   const OnScreen1 = useOnScreen(ref1);
   const OnScreen2 = useOnScreen(ref3);
   const OnScreen3 = useOnScreen(ref4);
+  const OnScreen5 = useOnScreen(ref5);
 
   const getImage = () => {
     if (OnScreen3) return "/png/logos/p04.png";
@@ -41,13 +43,20 @@ export default function Clm() {
         <HeroClm />
         <FintechClm />
         <section>
-          <ImagenInteractiva
-            imagenSrc={getImage()}
-            estilo={
-              (OnScreen ? `${style.p_fixed} ${animaciones.fadeIn}` : "",
-              OnScreen1 ? animaciones.fadeOut : "")
+          <div
+            className={
+              OnScreen5 ? ` ${animaciones.fadeOut}` : animaciones.fadeIn
             }
-          />
+          >
+            <ImagenInteractiva
+              imagenSrc={getImage()}
+              estilo={
+                OnScreen
+                  ? `${style.p_fixed} ${animaciones.fadeIn}`
+                  : `${style.transicion}`
+              }
+            />
+          </div>
 
           <SectionCustom
             numero={section1.numero}
@@ -139,41 +148,49 @@ export default function Clm() {
                 }
               />
             </div>{" "}
-          </div>
-          <div ref={ref4}>
-            <SectionCustom
-              numero={section4.numero}
-              titulo={section4.titulo}
-              parrafo1={section4.parrafo1}
-              textoVerde={section4.textoVerde}
-              parrafo2={section4.parrafo2}
-              imagen={section4.imagen}
-              estadoImagen={section4.estadoImagen}
-              posicion={style.custom_imagen}
-              cards={
-                <>
-                  {section4.cards.map((card, index) => {
-                    return (
-                      <Card
-                        key={index}
-                        texto={card.texto}
-                        textoBold={card.textoBlanco}
-                        texto={card.texto2}
-                        totalCards={style.cards_5}
-                        fondo={style.fondo_card_clm}
-                        custom_titulo={style.custom_titulo}
-                        custom_parrafo={style.parrafo_custom2}
-                      >
-                        <CardImagen key={index} imagen={card.imagen} />
-                      </Card>
-                    );
-                  })}
-                </>
-              }
-            />
+            <div ref={ref4}>
+              <SectionCustom
+                numero={section4.numero}
+                titulo={section4.titulo}
+                parrafo1={section4.parrafo1}
+                textoVerde={section4.textoVerde}
+                parrafo2={section4.parrafo2}
+                imagen={section4.imagen}
+                estadoImagen={section4.estadoImagen}
+                posicion={style.custom_imagen}
+                cards={
+                  <>
+                    {section4.cards.map((card, index) => {
+                      return (
+                        <Card
+                          key={index}
+                          texto={card.texto}
+                          textoBold={card.textoBlanco}
+                          texto={card.texto2}
+                          totalCards={style.cards_5}
+                          fondo={style.fondo_card_clm}
+                          custom_titulo={style.custom_titulo}
+                          custom_parrafo={style.parrafo_custom2}
+                        >
+                          <CardImagen key={index} imagen={card.imagen} />
+                        </Card>
+                      );
+                    })}
+                  </>
+                }
+              />
+            </div>
           </div>
         </section>
-        <RealTImeClm referencia={<div ref={ref1}></div>} />
+
+        <RealTImeClm
+          referencia={
+            <>
+              <div ref={ref1}></div>
+              <div ref={ref5}> </div>
+            </>
+          }
+        />
       </Layout>
     </div>
   );

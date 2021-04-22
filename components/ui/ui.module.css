@@ -183,6 +183,9 @@
   position: fixed;
   top: 20%;
 }
+.transicion {
+  transition: all ease 2s;
+}
 @media (max-width: 1400px) {
   .cont_izquierdo {
     width: 38%;
