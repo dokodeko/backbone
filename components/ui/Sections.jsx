@@ -14,11 +14,12 @@ const SectionCustom = (props) => {
     textoVerde2,
     posicion,
     imagen,
+    opacidades,
   } = props;
   const ref = useRef();
   const onScreen = useOnScreen(ref);
   return (
-    <div className={style.cont_sections} ref={ref}>
+    <div className={`${style.cont_sections} ${opacidades}`} ref={ref}>
       <div className="flex_box">
         <div
           className={`${style.cont_1} ${

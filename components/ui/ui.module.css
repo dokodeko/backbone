@@ -181,10 +181,17 @@
 
 .p_fixed > img {
   position: fixed;
-  top: 20%;
+  z-index: 2000;
+  top: 10%;
 }
 .transicion {
   transition: all ease 2s;
+}
+.opacityoff {
+  opacity: 0;
+}
+.logo-movil {
+  display: none;
 }
 @media (max-width: 1400px) {
   .cont_izquierdo {
@@ -272,8 +279,17 @@
   .cards_3 {
     width: 28%;
   }
+  .imagen_interactiva {
+    width: 150px;
+  }
+  .imagen_interactiva img {
+    width: 150px;
+  }
 }
 @media (max-width: 767px) {
+  .cont_sections {
+    margin-bottom: 5rem;
+  }
   .boton {
     font-size: 0.6rem;
     padding: 0.3rem 0.67rem;
@@ -310,5 +326,16 @@
   }
   .fondoMapa {
     width: 100%;
+  }
+  .p_fixed > img {
+    position: relative;
+    width: 100px;
+  }
+  .imagen_interactiva {
+    width: 120px;
+    height: 120px;
+  }
+  .imagen_interactiva img {
+    width: 120px;
   }
 }
