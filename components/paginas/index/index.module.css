@@ -257,6 +257,16 @@
   }
   .cont_engines_index {
     width: 95%;
+    margin-bottom: 5rem;
+  }
+  .cont_contac_fielset input,
+  .cont_contac_fielset textarea {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cont_contac_fielset input{
+    margin-bottom: 1rem;
   }
   .card_4 {
     width: 60%;
@@ -306,6 +316,10 @@
   }
   .engines_img2 {
     margin-top: 3rem;
+    width: 92%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
   .texto_engines_index:last-of-type {
     flex-direction: column-reverse;
@@ -322,7 +336,7 @@
   .cont_contac_fielset {
     width: 90%;
   }
-  .boton_contact{
+  .boton_contact {
     width: 30%;
   }
 }
