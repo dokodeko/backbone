@@ -231,3 +231,38 @@
   padding: 0.5rem;
   font-size: 0.844rem;
 }
+@media (max-width: 1024px) {
+  .card_4 {
+    width: 40%;
+  }
+  .cont_engines_index {
+    width: 80%;
+  }
+  .card_4:nth-child(1),
+  .card_4:nth-child(2) {
+    margin-bottom: 4rem;
+  }
+  .cards_index {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor_cards_index {
+    width: 90%;
+  }
+  .texto_truested_index {
+    width: 70%;
+  }
+  .cont_engines_index {
+    width: 95%;
+  }
+  .card_4 {
+    width: 60%;
+    margin-bottom: 3rem;
+  }
+  .cand_4:last-of-type {
+    margin-bottom: 0rem;
+  }
+}
