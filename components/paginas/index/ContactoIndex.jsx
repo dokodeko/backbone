@@ -8,18 +8,16 @@ const ContactoIndex = () => {
         <span className="colorAzul2"> LEAVE IT TO THE EXPERTS &</span> <br />{" "}
         AUTOMATE YOUR COMPLIANCE <br /> OPERATIONS TODAY
       </h4>
-      <form>
-        <fieldset>
-          <input type="text" placeholder="Full name*" />
+      <form className="mt-5">
+        <fieldset className={`flex_box ${style.cont_contac_fielset}`}>
+          <input
+            type="text"
+            placeholder="Full name"
+            className={style.fondo_card}
+          />
           <input type="mail" placeholder="e-mail**" />
-          <textarea
-            name="mensaje"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Type your message here"
-          ></textarea>
-          <Boton texto="Send" />
+          <textarea placeholder="Type your message here"></textarea>
+          <Boton texto="Send" color={style.boton_contact} />
         </fieldset>
       </form>
     </div>

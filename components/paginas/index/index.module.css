@@ -18,10 +18,11 @@
 }
 
 .fondo_card {
-  background-image: url("/png/fondo_card.png");
+  /*  background-image: url("/png/fondo_card.png");
   background-repeat: no-repeat;
 
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
+  background-color: #375056;
 }
 .contenedor_cards_index {
   width: 80%;
@@ -41,8 +42,11 @@
   width: 22%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem 1.8rem !important;
+  padding: 2.5rem 1.8rem !important;
   border-color: var(--azul2) !important;
+}
+.card_4 p {
+  line-height: 1.67;
 }
 .parrafo_cards_index {
   color: var(--azul2) !important;
@@ -175,7 +179,55 @@
   margin-right: auto;
   margin-left: auto;
 }
+.cont_contac {
+  margin-bottom: 5rem;
+}
 .cont_contac h4 {
   text-align: center;
   font-size: 2rem;
+}
+.cont_contac_fielset {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cont_contac_fielset input {
+  width: 47%;
+  height: 2.8rem;
+}
+.cont_contac_fielset textarea {
+  width: 100%;
+  height: 200px;
+  margin: 2rem auto;
+}
+.cont_contac_fielset input,
+.cont_contac_fielset textarea {
+  border-color: var(--azul2);
+  background-color: #375056;
+  border-radius: 15px;
+  background-size: 100% 100%;
+  padding-left: 0.5rem;
+}
+.cont_contac_fielset input::placeholder,
+.cont_contac_fielset textarea::placeholder {
+  color: #fff;
+}
+
+.cont_contac_fielset input:first-of-type {
+  margin-right: auto;
+}
+.cont_contac_fielset input:last-of-type {
+  margin-left: auto;
+}
+.boton_contact {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  border-color: var(--azul2);
+  margin-right: 3%;
+  margin-left: auto;
+  width: 10%;
+  padding: 0.5rem;
+  font-size: 0.844rem;
 }
