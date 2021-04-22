@@ -156,13 +156,13 @@ export default function Clm() {
       <Layout>
         <HeroClm />
         <FintechClm />
-        <section>
+        <section className="margin_section">
           <ImagenInteractiva
             imagenSrc={getImage()}
             estilo={
               OnScreen1
                 ? `${style.p_fixed} ${animaciones.fadeIn}`
-                : `${style.transicion}`
+                : ``
             }
           />
           <SectionCustom

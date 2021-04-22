@@ -191,7 +191,7 @@
 .opacityoff {
   opacity: 0;
 }
-.logo_movil { 
+.logo_movil {
   display: none;
 }
 @media (max-width: 1400px) {
@@ -317,6 +317,8 @@
   }
   .cont_sections {
     margin-right: auto;
+    height: auto;
+    margin-bottom: 5rem;
   }
   .cont_1,
   .cont_2 {
@@ -338,5 +340,8 @@
   }
   .imagen_interactiva img {
     width: 120px;
+  }
+  .logo_movil {
+    display: block;
   }
 }

@@ -57,6 +57,9 @@ img {
   background-color: red;
   height: 400px;
 }
+.margin_section{
+  margin-top: 8rem;
+}
 .section {
   background: blue;
   margin-bottom: 5rem;

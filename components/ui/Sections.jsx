@@ -21,11 +21,7 @@ const SectionCustom = (props) => {
   return (
     <div className={`${style.cont_sections} ${opacidades}`} ref={ref}>
       <div className="flex_box">
-        <div
-          className={`${style.cont_1} ${
-            onScreen ? animaciones.fadeInLeft : ""
-          }`}
-        >
+        <div className={`${style.cont_1}`}>
           <h5>
             {numero}. <span>{titulo}</span>
           </h5>
