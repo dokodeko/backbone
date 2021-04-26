@@ -1,9 +1,10 @@
 import Boton from "../../ui/Boton";
 import style from "./index.module.css";
+import styleLayout from "../../layout/layout.module.css";
 
-const ContactoIndex = () => {
+const ContactoIndex = (props) => {
   return (
-    <div className={`contenedor ${style.cont_contac}`}>
+    <div className={`contenedor ${style.cont_contac} `}>
       <h4 className="colorBlanco titulo">
         <span className="colorAzul2"> LEAVE IT TO THE EXPERTS &</span> <br />{" "}
         AUTOMATE YOUR COMPLIANCE <br /> OPERATIONS TODAY
@@ -18,6 +19,7 @@ const ContactoIndex = () => {
           <input type="mail" placeholder="e-mail**" />
           <textarea placeholder="Type your message here"></textarea>
           <Boton texto="Send" color={style.boton_contact} />
+          {props.children}
         </fieldset>
       </form>
     </div>

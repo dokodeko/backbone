@@ -1,0 +1,16 @@
+.footer_index {
+  background-image: url("/png/fondos/footer_index.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+}
+.footer_clm {
+  background-image: url("/png/fondos/footer_clm.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.footer_app {
+  background-image: url("/png/fondos/footer_app.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

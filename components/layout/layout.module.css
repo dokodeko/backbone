@@ -1,17 +1,15 @@
 .nav_custom {
   padding-top: 2rem;
 }
-.footer {
-  width: 100%;
-  background-image: url("/png/fondos/fondo_footer.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding-bottom: 5rem;
-}
+
 .cont_logo {
   width: 3%;
   margin-left: auto;
   margin-right: auto;
+}
+.fondo_pagina {
+  background-color: #0b262d;
+  overflow: hidden;
 }
 .cont_texto {
   margin-top: 2rem;
@@ -28,12 +26,8 @@
   color: #fff !important;
   margin-right: 1rem;
 }
-.fondo_2 {
-  background-image: url("/png/fondos/fondo_02.png");
-  background-repeat: no-repeat;
-  background-size: 50% 120%;
-  background-position-x: right;
-  background-position-y: 20%;
+.footer {
+  padding-bottom: 2rem;
 }
 @media (max-width: 768px) {
   .logo {

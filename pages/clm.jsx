@@ -11,6 +11,7 @@ import ImagenInteractiva from "../components/ui/ImagenInteractiva";
 import useOnScreen from "../hooks/useObserver";
 import animaciones from "../components/ui/animaciones.module.css";
 import style from "../components/ui/ui.module.css";
+import Footer from "../components/layout/Footer";
 
 const section1 = {
   numero: "01 ",
@@ -301,6 +302,7 @@ export default function Clm() {
         </section>
 
         <RealTImeClm referencia={<></>} />
+        <Footer />
       </Layout>
     </div>
   );

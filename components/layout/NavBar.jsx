@@ -8,10 +8,11 @@ import styleLayout from "./layout.module.css";
 const Header = () => {
   return (
     <Navbar bg="transparent" className={`contenedor ${styleLayout.nav_custom}`}>
-      <Navbar.Brand>
-        <img src="/png/logo.png" className={styleLayout.logo} alt="logo" />
-      </Navbar.Brand>
-
+      <Link href="/" passHref>
+        <Navbar.Brand>
+          <img src="/png/logo.png" className={styleLayout.logo} alt="logo" />
+        </Navbar.Brand>
+      </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
       <Navbar.Collapse id="basic-navbar-nav">

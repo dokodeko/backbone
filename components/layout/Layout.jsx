@@ -1,9 +1,12 @@
+import { useRouter } from "next/router";
 import NavBar from "./NavBar";
-import Footer from "./Footer";
+
 import Head from "next/head";
-import style from "../../styles/paginas.module.css";
+import style from "./layout.module.css";
 
 const Layout = (props) => {
+  const ruta = useRouter();
+  console.log(ruta.pathname.slice(1));
   return (
     <>
       <Head>
@@ -15,12 +18,12 @@ const Layout = (props) => {
           rel="stylesheet"
         />
       </Head>
-      <div className="fondo_pagina">
-        <div className={style.fondoHero}>
+      <div className={style.fondo_pagina}>
+        <div>
           <NavBar />
+
           <main>{props.children}</main>
         </div>
-        <Footer />
       </div>
     </>
   );

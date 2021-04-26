@@ -4,10 +4,7 @@
   --azul: #3feea5;
   --azul2: #00e7de;
 }
-.fondo_pagina {
-  background-color: #0b262d;
-  overflow: hidden;
-}
+
 * {
   font-family: "Red Hat Text", sans-serif;
 }
@@ -49,10 +46,6 @@ img {
 }
 /* imagen Fixed */
 
-.test {
-  width: 100%;
-  height: 10px;
-}
 .prueba .isVisible {
   background-color: red;
   height: 400px;

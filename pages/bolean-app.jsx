@@ -4,6 +4,7 @@ import AnalyticsBolean from "../components/paginas/bolean/AnalyticsBolean";
 import EngineBolean from "../components/paginas/bolean/EngineBolean";
 import ServicesBolean from "../components/paginas/bolean/ServicesBolean";
 import style from "../components/layout/layout.module.css";
+import Footer from "../components/layout/Footer";
 export default function BoleanApp() {
   return (
     <Layout>
@@ -13,6 +14,7 @@ export default function BoleanApp() {
         <EngineBolean />
       </div>
       <ServicesBolean />
+      <Footer />
     </Layout>
   );
 }
