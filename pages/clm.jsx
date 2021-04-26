@@ -136,12 +136,11 @@ export default function Clm() {
   const ref2 = new useRef();
   const ref3 = new useRef();
   const ref4 = new useRef();
-  const ref5 = new useRef();
+
   const OnScreen1 = useOnScreen(ref1);
   const OnScreen2 = useOnScreen(ref2);
   const OnScreen3 = useOnScreen(ref3);
   const OnScreen4 = useOnScreen(ref4);
-  const OnScreen5 = useOnScreen(ref5);
 
   const getImage = () => {
     if (OnScreen4) return "/png/logos/p04.png";
@@ -159,11 +158,7 @@ export default function Clm() {
         <section className="margin_section">
           <ImagenInteractiva
             imagenSrc={getImage()}
-            estilo={
-              OnScreen1
-                ? `${style.p_fixed} ${animaciones.fadeIn}`
-                : ``
-            }
+            estilo={OnScreen1 ? `${style.p_fixed} ${animaciones.fadeIn}` : ``}
           />
           <SectionCustom
             numero={section1.numero}
@@ -281,7 +276,6 @@ export default function Clm() {
               imagen={section4.imagen}
               estadoImagen={section4.estadoImagen}
               posicion={style.custom_imagen}
-              opacidades={OnScreen5 ? animaciones.fadeOut : animaciones.fadeIn}
               cards={
                 <>
                   {section4.cards.map((card, index) => {
@@ -305,9 +299,8 @@ export default function Clm() {
             />
           </div>
         </section>
-        <div ref={ref5}>
-          <RealTImeClm referencia={<></>} />
-        </div>
+
+        <RealTImeClm referencia={<></>} />
       </Layout>
     </div>
   );
