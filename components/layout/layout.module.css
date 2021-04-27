@@ -29,6 +29,30 @@
 .footer {
   padding-bottom: 2rem;
 }
+.boton_fondo_bolean,
+.boton_fondo_index,
+.boton_fondo_clm {
+  background-color: transparent;
+  color: #fff;
+}
+.boton_fondo_index {
+  border-color: var(--azul2);
+}
+.boton_fondo_bolean {
+  border-color: var(--verde);
+}
+.boton_fondo_bolean:hover {
+  background-color: var(--verde);
+}
+.boton_fondo_clm {
+  background-color: #0b262d;
+  border-color: var(--azul);
+}
+.boton_fondo_clm:hover {
+  background-color: var(--azul);
+  color: #000;
+}
+
 @media (max-width: 768px) {
   .logo {
     width: 200px;

@@ -173,11 +173,7 @@ export default function Clm() {
         >
           <ImagenInteractiva
             imagenSrc={getImage()}
-            estilo={` ${
-              OnScreen1
-                ? `${style.p_fixed} ${animaciones.fadeIn}`
-                : animaciones.fadeIn
-            }`}
+            estilo={` ${OnScreen1 ? `${style.p_fixed} ` : animaciones.fadeIn}`}
           />
         </div>
         <ImagenInteractiva
@@ -193,7 +189,7 @@ export default function Clm() {
           imagen={section1.imagen}
           estadoImagen={section1.estadoImagen}
           posicion={style.custom_imagen}
-          opacidades={OnScreen3 ? animaciones.fadeOut3 : animaciones.fadeIn}
+          opacidades={`margen_custom2 ${OnScreen3 ? animaciones.fadeOut3 : ""}`}
           cards={
             <>
               {section1.cards.map((card, index) => {
@@ -218,7 +214,7 @@ export default function Clm() {
           imagenSrc={`/png/logos/p02.png`}
           estilo={style.logo_movil}
         />
-        {<div className="prueba" ref={ref7}></div>}
+        <div className="prueba" ref={ref7}></div>
         <div ref={ref1}>
           <div ref={ref3}>
             <SectionCustom
@@ -305,7 +301,7 @@ export default function Clm() {
               imagen={section4.imagen}
               estadoImagen={section4.estadoImagen}
               posicion={style.custom_imagen}
-              opacidades={`${style.margen_section} ${
+              opacidades={`margen_custom ${
                 OnScreen6 ? animaciones.fadeOut3 : animaciones.fadeIn
               }`}
               cards={
@@ -331,8 +327,8 @@ export default function Clm() {
             />{" "}
           </div>
         </div>
-        <div ref={ref2} className="prueba"></div>
       </section>{" "}
+      <div ref={ref2} className="prueba"></div>
       <RealTImeClm referencia={<div className="prueba" ref={ref6}></div>} />
       <Footer />
     </Layout>

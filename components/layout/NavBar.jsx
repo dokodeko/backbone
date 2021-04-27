@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/router";
 import { Navbar, Nav } from "react-bootstrap";
 import Link from "next/link";
 import Boton from "../ui/Boton";
@@ -6,6 +7,14 @@ import styleUi from "../ui/ui.module.css";
 import styleLayout from "./layout.module.css";
 
 const Header = () => {
+  const router = useRouter();
+  const ruta = router.pathname.slice(1);
+
+  const fondoBoton = () => {
+    if (ruta === "bolean-app") return styleLayout.boton_fondo_bolean;
+    if(ruta==="clm") return styleLayout.boton_fondo_clm
+    return styleLayout.boton_fondo_index;
+  };
   return (
     <Navbar bg="transparent" className={`contenedor ${styleLayout.nav_custom}`}>
       <Link href="/" passHref>
@@ -29,7 +38,7 @@ const Header = () => {
           <Boton
             enlace="/#contacto"
             texto="Request a demo"
-            color={styleUi.background_trasparent}
+            color={fondoBoton()}
           />
         </Nav>
       </Navbar.Collapse>

@@ -49,20 +49,19 @@ img {
 .prueba {
   display: block;
   height: 10px;
-  background-color: purple;
 }
-.margin_section {
-  margin-top: 8rem;
-}
+
 .section {
   background: blue;
   margin-bottom: 5rem;
   width: 100%;
   height: 420px;
 }
-
-.p-fixed-out #ii {
-  transition: all 0.75s ease;
+.margen_custom {
+  margin-bottom: 13rem !important;
+}
+.margen_custom2 {
+  margin-bottom: 10rem !important;
 }
 
 @media (max-width: 1024px) {
@@ -73,5 +72,11 @@ img {
   }
   .titulo_tamano {
     font-size: 1.5rem;
+  }
+  .margin_section {
+    margin-top: 3rem;
+  }
+  .prueba {
+    display: none;
   }
 }
