@@ -18,7 +18,9 @@ const Parrafos = (props) => {
 
   return (
     <div className={`flex_box ${style.contendor_parrafo}`} ref={ref}>
-      <div className={`${style.cont_izquierdo}`}>
+      <div
+        className={`${style.cont_izquierdo}`}
+      >
         {props.children}
 
         <p className={` ${style.parrafo}`}>
