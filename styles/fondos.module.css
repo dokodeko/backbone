@@ -14,3 +14,32 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.layout_clm {
+  background-image: url("/png/fondos/layout_clm.png");
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+.layout_app {
+  background-image: url("/png/fondos/layout_app.png");
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+.middle_app {
+  background-image: url("/png/fondos/middle_app.png");
+  background-repeat: no-repeat;
+  background-size: 100% 57%;
+  background-position-y: 3%;
+}
+.middle_clm {
+  background-image: url("/png/fondos/middle_clm.png");
+  background-repeat: no-repeat;
+  background-size: 100% 57%;
+  background-position-y: 50%;
+}
+/* .middle_index {
+  background-image: url("/png/fondos/middle_index.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position-y: 20rem;
+}
+ */

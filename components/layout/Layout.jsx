@@ -1,12 +1,24 @@
 import { useRouter } from "next/router";
 import NavBar from "./NavBar";
-
 import Head from "next/head";
+import fondos from "../../styles/fondos.module.css";
 import style from "./layout.module.css";
 
 const Layout = (props) => {
-  const ruta = useRouter();
-  console.log(ruta.pathname.slice(1));
+  const router = useRouter();
+  const ruta = router.pathname.slice(1);
+
+  const cambioFondo = () => {
+    if (ruta === "clm") return fondos.layout_clm;
+    if (ruta === "bolean-app") return fondos.layout_app;
+
+    return;
+  };
+  const cambioFondo2 = () => {
+    if (ruta === "clm") return fondos.middle_clm;
+    if (ruta === "bolean-app") return fondos.middle_app;
+    return;
+  };
   return (
     <>
       <Head>
@@ -18,12 +30,10 @@ const Layout = (props) => {
           rel="stylesheet"
         />
       </Head>
-      <div className={style.fondo_pagina}>
-        <div>
-          <NavBar />
+      <div className={`${style.fondo_pagina} ${cambioFondo()}`}>
+        <NavBar />
 
-          <main>{props.children}</main>
-        </div>
+        <main className={cambioFondo2()}>{props.children}</main>
       </div>
     </>
   );

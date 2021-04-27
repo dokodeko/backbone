@@ -11,10 +11,14 @@ import fondos from "../styles/fondos.module.css";
 export default function Home() {
   return (
     <Layout>
-      <HeroIndex />
-      <TruestedIndex />
-      <OutEnginesIndex />
-      <CardsIndex />
+      <div className={fondos.middle_index}>
+        <HeroIndex />
+        <TruestedIndex />
+      </div>
+      <div className={fondos.middle_index}>
+        <OutEnginesIndex />
+        <CardsIndex />
+      </div>
       <div className={fondos.footer_index}>
         <ContactoIndex />
         <Footer />
