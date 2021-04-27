@@ -171,4 +171,7 @@
   .fadeOut3 {
     animation: none;
   }
+  .fadeInRight2 img {
+    margin-right: auto !important;
+  }
 }

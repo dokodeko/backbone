@@ -134,7 +134,7 @@ const section4 = {
 
 export default function Clm() {
   const ref1 = new useRef();
-  const ref2 = new useRef();
+/*   const ref2 = new useRef(); */
   const ref3 = new useRef();
   const ref4 = new useRef();
   const ref5 = new useRef();
@@ -144,7 +144,7 @@ export default function Clm() {
   const ref9 = new useRef();
 
   const OnScreen1 = useOnScreen(ref1);
-  const OnScreen2 = useOnScreen(ref2);
+/*   const OnScreen2 = useOnScreen(ref2); */
   const OnScreen3 = useOnScreen(ref3);
   const OnScreen4 = useOnScreen(ref4);
   const OnScreen5 = useOnScreen(ref5);
@@ -168,12 +168,12 @@ export default function Clm() {
       <section className="margin_section">
         <div
           className={`${style.cont_imagen} ${
-            OnScreen2 ? animaciones.fadeOut : animaciones.fadeIn
+            OnScreen6 ? animaciones.fadeOut : animaciones.fadeIn
           }`}
         >
           <ImagenInteractiva
             imagenSrc={getImage()}
-            estilo={` ${OnScreen1 ? `${style.p_fixed} ` : animaciones.fadeIn}`}
+            estilo={` ${OnScreen1 ? `${style.p_fixed} ` : ""}`}
           />
         </div>
         <ImagenInteractiva
@@ -262,7 +262,7 @@ export default function Clm() {
               imagen={section3.imagen}
               estadoImagen={section3.estadoImagen}
               posicion={style.custom_imagen}
-              opacidades={OnScreen5 ? animaciones.fadeOut3 : animaciones.fa}
+              opacidades={OnScreen5 ? animaciones.fadeOut3 : animaciones.fadeIn}
               cards={
                 <>
                   {section3.cards.map((card, index) => {
@@ -328,7 +328,7 @@ export default function Clm() {
           </div>
         </div>
       </section>{" "}
-      <div ref={ref2} className="prueba"></div>
+      {/* <div ref={ref2} className="prueba"></div> */}
       <RealTImeClm referencia={<div className="prueba" ref={ref6}></div>} />
       <Footer />
     </Layout>

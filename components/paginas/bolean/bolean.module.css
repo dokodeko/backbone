@@ -203,7 +203,9 @@
     font-size: 1.7rem;
   }
   .cont_izquierda {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .card_3 {
     width: 80%;
@@ -234,6 +236,9 @@
   .cont_imagen {
     width: 60%;
   }
+  .contendor_lista {
+    height: 150px;
+  }
   .lista1 {
     width: 15%;
   }
@@ -243,13 +248,14 @@
   .lista1 ul,
   .lista2 ul {
     padding: 0;
-    padding-top: 0.2rem;
+    padding-top: .25rem;
+ 
   }
   .lista1 li,
   .lista2 li {
     font-size: 0.35rem;
     padding: 0;
-    margin-bottom: 0.71rem;
+    margin-bottom: 0.82rem;
   }
   .lista1 li {
     padding-right: 0.2rem;
