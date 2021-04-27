@@ -22,6 +22,7 @@ const SectionCustom = (props) => {
     <div className={`${style.cont_sections} ${opacidades}`} ref={ref}>
       <div className="flex_box">
         <div className={`${style.cont_1}`}>
+          {props.referencia}
           <h5>
             {numero}. <span>{titulo}</span>
           </h5>

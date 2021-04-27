@@ -167,7 +167,8 @@
 }
 @media (max-width: 768px) {
   .fadeIn,
-  .fadeOut {
+  .fadeOut,
+  .fadeOut3 {
     animation: none;
   }
 }

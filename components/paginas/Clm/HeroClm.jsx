@@ -14,7 +14,7 @@ const HeroClm = () => {
           No more data recaptures, system isolation, data mismatch, chaotic file
           management, or missed deadlines.
         </p>
-        <Boton texto="Request a demo" color={style.boton} />
+        <Boton enlace="/" texto="Request a demo" color={style.boton} />
       </div>
       <div className={style.cont_imagen}>
         <img src="/png/hero_clm.png" />

@@ -47,9 +47,9 @@ img {
 /* imagen Fixed */
 
 .prueba {
-  background-color: red;
   display: block;
   height: 10px;
+  background-color: purple;
 }
 .margin_section {
   margin-top: 8rem;

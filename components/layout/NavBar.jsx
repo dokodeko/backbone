@@ -25,7 +25,12 @@ const Header = () => {
               Boolean APA
             </Nav.Link>
           </Link>
-          <Boton texto="Request a demo" color={styleUi.background_trasparent} />
+
+          <Boton
+            enlace="/#contacto"
+            texto="Request a demo"
+            color={styleUi.background_trasparent}
+          />
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -15,7 +15,9 @@ const HeroBolean = () => {
           data, processes and people, making your institution a seamlessly
           interconnected, intelligent and autonomous being.
         </p>
-        <Boton texto="Request a demo" color={style.boton} />
+        <Boton 
+        enlace="/"
+        texto="Request a demo" color={style.boton} />
       </div>
     </section>
   );

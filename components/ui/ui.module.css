@@ -51,10 +51,10 @@
   height: 400px;
   margin-left: auto;
   margin-right: 0;
-  margin-bottom: 17rem;
-  border: 2px solid red;
+  margin-bottom: 14rem;
+  background-color: red;
 }
-.margen_section{
+.margen_section {
   margin-bottom: 10rem;
 }
 .section_animacion {
@@ -184,13 +184,12 @@
 
 .imagen_interactiva {
   width: 200px;
-  height: 200px;
 }
 
 .p_fixed {
   position: fixed;
   z-index: 2000;
-  top: 10%;
+  top: 6%;
   left: 5%;
 }
 
@@ -254,6 +253,9 @@
     height: 260px;
     margin-top: 4rem;
     background-position-y: bottom;
+  }
+  .cont_imagen {
+    display: none;
   }
   .fondoMapa p {
     font-size: 0.53rem;
@@ -334,5 +336,10 @@
 
   .logo_movil {
     display: block;
+  }
+  .imagen_interactiva {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 2rem;
   }
 }
