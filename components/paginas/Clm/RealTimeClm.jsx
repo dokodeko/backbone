@@ -7,12 +7,12 @@ const RealTImeClm = (props) => {
         <h3 className="colorBlanco titulo titulos_tamano">
           REAL TIME <span className="colorAzul">SERVICES</span>
         </h3>
+        {props.referencia}
         <p className="colorBlanco mt-4">
           Embed reliable real time verification services into your onboarding
           flows without having to stitch together multiple vendors or sticking
           to one-size-fits-all KYC solutions.
         </p>
-        {props.referencia}
         <p className="colorBlanco">
           Backbone offers atomic APIs that use in-house technology and native
           integrations with the leading providers to address the main data point

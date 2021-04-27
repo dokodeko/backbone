@@ -46,11 +46,12 @@ img {
 }
 /* imagen Fixed */
 
-.prueba .isVisible {
+.prueba {
   background-color: red;
-  height: 400px;
+  display: block;
+  height: 10px;
 }
-.margin_section{
+.margin_section {
   margin-top: 8rem;
 }
 .section {

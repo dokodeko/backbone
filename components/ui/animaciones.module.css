@@ -47,6 +47,14 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+.fadeInRight3 > img {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 .fadeInRight2 img {
   margin-right: 10% !important;
 }
@@ -84,8 +92,8 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -122,15 +130,22 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.fadeOut2 {
+.fadeOut2 > img {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
+.fadeOut3 {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;

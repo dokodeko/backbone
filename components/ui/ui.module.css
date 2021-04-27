@@ -48,10 +48,17 @@
 /* Sections */
 .cont_sections {
   width: 95%;
-  height: 500px;
+  height: 400px;
   margin-left: auto;
   margin-right: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 17rem;
+  border: 2px solid red;
+}
+.margen_section{
+  margin-bottom: 10rem;
+}
+.section_animacion {
+  margin-bottom: 10rem;
 }
 .cont_sections h5 {
   color: #fff;
@@ -61,7 +68,9 @@
 .cont_sections h5 span {
   color: var(--azul);
 }
-
+.tran {
+  transition: all ease 3s;
+}
 .textoBold {
   font-weight: 700;
 }
@@ -167,30 +176,24 @@
   margin-right: 14%;
 }
 /* Imagen Interactiva */
+.cont_imagen {
+  height: 200px;
+  padding-left: 5%;
+  margin-bottom: 2rem;
+}
 
 .imagen_interactiva {
   width: 200px;
-  margin-left: 6%;
-  margin-bottom: 2rem;
-  display: block;
   height: 200px;
-  transition: ease all 3s;
-}
-.imagen_interactiva img {
-  max-width: 200px;
 }
 
-.p_fixed > img {
+.p_fixed {
   position: fixed;
   z-index: 2000;
   top: 10%;
+  left: 5%;
 }
-.transicion {
-  transition: all ease 2s;
-}
-.opacityoff {
-  opacity: 0;
-}
+
 .logo_movil {
   display: none;
 }
@@ -280,12 +283,6 @@
   .cards_3 {
     width: 28%;
   }
-  .imagen_interactiva {
-    width: 150px;
-  }
-  .imagen_interactiva img {
-    width: 150px;
-  }
 }
 @media (max-width: 767px) {
   .cont_sections {
@@ -334,13 +331,7 @@
     position: relative;
     width: 100px;
   }
-  .imagen_interactiva {
-    width: 120px;
-    height: 120px;
-  }
-  .imagen_interactiva img {
-    width: 120px;
-  }
+
   .logo_movil {
     display: block;
   }
