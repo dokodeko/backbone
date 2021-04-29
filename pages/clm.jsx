@@ -165,8 +165,7 @@ export default function Clm() {
     <Layout>
       <HeroClm />
       <FintechClm />
-      <section className="margin_section">
-        <div
+      <div
           className={`${style.cont_imagen} ${
             OnScreen6 ? animaciones.fadeOut : animaciones.fadeIn
           }`}
@@ -176,10 +175,13 @@ export default function Clm() {
             estilo={` ${OnScreen1 ? `${style.p_fixed} ` : ""}`}
           />
         </div>
+      <section className="margin_section">
+        
         <ImagenInteractiva
           imagenSrc={`/png/logos/p01.png`}
           estilo={style.logo_movil}
         />
+        <div className="prueba1"></div>
         <SectionCustom
           numero={section1.numero}
           titulo={section1.titulo}
@@ -216,7 +218,7 @@ export default function Clm() {
         />
         <div className="prueba" ref={ref7}></div>
         <div ref={ref1}>
-          <div ref={ref3}>
+          <div ref={ref3} >
             <SectionCustom
               numero={section2.numero}
               titulo={section2.titulo}

@@ -4,7 +4,10 @@
   --azul: #3feea5;
   --azul2: #00e7de;
 }
-
+body{
+  overflow-x: hidden;
+  width: auto;
+}
 * {
   font-family: "Red Hat Text", sans-serif;
 }
@@ -50,7 +53,9 @@ img {
   display: block;
   height: 10px;
 }
-
+.prueba1{
+  height: 200px;
+}
 .section {
   background: blue;
   margin-bottom: 5rem;

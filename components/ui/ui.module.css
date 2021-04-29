@@ -56,6 +56,8 @@
 }
 .margen_section {
   margin-bottom: 15rem;
+  position: sticky;
+  top: 10px;
 }
 .section_animacion {
   margin-bottom: 10rem;
@@ -177,20 +179,24 @@
 }
 /* Imagen Interactiva */
 .cont_imagen {
-  height: 200px;
+  
+  height: 2500px;
   padding-left: 5%;
   margin-bottom: 2rem;
-}
+  position:absolute;
+  }
 
 .imagen_interactiva {
-  width: 200px;
-}
+  width: 180px;
+  }
 
 .p_fixed {
-  position: fixed;
+  position: sticky;
   z-index: 2000;
-  top: 8%;
+  top: 50px;
   left: 5%;
+  align-self: flex-start;
+
 }
 
 .logo_movil {
@@ -240,6 +246,7 @@
     width: 90%;
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
+    
   }
   .lista {
     width: 93%;
