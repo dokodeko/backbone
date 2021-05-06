@@ -48,7 +48,7 @@
 /* Sections */
 .cont_sections {
   width: 95%;
-  height: 400px;
+  height: 500px;
   margin-left: auto;
   margin-right: 0;
   margin-bottom: 8rem;
@@ -193,7 +193,7 @@
 .p_fixed {
   position: sticky;
   z-index: 2000;
-  top: 50px;
+  top: 12vh;
   left: 5%;
   align-self: flex-start;
 
@@ -201,6 +201,21 @@
 
 .logo_movil {
   display: none;
+}
+@media (max-height: 1100px) {
+  .cont_sections {
+    height: 600px !important;
+  }
+}
+@media (max-height:950px) {
+  .cont_sections {
+    height: 380px !important;
+  }
+}
+@media (max-height: 800px) {
+.cont_sections {
+  height: 200px !important;
+}
 }
 @media (max-width: 1400px) {
   .cont_izquierdo {
