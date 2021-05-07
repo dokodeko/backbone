@@ -188,33 +188,51 @@
 
 .imagen_interactiva {
   width: 180px;
-  }
-
-.p_fixed {
   position: sticky;
   z-index: 2000;
-  top: 12vh;
+  top: 5vh;
   left: 5%;
   align-self: flex-start;
+  
+}
 
+.p_fixed {
+  
 }
 
 .logo_movil {
   display: none;
 }
+@media (max-height:1250px) {
+  .cont_sections{
+    height: 760px;
+  }
+  .cont_imagen{
+    height: 2900px;
+  }
+}
 @media (max-height: 1100px) {
   .cont_sections {
     height: 600px !important;
   }
+  .cont_imagen{
+    height: 2445px;
+  }
 }
 @media (max-height:950px) {
   .cont_sections {
-    height: 380px !important;
+    height: 400px !important;
+  }
+  .cont_imagen{
+    height: 1820px;
   }
 }
 @media (max-height: 800px) {
 .cont_sections {
-  height: 200px !important;
+  height: 264px !important;
+}
+.cont_imagen{
+  height: 1500px;
 }
 }
 @media (max-width: 1400px) {

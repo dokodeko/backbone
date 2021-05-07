@@ -331,7 +331,7 @@ export default function Clm() {
         </div>
       </section>{" "}
       {/* <div ref={ref2} className="prueba"></div> */}
-      <RealTImeClm referencia={<div className="prueba" ref={ref6}></div>} />
+      <RealTImeClm referencia={<div className="pruebaa" ref={ref6}></div>} />
       <Footer />
     </Layout>
   );
