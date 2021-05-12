@@ -216,12 +216,10 @@ export default function Clm() {
           imagenSrc={`/png/logos/p02.png`}
           estilo={style.logo_movil}
         />
-        <div className="prueba"></div>
-        <div ref={ref1}>
-          <div className="pruebanew" ref={ref7}>
-            <div ref={ref3}></div>
-          </div>
-          <div >
+        <div  className="prueba"></div>
+        <div  ref={ref1}>
+          <div className="pruebanew" ref={ref7}></div>
+          <div ref={ref3}>
             <SectionCustom
               numero={section2.numero}
               titulo={section2.titulo}
@@ -250,15 +248,13 @@ export default function Clm() {
             />
           </div>
 
-          <div  className="prueba"></div>
+          <div className="prueba"></div>
           <ImagenInteractiva
             imagenSrc={`/png/logos/p03.png`}
             estilo={style.logo_movil}
           />
-          <div >
-            <div className="pruebanew" ref={ref8}>
-              <div ref={ref4}></div>
-            </div>
+          <div  ref={ref4}>
+            <div className="pruebanew" ref={ref8}></div>
             <SectionCustom
               numero={section3.numero}
               titulo={section3.titulo}
@@ -294,15 +290,13 @@ export default function Clm() {
             />
           </div>
 
-          <div className="prueba" ></div>
+          <div  className="prueba" ></div>
           <ImagenInteractiva
             imagenSrc={`/png/logos/p04.png`}
             estilo={style.logo_movil}
           />
-          <div >
-            <div className="pruebanew" ref={ref9}> 
-              <div ref={ref5}></div>
-            </div>
+          <div ref={ref5} >
+            <div className="pruebanew" ref={ref9}> </div>
             <SectionCustom
               numero={section4.numero}
               titulo={section4.titulo}
