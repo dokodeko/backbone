@@ -56,6 +56,11 @@ img {
 .prueba1{
   height: 200px;
 }
+.pruebanew{
+  position: relative;
+  height: 20px;
+  top: 20vh;
+}
 .section {
   background: blue;
   margin-bottom: 5rem;

@@ -216,9 +216,12 @@ export default function Clm() {
           imagenSrc={`/png/logos/p02.png`}
           estilo={style.logo_movil}
         />
-        <div className="prueba" ref={ref7}></div>
+        <div className="prueba"></div>
         <div ref={ref1}>
-          <div ref={ref3} >
+          <div className="pruebanew" ref={ref7}>
+            <div ref={ref3}></div>
+          </div>
+          <div >
             <SectionCustom
               numero={section2.numero}
               titulo={section2.titulo}
@@ -247,12 +250,15 @@ export default function Clm() {
             />
           </div>
 
-          <div ref={ref8} className="prueba"></div>
+          <div  className="prueba"></div>
           <ImagenInteractiva
             imagenSrc={`/png/logos/p03.png`}
             estilo={style.logo_movil}
           />
-          <div ref={ref4}>
+          <div >
+            <div className="pruebanew" ref={ref8}>
+              <div ref={ref4}></div>
+            </div>
             <SectionCustom
               numero={section3.numero}
               titulo={section3.titulo}
@@ -288,12 +294,15 @@ export default function Clm() {
             />
           </div>
 
-          <div className="prueba" ref={ref9}></div>
+          <div className="prueba" ></div>
           <ImagenInteractiva
             imagenSrc={`/png/logos/p04.png`}
             estilo={style.logo_movil}
           />
-          <div ref={ref5}>
+          <div >
+            <div className="pruebanew" ref={ref9}> 
+              <div ref={ref5}></div>
+            </div>
             <SectionCustom
               numero={section4.numero}
               titulo={section4.titulo}
