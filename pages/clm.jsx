@@ -28,6 +28,7 @@ const section1 = {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
       imagen: "/png/identy/scard_1.png",
+      dataimg: "/png/anon.png"
     },
     {
       textoBlanco: "Ingest data",
@@ -153,6 +154,12 @@ export default function Clm() {
   const OnScreen8 = useOnScreen(ref8);
   const OnScreen9 = useOnScreen(ref9);
 
+  function changeImage(e){
+    e.preventDefault();
+    section1.imagen = section1.cards.dataimg;
+    console.log('clicccckk')
+  }
+
   const getImage = () => {
     if (OnScreen9) return "/png/logos/p04.png";
     if (OnScreen8) return "/png/logos/p03.png";
@@ -204,6 +211,7 @@ export default function Clm() {
                     totalCards={style.cards_4}
                     fondo={style.fondo_card_clm}
                     custom_parrafo={style.parrafo_custom}
+                    
                   >
                     <CardImagen key={index} imagen={card.imagen} />
                   </Card>
