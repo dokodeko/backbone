@@ -46,7 +46,7 @@ export default function Clm() {
 
   function changeImageSectionOne(e) {
     setSectionOne((prevState) => {
-      prevState.cards[e].imagen = prevState.cards[e].imagen2;
+      prevState.imagen = prevState.cards[e].imagen2;
       return {
         ...prevState,
       };
