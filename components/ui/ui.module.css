@@ -52,6 +52,7 @@
   margin-left: auto;
   margin-right: 0;
   margin-bottom: 8rem;
+  z-index: 999;
   /*   background-color: red; */
 }
 .margen_section {
@@ -225,6 +226,7 @@
   }
   .cont_imagen {
     height: 1820px;
+    z-index: 0;
   }
 }
 @media (max-height: 800px) {
