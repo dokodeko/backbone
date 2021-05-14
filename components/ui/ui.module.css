@@ -148,7 +148,7 @@
   width: 18%;
 }
 .fondo_card_clm {
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.2) !important;
   border-radius: 10px !important;
   border-color: var(--azul) !important;
 }
