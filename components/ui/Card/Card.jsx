@@ -5,7 +5,10 @@ const Card = (props) => {
 
   return (
     <>
-      <div className={`${style.card_custom} ${totalCards} ${fondo} `}>
+      <div
+        className={`${style.card_custom} ${totalCards} ${fondo} `}
+        onClick={props.myClick}
+      >
         {props.children}
         <p className={`colorBlanco  ${custom_parrafo}`}>
           {texto}
