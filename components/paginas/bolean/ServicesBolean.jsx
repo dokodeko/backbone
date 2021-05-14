@@ -12,7 +12,7 @@ const services = [
         "from multiple sources in a unified way. This generates more valuable data and communication between multiple systems that previously interacted through manual processes. Boolean is designed to become the company’s",
       textoVerde2: "central query repository ",
       textoParrafo4: "where all operational data coexists and is enriched.",
-      imagen: "/png/frame.png",
+      imagen: "/png/boolean/integration.gif",
     },
   },
   {
@@ -28,7 +28,7 @@ const services = [
       textoVerde2: " models, workflows and automations",
       textoParrafo4:
         "anytime according to the changing needs of your business.",
-      imagen: "/png/frame.png",
+        imagen: "/png/boolean/automation.gif",
     },
   },
   {
@@ -41,7 +41,7 @@ const services = [
       textoVerde2: "pivot tables and data visualizations",
       textoParrafo4:
         "that synthesize relevant information and present it unambiguously. With our growing portfolio of functionality we provide your company with predictive recommendations and allow you to turn them into actions.",
-      imagen: "/png/frame.png",
+        imagen: "/png/boolean/exploration.gif",
     },
   },
   {
@@ -52,7 +52,7 @@ const services = [
       textoParrafo2:
         "for decision making. We increase the users' ability to make decisions by presenting business customized information at the appropriate moment. In addition, Boolean provides a single repository for decision making and statistical tracking of results so that actions taken today are accessible and inform tomorrow's decisions.",
 
-      imagen: "/png/frame.png",
+        imagen: "/png/boolean/tasks.gif",
     },
   },
   {
@@ -63,7 +63,7 @@ const services = [
       textoParrafo2:
         " As a result of using our engine you will be able to expose APIs, communicate with your customers through multiple channels, generate and send perfectly designed documents, create dashboard reports and feed all of the other systems your company has.",
 
-      imagen: "/png/frame.png",
+        imagen: "/png/boolean/delivered.gif",
     },
   },
 ];

@@ -124,6 +124,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 2rem 0rem !important;
+  cursor: pointer;
 }
 .cards_4 {
   width: 23%;
@@ -147,9 +148,15 @@
   width: 18%;
 }
 .fondo_card_clm {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.0);
   border-radius: 10px !important;
   border-color: var(--azul) !important;
+}
+.activo_card{
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px !important;
+  border-color: var(--azul) !important;
+  
 }
 .parrafo_custom {
   margin: 0rem auto !important;

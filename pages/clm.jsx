@@ -43,12 +43,60 @@ export default function Clm() {
     return "/png/logos/p01.png";
   };
   const [sectionOne, setSectionOne] = useState(section1);
-
+  const [sectionThree, setSectionThree] = useState(section3);
+  const [sectionFour, setSectionFour] = useState(section4);
   function changeImageSectionOne(e) {
     setSectionOne((prevState) => {
       prevState.imagen = prevState.cards[e].imagen2;
+      
+      for(var i =0; i < prevState.cards.length;i++ ){
+        if(prevState.cards[i] != prevState.cards[e]){
+          prevState.cards[i].activo = false
+          console.log(prevState.cards[i].activo)
+        }else{
+          prevState.cards[i].activo = true
+          console.log(prevState.cards[i].activo)
+        }
+      }
       return {
         ...prevState,
+      };
+    });
+  }
+  function changeImageSectionThree(e){
+    setSectionThree((prevState) => {
+      prevState.imagen = prevState.cards[e].imagen2;
+      
+      for(var i =0; i < prevState.cards.length;i++ ){
+        if(prevState.cards[i] != prevState.cards[e]){
+          prevState.cards[i].activo = false
+          console.log(prevState.cards[i].activo)
+        }else{
+          prevState.cards[i].activo = true
+          console.log(prevState.cards[i].activo)
+        }
+      }
+      return {
+        ...prevState
+      };
+    });
+  }
+  function changeImageSectionFour(e){
+    setSectionFour((prevState) => {
+      prevState.imagen = prevState.cards[e].imagen2;
+      
+      
+      for(var i =0; i < prevState.cards.length;i++ ){
+        if(prevState.cards[i] != prevState.cards[e]){
+          prevState.cards[i].activo = false
+          console.log(prevState.cards[i].activo)
+        }else{
+          prevState.cards[i].activo = true
+          console.log(prevState.cards[i].activo)
+        }
+      }
+      return {
+        ...prevState
       };
     });
   }
@@ -73,13 +121,13 @@ export default function Clm() {
         />
         <div className="prueba1"></div>
         <SectionCustom
-          numero={section1.numero}
-          titulo={section1.titulo}
-          parrafo1={section1.parrafo1}
-          textoVerde={section1.textoVerde}
-          parrafo2={section1.parrafo2}
-          imagen={section1.imagen}
-          estadoImagen={section1.estadoImagen}
+          numero={sectionOne.numero}
+          titulo={sectionOne.titulo}
+          parrafo1={sectionOne.parrafo1}
+          textoVerde={sectionOne.textoVerde}
+          parrafo2={sectionOne.parrafo2}
+          imagen={sectionOne.imagen}
+          estadoImagen={sectionOne.estadoImagen}
           posicion={style.custom_imagen}
           opacidades={`margen_custom2 ${OnScreen3 ? animaciones.fadeOut3 : ""}`}
           cards={
@@ -94,6 +142,7 @@ export default function Clm() {
                     totalCards={style.cards_4}
                     fondo={style.fondo_card_clm}
                     custom_parrafo={style.parrafo_custom}
+                    activo={card.activo}
                     myClick={(e) => {
                       e.preventDefault();
                       changeImageSectionOne(index);
@@ -150,20 +199,20 @@ export default function Clm() {
           <div ref={ref4}>
             <div className="pruebanew" ref={ref8}></div>
             <SectionCustom
-              numero={section3.numero}
-              titulo={section3.titulo}
-              parrafo1={section3.parrafo1}
-              textoVerde={section3.textoVerde}
-              parrafo2={section3.parrafo2}
-              textoVerde2={section3.textoVerde2}
-              parrafo3={section3.parrafo3}
-              imagen={section3.imagen}
-              estadoImagen={section3.estadoImagen}
+              numero={sectionThree.numero}
+              titulo={sectionThree.titulo}
+              parrafo1={sectionThree.parrafo1}
+              textoVerde={sectionThree.textoVerde}
+              parrafo2={sectionThree.parrafo2}
+              textoVerde2={sectionThree.textoVerde2}
+              parrafo3={sectionThree.parrafo3}
+              imagen={sectionThree.imagen}
+              estadoImagen={sectionThree.estadoImagen}
               posicion={style.custom_imagen}
               opacidades={OnScreen5 ? animaciones.fadeOut3 : animaciones.fadeIn}
               cards={
                 <>
-                  {section3.cards.map((card, index) => {
+                  {sectionThree.cards.map((card, index) => {
                     return (
                       <Card
                         key={index}
@@ -174,6 +223,11 @@ export default function Clm() {
                         fondo={style.fondo_card_clm}
                         custom_titulo={style.custom_titulo}
                         custom_parrafo={style.parrafo_custom}
+                        activo={card.activo}
+                        myClick={(e) => {
+                          e.preventDefault();
+                          changeImageSectionThree(index);
+                        }}
                       >
                         <CardImagen key={index} imagen={card.imagen} />
                       </Card>
@@ -194,20 +248,20 @@ export default function Clm() {
               {" "}
             </div>
             <SectionCustom
-              numero={section4.numero}
-              titulo={section4.titulo}
-              parrafo1={section4.parrafo1}
-              textoVerde={section4.textoVerde}
-              parrafo2={section4.parrafo2}
-              imagen={section4.imagen}
-              estadoImagen={section4.estadoImagen}
+              numero={sectionFour.numero}
+              titulo={sectionFour.titulo}
+              parrafo1={sectionFour.parrafo1}
+              textoVerde={sectionFour.textoVerde}
+              parrafo2={sectionFour.parrafo2}
+              imagen={sectionFour.imagen}
+              estadoImagen={sectionFour.estadoImagen}
               posicion={style.custom_imagen}
               opacidades={`margen_custom ${
                 OnScreen6 ? animaciones.fadeOut3 : animaciones.fadeIn
               }`}
               cards={
                 <>
-                  {section4.cards.map((card, index) => {
+                  {sectionFour.cards.map((card, index) => {
                     return (
                       <Card
                         key={index}
@@ -218,6 +272,12 @@ export default function Clm() {
                         fondo={style.fondo_card_clm}
                         custom_titulo={style.custom_titulo}
                         custom_parrafo={style.parrafo_custom2}
+                        activo={card.activo}
+                    
+                        myClick={(e) => {
+                          e.preventDefault();
+                          changeImageSectionFour(index);
+                        }}
                       >
                         <CardImagen key={index} imagen={card.imagen} />
                       </Card>
