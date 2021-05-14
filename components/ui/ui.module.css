@@ -148,16 +148,11 @@
   width: 18%;
 }
 .fondo_card_clm {
-  background-color: rgba(255, 255, 255, 0.6) !important;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px !important;
   border-color: var(--azul) !important;
 }
-.activo_card{
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px !important;
-  border-color: var(--azul) !important;
-  
-}
+
 .parrafo_custom {
   margin: 0rem auto !important;
   line-height: 1.31 !important;

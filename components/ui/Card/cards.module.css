@@ -3,7 +3,7 @@
   border: 2px solid var(--verde);
   padding: 4rem 2.8rem;
   z-index: 20;
-  background-color: rgba(255,255, 255, 0.2);
+  background-color: rgba(255,255, 255, 0.2) ;
 }
 .card_custom p {
   margin-top: 2rem;
@@ -14,7 +14,12 @@
 .fondo_card_gradiente {
   background-image: url("/png/fondo_card.png");
 }
-
+.active_card{
+  background-color: rgba(255,255, 255, 0.6) ;  
+}
+.not_active{
+  background-color: rgba(255,255, 255, 0.2) ;  
+}
 .colorVerde {
   color: var(--verde);
 }
