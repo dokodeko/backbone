@@ -143,10 +143,7 @@ export default function Clm() {
                     fondo={style.fondo_card_clm}
                     custom_parrafo={style.parrafo_custom}
                     activo={card.activo}
-                    myClick={(e) => {
-                      e.preventDefault();
-                      changeImageSectionOne(index);
-                    }}
+                    
                   >
                     <CardImagen key={index} imagen={card.imagen} />
                   </Card>
