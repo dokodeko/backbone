@@ -6,8 +6,8 @@ export const section1 = {
   parrafo2:
     "between the real world and your team’s rules. Leverage internal and external data to execute informed manual or automatic decisions, while minimizing back office burden.",
   estadoImagen: true,
-  imagen: "/png/frame.png",
-  fondoImagen: "/png/identity.png",
+  imagen: "/png/identity.png",
+  fondoImagen: "/png/p01.png",
   cards: [
     {
       textoBlanco: "Ingest data",
