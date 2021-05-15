@@ -55,6 +55,9 @@
   z-index: 999;
   /*   background-color: red; */
 }
+.cont_sections:nth-child(2){
+  margin-bottom: 12rem;
+}
 .margen_section {
   margin-bottom: 15rem;
   position: sticky;
@@ -357,6 +360,7 @@
     margin-bottom: 5rem;
     width: 90%;
   }
+  
   .cont_1,
   .cont_2 {
     width: 100%;
