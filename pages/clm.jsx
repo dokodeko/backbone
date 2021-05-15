@@ -46,18 +46,13 @@ export default function Clm() {
   const [sectionThree, setSectionThree] = useState(section3);
   const [sectionFour, setSectionFour] = useState(section4);
   
-  sectionThree.cards[0].activo= false;
-  sectionThree.imagen = sectionThree.cards[0].imagen2;
-  sectionFour.imagen = sectionThree.cards[0].imagen2;
-  sectionFour.cards[0].activo= false;
-  
   function changeImageSectionThree(e){
     setSectionThree((prevState) => {
       prevState.imagen = prevState.cards[e].imagen2;
       sectionThree.cards[0].activo=true
           
       for(var i =0; i < prevState.cards.length;i++ ){
-        if(prevState.cards[i] === prevState.cards[e]){
+        if(prevState.cards[i] != prevState.cards[e]){
           prevState.cards[i].activo = false
           console.log(prevState.cards[i].activo)
         }else{
@@ -76,7 +71,7 @@ export default function Clm() {
       
       
       for(var i =0; i < prevState.cards.length;i++ ){
-        if(prevState.cards[i] === prevState.cards[e]){
+        if(prevState.cards[i] != prevState.cards[e]){
           prevState.cards[i].activo = false
           console.log(prevState.cards[i].activo)
         }else{

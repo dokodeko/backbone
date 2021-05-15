@@ -14,28 +14,28 @@ export const section1 = {
       texto2: "and send back instructions",
       imagen: "/png/identy/scard_1.png",
       imagen2: "/png/anon.png",
-      activo: "false"
+      activo: false
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
       imagen: "/png/identy/scard_2.png",
       imagen2: "/png/audit.png",
-      activo: "false"
+      activo: false
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
       imagen: "/png/identy/scard_3.png",
       imagen2: "/png/caseman.png",
-      activo: "false"
+      activo: false
     },
     {
       textoBlanco: "Ingest data",
       texto2: "and send back instructions",
       imagen: "/png/identy/scard_4.png",
       imagen2: "/png/instit.png",
-      activo: "false"
+      activo: false
     },
   ],
 };
@@ -71,7 +71,7 @@ export const section3 = {
   parrafo3:
     "from your customers with a full-picture continuous monitoring and establish automated procedures for our own criteria.",
   estadoImagen: true,
-  imagen: "/png/frame.png",
+  imagen: "/png/watch.png",
 
   cards: [
     {
@@ -79,21 +79,21 @@ export const section3 = {
       texto2: "External data sources",
       imagen: "/png/monitoring/card_1.png",
       imagen2: "/png/watch.png",
-      activo: false
+      activo: "true"
     },
     {
       textoBlanco: "Transaction Monitoring",
       texto2: "Suspicious individual events",
       imagen: "/png/monitoring/card_2.png",
       imagen2: "/png/trans.png",
-      activo: "false"
+      activo: false
     },
     {
       textoBlanco: "Risk Profiling",
       texto2: "Suspicious overall events",
       imagen: "/png/monitoring/card_3.png",
       imagen2: "/png/risk.png",
-      activo: "false"
+      activo: false
     },
   ],
 };
@@ -104,38 +104,38 @@ export const section4 = {
   textoVerde: "compliance operations ",
   parrafo2: "to avoid fines whilst minimizing friction with your clients. ",
   estadoImagen: true,
-  imagen: "/png/frame.png",
+  imagen: "/png/reports.png",
 
   cards: [
     {
       textoBlanco: "Automated regulatory reports",
       imagen: "/png/compliance/card_1.png",
       imagen2: "/png/reports.png",
-      activo: false
+      activo: "true"
     },
     {
       texto2: "Case management",
       imagen: "/png/compliance/card_2.png",
       imagen2: "/png/manage.png",
-      activo: "false"
+      activo: false
     },
     {
       texto2: "Institutional risk assessment",
       imagen: "/png/compliance/card_3.png",
       imagen2: "/png/instit.png",
-      activo: "false"
+      activo: false
     },
     {
       texto2: "Anonymous inbox",
       imagen: "/png/compliance/card_4.png",
       imagen2: "/png/anon.png",
-      activo: "false"
+      activo: false
     },
     {
       texto2: "Audit & authority requirements",
       imagen: "/png/compliance/card_5.png",
       imagen2: "/png/audit.png",
-      activo: "false"
+      activo: false
     },
   ],
 };

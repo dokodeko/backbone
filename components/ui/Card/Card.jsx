@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <>
       <div
-        className={`${style.card_custom1} ${totalCards} ${activo ? style.not_active : style.active_card }  `}
+        className={`${style.card_custom1} ${totalCards} ${activo ? style.active_card  : style.not_active }  `}
         onClick={props.myClick}
       >
         {props.children}

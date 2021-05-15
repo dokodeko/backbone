@@ -7,14 +7,14 @@ const cards = [
     imagen: "/png/index/icard1.png",
     texto: "EMPOWER",
     texto2: "YOUR DATA",
-    flecha: true,
+    
   },
   {
     id: 1,
     imagen: "/png/index/icard2.png",
     texto: "AUTOMATE",
     texto2: "YOUR PROCESSES",
-    flecha: true,
+    
   },
   {
     id: 1,
