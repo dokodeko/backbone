@@ -54,12 +54,12 @@ img {
   height: 10px;
 }
 .prueba1{
-  height: 200px;
+  height: 500px;
 }
 .pruebanew{
   position: relative;
   height: 20px;
-  top: 20vh;
+  top: 19vh;
 }
 .section {
   background: blue;
@@ -73,7 +73,27 @@ img {
 .margen_custom2 {
   margin-bottom: 10rem !important;
 }
-
+.fintech{
+  margin-top: 20vh;
+  margin-bottom: 30vh;
+}
+.suite{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+@media (max-height:920px) {
+  .prueba1{
+    height: 200px;
+  } 
+.fintech{
+  margin-top: 15vh;
+  margin-bottom: 25vh;
+}
+.suite{
+  margin-top: 25vh;
+  margin-bottom: 33vh;
+}
+}
 @media (max-width: 1024px) {
 }
 @media (max-width: 767px) {

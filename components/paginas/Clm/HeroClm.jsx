@@ -2,7 +2,7 @@ import Boton from "../../ui/Boton";
 import style from "./clm.module.css";
 const HeroClm = () => {
   return (
-    <div className="contenedor flex_box mt-4">
+    <div className="contenedor flex_box fintech">
       <div className={`${style.cont_texto} ${style.cambio}`}>
         <h1 className="colorBlanco">
           SUPERCHARGE <br /> YOUR <span>FINTECH</span>

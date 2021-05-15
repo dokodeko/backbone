@@ -2,7 +2,7 @@ import style from "./clm.module.css";
 
 const FintechClm = () => {
   return (
-    <div className="contenedor flex_box my-5">
+    <div className="contenedor flex_box suite">
       <div className={style.imagen_fintech}>
         <div id={style.Onboarding}>Onboarding</div>
         <div id={style.Compliance}>Compliance</div>

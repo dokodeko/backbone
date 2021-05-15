@@ -198,15 +198,12 @@
   align-self: flex-start;
 }
 
-.p_fixed {
-}
-
 .logo_movil {
   display: none;
 }
 @media (max-height: 1250px) {
   .cont_sections {
-    height: 760px;
+    height: 500px;
   }
   .cont_imagen {
     height: 2900px;
@@ -222,7 +219,7 @@
 }
 @media (max-height: 950px) {
   .cont_sections {
-    height: 400px !important;
+    height: 340px !important;
   }
   .cont_imagen {
     height: 1820px;

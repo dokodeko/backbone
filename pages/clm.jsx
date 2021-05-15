@@ -158,8 +158,10 @@ export default function Clm() {
         />
         <div className="prueba"></div>
         <div ref={ref1}>
-          <div className="pruebanew" ref={ref7}></div>
-          <div ref={ref3}>
+          <div className="pruebanew" ref={ref7}>
+            <div ref={ref3}></div>
+          </div>
+          <div >
             <SectionCustom
               numero={section2.numero}
               titulo={section2.titulo}
@@ -193,8 +195,10 @@ export default function Clm() {
             imagenSrc={`/png/logos/p03.png`}
             estilo={style.logo_movil}
           />
-          <div ref={ref4}>
-            <div className="pruebanew" ref={ref8}></div>
+          <div >
+            <div className="pruebanew" ref={ref8}>
+              <div ref={ref4}></div>
+            </div>
             <SectionCustom
               numero={sectionThree.numero}
               titulo={sectionThree.titulo}
@@ -240,9 +244,9 @@ export default function Clm() {
             imagenSrc={`/png/logos/p04.png`}
             estilo={style.logo_movil}
           />
-          <div ref={ref5}>
+          <div >
             <div className="pruebanew" ref={ref9}>
-              {" "}
+              <div ref={ref5}></div>
             </div>
             <SectionCustom
               numero={sectionFour.numero}
