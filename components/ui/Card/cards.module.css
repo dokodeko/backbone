@@ -5,13 +5,7 @@
   z-index: 20;
   background-color: rgba(255,255, 255, 0.2) ;
 }
-.card_custom1 {
-  border-radius: 10px;
-  border: 2px solid var(--azul);
-  padding: 4rem 2.8rem;
-  z-index: 20;
-  background-color: rgba(255,255, 255, 0.2) ;
-}
+
 .card_custom p {
   margin-top: 2rem;
   text-align: center;
@@ -20,12 +14,15 @@
 }
 .fondo_card_gradiente {
   background-image: url("/png/fondo_card.png");
+  
 }
 .active_card{
   background-color: rgba(255,255, 255, 0.6) ;  
+  border: 2px solid var(--azul) !important;
 }
 .not_active{
   background-color: rgba(255,255, 255, 0.2) ;  
+  border: 2px solid var(--azul) !important;
 }
 .colorVerde {
   color: var(--verde);
