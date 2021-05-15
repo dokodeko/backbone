@@ -20,7 +20,7 @@
 /* HeroClm */
 .cont_texto {
   width: 32%;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 .boton {
   background-color: var(--azul);
@@ -66,7 +66,7 @@
 }
 /* RealTimeCLm */
 .contenedor_real {
-  margin-top: 12rem;
+  margin-top: 17rem;
   margin-bottom: 8rem;
 }
 .contclm_izquierda {
