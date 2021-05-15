@@ -40,33 +40,22 @@ export default function Clm() {
     if (OnScreen8) return "/png/logos/p03.png";
     if (OnScreen7) return "/png/logos/p02.png";
 
-    return "/png/logos/p01.png";
+    return "/png/logos/p01.png";  
   };
   const [sectionOne, setSectionOne] = useState(section1);
   const [sectionThree, setSectionThree] = useState(section3);
   const [sectionFour, setSectionFour] = useState(section4);
-  function changeImageSectionOne(e) {
-    setSectionOne((prevState) => {
-      prevState.imagen = prevState.cards[e].imagen2;
-      
-      for(var i =0; i < prevState.cards.length;i++ ){
-        if(prevState.cards[i] != prevState.cards[e]){
-          prevState.cards[i].activo = false
-          console.log(prevState.cards[i].activo)
-        }else{
-          prevState.cards[i].activo = true
-          console.log(prevState.cards[i].activo)
-        }
-      }
-      return {
-        ...prevState,
-      };
-    });
-  }
+  
+  sectionThree.cards[0].activo= false;
+  sectionThree.imagen = sectionThree.cards[0].imagen2;
+  sectionFour.imagen = sectionThree.cards[0].imagen2;
+  sectionFour.cards[0].activo= false;
+  
   function changeImageSectionThree(e){
     setSectionThree((prevState) => {
       prevState.imagen = prevState.cards[e].imagen2;
-      
+      sectionThree.cards[0].activo=true
+          
       for(var i =0; i < prevState.cards.length;i++ ){
         if(prevState.cards[i] === prevState.cards[e]){
           prevState.cards[i].activo = false

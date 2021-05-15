@@ -79,7 +79,7 @@ export const section3 = {
       texto2: "External data sources",
       imagen: "/png/monitoring/card_1.png",
       imagen2: "/png/watch.png",
-      activo: "false"
+      activo: false
     },
     {
       textoBlanco: "Transaction Monitoring",
@@ -111,7 +111,7 @@ export const section4 = {
       textoBlanco: "Automated regulatory reports",
       imagen: "/png/compliance/card_1.png",
       imagen2: "/png/reports.png",
-      activo: "false"
+      activo: false
     },
     {
       texto2: "Case management",

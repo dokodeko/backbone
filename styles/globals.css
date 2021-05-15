@@ -93,6 +93,9 @@ img {
   margin-top: 25vh;
   margin-bottom: 33vh;
 }
+.pruebanew{
+  top: 10vh;
+}
 }
 @media (max-width: 1024px) {
 }
