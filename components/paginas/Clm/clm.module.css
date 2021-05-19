@@ -20,13 +20,18 @@
 /* HeroClm */
 .cont_texto {
   width: 32%;
-  padding-top: 4rem;
+  padding-top: 0rem;
 }
 .boton {
   background-color: var(--azul);
+  border-color: var(--azul);
+}
+.boton:hover{
+  background-color: transparent;
+  color: var(--azul);
 }
 .cont_imagen {
-  width: 30%;
+  width: 35%;
   margin-right: 8%;
   margin-left: auto;
 }

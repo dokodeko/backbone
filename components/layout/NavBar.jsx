@@ -27,10 +27,10 @@ const Header = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Link href="/clm" passHref>
-            <Nav.Link className={`${styleLayout.links}`}>CLM</Nav.Link>
+            <Nav.Link className={`${ruta === "clm" ? styleUi.fuente : ""} ${styleLayout.links}`}>CLM</Nav.Link>
           </Link>
           <Link href="/bolean-app" passHref>
-            <Nav.Link className={`${styleUi.fuente} ${styleLayout.links}`}>
+            <Nav.Link className={`${ruta === "bolean-app" ? styleUi.fuente : "" } ${styleLayout.links}`}>
               Boolean APA
             </Nav.Link>
           </Link>

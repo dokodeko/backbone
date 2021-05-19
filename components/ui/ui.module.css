@@ -173,6 +173,7 @@
 .custom_imagen {
   display: flex;
   align-items: center;
+  margin-top: -155px;
 }
 .custom_imagen img {
   width: 80%;
@@ -225,7 +226,7 @@
     height: 340px !important;
   }
   .cont_imagen {
-    height: 1700px;
+    height: 1960px;
     z-index: 0;
   }
 }

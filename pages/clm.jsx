@@ -222,14 +222,14 @@ export default function Clm() {
               }
             />
           </div>
-
+          <div className="espacio3-4"></div>
           <div className="prueba"></div>
           <ImagenInteractiva
             imagenSrc={`/png/logos/p04.png`}
             estilo={style.logo_movil}
           />
           <div >
-            <div className="pruebanew" ref={ref9}>
+            <div className="pruebanew1" ref={ref9}>
               <div ref={ref5}></div>
             </div>
             <SectionCustom

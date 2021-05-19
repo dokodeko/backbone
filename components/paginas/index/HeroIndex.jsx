@@ -9,8 +9,7 @@ const HeroIndex = () => {
       <p className="colorBlanco">
         We're dedicated to stopping data recaptures & mismatch, system
         isolation, and repetitive tasks
-        <br />
-        <span className="colorAzul2"> in the world</span>
+        <b><span className="colorAzul2"> in the world</span></b>
       </p>
     </div>
   );

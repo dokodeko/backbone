@@ -9,7 +9,7 @@
   font-size: 2.75rem;
 }
 .contenedor_index_hero p {
-  width: 43%;
+  width: 50%;
   font-size: 1.75rem;
   margin-left: auto;
   margin-right: auto;
@@ -206,7 +206,10 @@
   background-color: #375056;
   border-radius: 15px;
   background-size: 100% 100%;
-  padding-left: 0.5rem;
+  padding: 1rem;
+  border-top-color: var(--azul2) ;
+  border-top-style:double;
+  border-left-style: double;
 }
 .cont_contac_fielset input::placeholder,
 .cont_contac_fielset textarea::placeholder {

@@ -60,10 +60,12 @@
   justify-content: center;
   width: 100%;
 }
-.cont_imagen2 img {
+.cont_imagen2 img{
+  object-fit: fill;
   width: 55px;
-  height: 59px;
+  height: 59px;  
 }
+
 .flecha {
   position: absolute;
   top: 45%;

@@ -13,7 +13,7 @@ const cards = [
     subtitulo: "SERVICE",
     salto: true,
     texto:
-      "Our systems operate with 99.9%+ uptime and are highly scalable and redundant We're compliant financial-grade security standards. Furthermore, we provide dedicated support. ",
+      "Our systems operate with 99.9%+ uptime and are highly scalable and redundant. We're compliant financial-grade security standards. Furthermore, we provide dedicated support. ",
   },
   {
     titulo: "FULLY MANAGED",

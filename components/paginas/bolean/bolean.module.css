@@ -13,14 +13,16 @@
   height: 600px;
 }
 .cont_izquierda h1 {
-  margin-top: 3rem;
+  margin-top: 7.7vh;
   font-size: 2.75rem;
+  line-height: 1;
 }
 .cont_izquierda p {
   margin-top: 2rem;
   margin-bottom: 4rem;
   color: #fff;
   line-height: 1.71;
+  width: 71%;
 }
 .boton {
   background-color: var(--verde);
@@ -33,7 +35,7 @@
   margin-bottom: 2rem;
 }
 .contenedor_analytics {
-  margin-top: 6rem;
+  margin-top: 22rem;
   margin-bottom: 4rem;
 }
 .contenedor_analytics > p {
