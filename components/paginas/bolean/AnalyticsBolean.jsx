@@ -64,6 +64,7 @@ const AnalyticsBolean = () => {
               texto={item.texto}
               totalCards={style.card_3}
               fondo={style.fondo_card}
+              clm = {true}
             >
               <CardTituloVerde
                 key={index}

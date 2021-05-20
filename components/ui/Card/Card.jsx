@@ -1,12 +1,12 @@
 import style from "./cards.module.css";
 
 const Card = (props) => {
-  const { texto, texto2, textoBold, totalCards, fondo, custom_parrafo, activo } = props;
+  const { texto, texto2, textoBold, totalCards, fondo, custom_parrafo, activo, clm } = props;
 
   return (
     <>
       <div
-        className={`${style.card_custom} ${totalCards} ${fondo} ${activo ? style.active_card  : style.not_active }  `}
+        className={`${style.card_custom} ${totalCards} ${fondo} ${activo ? style.active_card  : style.not_active } ${clm ? style.not_clm :""}  `}
         onClick={props.myClick}
       >
         {props.children}

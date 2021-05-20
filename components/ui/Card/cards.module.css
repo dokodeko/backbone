@@ -24,6 +24,13 @@
   background-color: rgba(255,255, 255, 0.2) ;  
   border: 2px solid var(--azul) !important;
 }
+.not_clm{
+  border-color: var(--verde) !important;
+  background-color: rgba(255,255, 255, 0.0);
+  border-radius: 30px;
+  height: 340px;
+  padding: 2.5rem 2rem;
+}
 .colorVerde {
   color: var(--verde);
 }

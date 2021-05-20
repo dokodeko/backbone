@@ -14,21 +14,24 @@ export const section1 = {
       texto2: "and send back instructions",
       imagen: "/png/identy/scard_1.png",
       imagen2: "/png/anon.png",
-      activo: false
+      activo: false,
+      clm: false
     },
     {
       textoBlanco: "Holistic view",
       texto2: "of customer and transactional data ",
       imagen: "/png/identy/scard_2.png",
       imagen2: "/png/audit.png",
-      activo: false
+      activo: false,
+      clm: false
     },
     {
       textoBlanco: "Manage ",
       texto2: "account levels and statuses",
       imagen: "/png/identy/scard_3.png",
       imagen2: "/png/caseman.png",
-      activo: false
+      activo: false,
+      clm: false
     },  
     {
       textoBlanco: "Segment",

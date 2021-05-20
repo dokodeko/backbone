@@ -63,6 +63,10 @@
 
   justify-content: space-between;
 }
+.contenedor_analytics_cards .not_active{
+  
+  background-color: rgba(255,255, 255, 0) !important;
+}
 .fondo_card {
   background-image: url("/png/fondo_card.png");
   background-repeat: no-repeat;
