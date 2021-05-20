@@ -31,6 +31,9 @@
   height: 340px;
   padding: 2.5rem 2rem;
 }
+.no_click{
+  cursor: auto;
+}
 .colorVerde {
   color: var(--verde);
 }

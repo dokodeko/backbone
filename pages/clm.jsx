@@ -127,7 +127,7 @@ export default function Clm() {
                     fondo={style.fondo_card_clm}
                     custom_parrafo={style.parrafo_custom}
                     activo={card.activo}
-                    
+                    click={true}
                   >
                     <CardImagen key={index} imagen={card.imagen} />
                   </Card>
