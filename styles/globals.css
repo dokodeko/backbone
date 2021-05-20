@@ -105,6 +105,9 @@ img {
 .pruebanew{
   top: 10vh;
 }
+.pruebanew1{
+  top: 0;
+}
 }
 @media (max-width: 1024px) {
 }
