@@ -11,7 +11,7 @@ import fondos from "../styles/fondos.module.css";
 export default function Home() {
   return (
     <Layout>
-      <div className={fondos.middle_index}>
+      <div className={fondos.top_index}>
         <HeroIndex />
         <TruestedIndex />
       </div>

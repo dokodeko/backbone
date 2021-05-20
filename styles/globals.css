@@ -83,7 +83,7 @@ img {
   margin-bottom: 10rem !important;
 }
 .fintech{
-  margin-top: 12vh;
+  padding-top: calc( 160px + 12vh );
   margin-bottom: 38vh;
 }
 .suite{
@@ -95,7 +95,7 @@ img {
     height: 200px;
   } 
 .fintech{
-  margin-top: 12vh;
+  padding-top: 160px;
   margin-bottom: 26vh;
 }
 .suite{
