@@ -106,4 +106,7 @@
   .flecha {
     display: none;
   }
+  .not_clm{
+    height: 260px;
+  }
 }

@@ -1,5 +1,10 @@
 .nav_custom {
   padding-top: 3.5rem;
+  max-width: 1440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .cont_logo {
@@ -10,6 +15,12 @@
 .fondo_pagina {
   background-color: #0b262d;
   
+}
+.fondo_pagina > main > div > div{
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+  z-index: 3;
 }
 .cont_texto {
   margin-top: 2rem;

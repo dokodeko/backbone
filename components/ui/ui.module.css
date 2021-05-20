@@ -364,6 +364,7 @@
     width: 90%;
     display: flex;
     align-items: center;
+    margin: auto;
   }
   .imagen_parrafo {
     height: auto;
@@ -372,7 +373,7 @@
   .cont_sections {
     margin-right: auto;
     height: auto !important;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem !important;
     width: 90%;
     overflow-x:hidden;
   }
