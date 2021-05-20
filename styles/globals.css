@@ -54,7 +54,7 @@ img {
   height: 10px;
 }
 .prueba1{
-  height: 200px;
+  height: 200px; 
 }
 .pruebanew{
   position: relative;
@@ -106,7 +106,19 @@ img {
   top: 10vh;
 }
 }
-@media (max-width: 767px) {
+@media (max-width:1024px) {
+  .pruebanew{
+    top:0;
+  }
+  .pruebanew1{
+    top: 0;
+  }
+  
+  .espacio3-4{
+    height: 0;
+  }
+}
+@media (max-width: 768px) {
   .contenedor {
     width: 98%;
   }
@@ -118,5 +130,14 @@ img {
   }
   .prueba {
     display: none;
+  }
+  .suite{
+    margin-bottom: 0;
+  }
+  .prueba1{
+    height: 20px;
+  }
+  .pruebanew1{
+    height: 110px;
   }
 }

@@ -150,6 +150,9 @@
   .contclm_imagenes {
     width: 94%;
   }
+  .contenedor_real{
+    margin-top: 12rem;
+  }
 }
 
 @media (max-width: 768px) {
