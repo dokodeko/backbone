@@ -61,6 +61,12 @@ img {
   height: 20px;
   top: 19vh;
 }
+
+.pruebanew1{
+  height: 10px;
+  top: 0px;
+  margin-top: -60px;
+}
 .espacio3-4{
   height: 200px;
 }
@@ -98,11 +104,6 @@ img {
 }
 .pruebanew{
   top: 10vh;
-}
-.pruebanew1{
-  height: 10px;
-  top: 0px;
-  margin-top: -50px;
 }
 }
 @media (max-width: 1024px) {
