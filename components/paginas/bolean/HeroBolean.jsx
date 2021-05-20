@@ -4,9 +4,9 @@ const HeroBolean = () => {
   return (
     <section className={`contenedor flex_box ${style.fondo}`} id="hero_index">
       <div className={style.cont_izquierda}>
-        <h1 className="colorVerde titulo">
+        <h1 className="colorBlanco titulo">
           MAKE YOUR INSTITUTION
-          <br /> <span className="colorBlanco">INTELLIGENT</span>
+          <br /> <span className="colorVerde">INTELLIGENT</span>
         </h1>
         <p>
           <span className="titulo">Boolean </span>is an analytic process
