@@ -105,11 +105,12 @@ img {
 .pruebanew{
   top: 10vh;
 }
+}
+@media (max-height: 800px) { 
 .pruebanew1{
   top: 0;
+  margin-top: -80px;
 }
-}
-@media (max-width: 1024px) {
 }
 @media (max-width: 767px) {
   .contenedor {

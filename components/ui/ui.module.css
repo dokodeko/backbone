@@ -235,8 +235,9 @@
     height: 350px !important;
   }
   .cont_imagen {
-    height: 1720px;
+    height: 1690px;
   }
+  
 }
 @media (max-width: 1400px) {
   .cont_izquierdo {
