@@ -238,7 +238,7 @@
 }
 @media (max-height:812px) and (max-width:1024px) {
   .cont_imagen {
-    height: 1900px;
+    height: 1800px;
   }
   .cont_sections {
     height: 400px !important;
