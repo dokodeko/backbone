@@ -41,7 +41,7 @@ const Parrafos = (props) => {
       </div>
       <div
         className={`${style.cont_derecho} ${
-          onScreen ? animaciones.fadeInRight : ""
+          onScreen ? animaciones.fadeIn : ""
         }`}
       >
         <img src={imagen} alt="" className={style.imagen_parrafo} />

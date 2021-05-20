@@ -22,7 +22,7 @@ const services = [
         "It allows you to do what only developers could do. Free yourself from",
       textoVerde: "complex and repetitive tasks",
       textoParrafo2:
-        "and focus your effort and creativity on projects that generate business impact. With our easy to use interface, we have a function blocks ready to automate your needs.",
+        "and focus your effort and creativity on projects that generate business impact. With our easy to use interface, we have a function block ready to automate your needs.",
       salto: true,
       textoParrafo3: "Adjust your",
       textoVerde2: " models, workflows and automations",
@@ -35,7 +35,7 @@ const services = [
     titulo: { texto1: "DATA", texto2: "EXPLORATION" },
     parrafo: {
       textoParrafo:
-        "It helps your company gain new insights by allowing you to.",
+        "It helps your company gain new insights by allowing you to ",
       textoVerde: "explore your data in real time",
       textoParrafo2: "through",
       textoVerde2: "pivot tables and data visualizations",
