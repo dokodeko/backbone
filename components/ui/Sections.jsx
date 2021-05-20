@@ -46,13 +46,12 @@ const SectionCustom = (props) => {
         ) : (
           <div className={style.fondoMapa}>
             <p id={style.status}>
-              Status/account level
-              <br /> decisions
+              
+              <br /> 
             </p>
-            <p id={style.escalotions}>Escalations</p>
+            <p id={style.escalotions}></p>
             <p id={style.level}>
-              Aditional level
-              <br /> requests
+              
             </p>
           </div>
         )}
