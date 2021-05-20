@@ -21,9 +21,17 @@
   margin-bottom: 4rem;
   color: #fff;
   line-height: 1.71;
+  width: 75%;
 }
 .boton {
   background-color: var(--verde);
+  border-color:  var(--verde);
+
+}
+.boton:hover{
+  background-color: transparent;
+  color: var(--verde);
+  border-color:  var(--verde);
 }
 /* index analytics */
 .titulo_analytics {
