@@ -10,19 +10,17 @@
   background-position: top right;
   background-repeat: no-repeat;
   margin-top: 3rem;
-  height: 900px;
+  height: 600px;
 }
 .cont_izquierda h1 {
-  margin-top: 7.7vh;
+  margin-top: 3rem;
   font-size: 2.75rem;
-  line-height: 1;
 }
 .cont_izquierda p {
   margin-top: 2rem;
   margin-bottom: 4rem;
   color: #fff;
   line-height: 1.71;
-  width: 74%;
 }
 .boton {
   background-color: var(--verde);
@@ -35,7 +33,7 @@
   margin-bottom: 2rem;
 }
 .contenedor_analytics {
-  margin-top: 22rem;
+  margin-top: 6rem;
   margin-bottom: 4rem;
 }
 .contenedor_analytics > p {
@@ -102,9 +100,6 @@
 .titulo_sevicios {
   font-size: 2.25rem;
 }
-@media (max-height: 800px) {
-
-}
 @media (max-width: 1500px) {
   .fondo {
     background-size: 70% 100%;
@@ -126,12 +121,6 @@
   .lista1,
   .lista2 {
     width: 23%;
-  }
-  .fondo{
-    height: 600px;
-  }
-  .cont_izquierda p{
-    width: 90%;
   }
 }
 @media (max-width: 1300px) {
