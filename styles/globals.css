@@ -80,6 +80,9 @@ img {
   max-width: 1440px;
   margin: auto;
 }
+.margin_section.clm_steps{
+  position: relative;
+}
 .margen_custom {
   margin-bottom: 13rem !important;
 }

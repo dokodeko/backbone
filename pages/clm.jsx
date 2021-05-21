@@ -88,17 +88,19 @@ export default function Clm() {
     <Layout>
       <HeroClm />
       <FintechClm />
-      <div
-        className={`${style.cont_imagen} ${
-          OnScreen6 ? animaciones.fadeOut : animaciones.fadeIn
-        }`}
-      >
-        <ImagenInteractiva
-          imagenSrc={getImage()}
-          estilo={` ${OnScreen1 ? `${style.p_fixed} ` : ""}`}
-        />
-      </div>
-      <section className="margin_section">
+      
+      <section className="margin_section clm_steps">
+        <div
+          className={`${style.cont_imagen} ${
+            OnScreen6 ? animaciones.fadeOut : animaciones.fadeIn
+          }`}
+        >
+          <ImagenInteractiva
+            imagenSrc={getImage()}
+            estilo={` ${OnScreen1 ? `${style.p_fixed} ` : ""}`}
+          />
+        </div>
+
         <ImagenInteractiva
           imagenSrc={`/png/logos/p01.png`}
           estilo={style.logo_movil}

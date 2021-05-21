@@ -189,17 +189,17 @@
 .cont_imagen {
   z-index: 1;
   height: 2370px;
-  padding-left: 1%;
+  padding-left: 5%;
   margin-bottom: 2rem;
   position: absolute;
-  left: 21%;
+  left: 0;
 }
 
 .imagen_interactiva {
   width: 180px;
   position: sticky;
   z-index: 2000;
-  top: 5vh;
+  top: 18vh;
   left: 5%;
   align-self: flex-start;
 }
@@ -213,7 +213,6 @@
   }
   .cont_imagen {
     height: 2380px;
-    left: 13%;
   }
 }
 @media (max-height: 1100px) {
@@ -239,6 +238,11 @@
   }
   .cont_imagen {
     height: 1720px;
+  }
+}
+@media (max-width: 1920px){
+  .imagen_interactiva {
+    top: 5vh;
   }
 }
 @media (max-width: 1400px) {
