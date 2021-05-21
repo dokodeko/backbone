@@ -208,6 +208,7 @@
   }
   .cont_imagen {
     height: 2380px;
+    left: 13%;
   }
 }
 @media (max-height: 1100px) {
