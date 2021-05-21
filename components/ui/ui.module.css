@@ -185,10 +185,10 @@
 .cont_imagen {
   z-index: 1;
   height: 2370px;
-  padding-left: 5%;
+  padding-left: 1%;
   margin-bottom: 2rem;
   position: absolute;
-  left: 18%;
+  left: 21%;
 }
 
 .imagen_interactiva {
@@ -203,62 +203,28 @@
 .logo_movil {
   display: none;
 }
-@media (max-height: 1250px) {
-  .cont_sections {
-    height: 500px;
-  }
-  .cont_imagen {
-    height: 2380px;
-    left: 8%;
+
+@media (min-width:1440px) {
+  .cont_imagen{
+    left:12% !important;
   }
 }
-@media (max-height: 1100px) {
-  .cont_sections {
-    height: 600px !important;
-  }
-  .cont_imagen {
-    height: 2445px;
-    left: 4%;
+@media (min-width:1680px) {
+  .cont_imagen{
+    left: 18% ;
   }
 }
-@media (max-height: 950px) {
-  .cont_sections {
-    height: 340px !important;
-  }
-  .cont_imagen {
-    height: 1870px;
-    z-index: 0;
-  }
-}
-@media (max-height: 812px) and (max-width:1400px) {
-  .cont_sections {
-    height: 350px !important;
-  }
-  .cont_imagen {
-    height: 1720px;
-  }
-  
-}
-@media (max-height:812px) and (max-width:1024px) {
-  .cont_imagen {
-    height: 1800px;
-  }
-  .cont_sections {
-    height: 400px !important;
-  }
-}
-@media (max) {
-  
-}
+
 @media (max-width: 1400px) {
   .cont_izquierdo {
     width: 38%;
   }
 }
+
 @media (max-width: 1024px) {
   .fondoMapa {
     width: 48%;
-    margin-right: 2%;
+      margin-right: 2%;
   }
   .fondoMapa p {
     font-size: 0.7rem;
