@@ -55,6 +55,9 @@
   z-index: 999;
   /*   background-color: red; */
 }
+.cont_sections:nth-child(4) .custom_imagen {
+  margin-top: -20px;
+}
 .cont_sections:nth-child(2){
   margin-bottom: 12rem;
 }
@@ -176,6 +179,7 @@
   align-items: center;
   margin-top: -155px;
 }
+
 .custom_imagen img {
   width: 80%;
   display: block;
