@@ -236,10 +236,13 @@
 }
 @media (max-height: 800px) {
   .cont_sections {
-    height: 350px !important;
+    height: auto !important;
   }
   .cont_imagen {
     height: 1720px;
+  }
+  .custom_imagen{
+    margin-top: -10px;
   }
 }
 @media (max-width: 1920px){
