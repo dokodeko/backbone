@@ -188,6 +188,7 @@
   padding-left: 5%;
   margin-bottom: 2rem;
   position: absolute;
+  left: 18%;
 }
 
 .imagen_interactiva {
@@ -208,7 +209,7 @@
   }
   .cont_imagen {
     height: 2380px;
-    left: 13%;
+    left: 8%;
   }
 }
 @media (max-height: 1100px) {
@@ -217,6 +218,7 @@
   }
   .cont_imagen {
     height: 2445px;
+    left: 4%;
   }
 }
 @media (max-height: 950px) {
