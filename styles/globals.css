@@ -117,8 +117,14 @@ img {
   .pruebanew{
     top: 0;
   }
+  .pruebanew1{
+    margin-top: -165px;
+  }
   .margen_custom{
-    margin-bottom: 0;
+    margin-bottom: 0rem !important;
+  }
+  .margen_custom2{
+    margin-bottom: 0rem !important;
   }
 }
 @media (max-width:1024px) {
