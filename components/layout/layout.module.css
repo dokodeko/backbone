@@ -10,7 +10,7 @@
 }
 .fondo_pagina {
   background: url("/png/fondos/backbone_index_full.png"),#0b262d;
-  
+  background-size: cover;
 }
 .fondo_pagina > main >  div{
   max-width: 1440px;
