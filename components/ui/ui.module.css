@@ -232,10 +232,10 @@
 }
 @media (max-height: 950px) {
   .cont_sections {
-    height: auto + 30px !important;
+    height: auto !important;
   }
   .cont_imagen {
-    height: 1870px;
+    height: 1820px;
     z-index: 0;
   }
   .custom_imagen{
@@ -244,10 +244,13 @@
 }
 @media (max-height: 800px) {
   .cont_sections {
-    height: 900px !important;
+    height: auto !important;
+  }
+  .cont_sections:nth-child(2){
+    margin-bottom: 1rem;
   }
   .cont_imagen {
-    height: 1720px;
+    height: 1690px;
   }
   .custom_imagen{
     margin-top: -00px;

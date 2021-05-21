@@ -113,6 +113,14 @@ img {
   top: 10vh;
 }
 }
+@media (max-height:800px) {
+  .pruebanew{
+    top: 0;
+  }
+  .margen_custom{
+    margin-bottom: 0;
+  }
+}
 @media (max-width:1024px) {
   .pruebanew{
     top:0;
