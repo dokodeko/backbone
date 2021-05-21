@@ -368,9 +368,7 @@
   }
   .imagen_parrafo {
     height: auto;
-    width: 100%;
-    margin: auto;
-    margin-left: 5%;
+    width: 95%;
   }
   .cont_sections {
     margin-right: auto;
