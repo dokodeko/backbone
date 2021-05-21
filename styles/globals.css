@@ -76,6 +76,10 @@ img {
   width: 100%;
   height: 420px;
 }
+.margin_section{
+  max-width: 1440px;
+  margin: auto;
+}
 .margen_custom {
   margin-bottom: 13rem !important;
 }
