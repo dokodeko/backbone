@@ -52,6 +52,8 @@ img {
 .prueba {
   display: block;
   height: 10px;
+  top: 40vh;
+  position: relative;
 }
 .prueba1{
   height: 200px; 
