@@ -241,6 +241,12 @@
   .custom_imagen{
     margin-top: 0px;
   }
+  .cont_sections h5{
+    margin-top: 6rem;
+  }
+  .cont_sections:nth-child(4) .custom_imagen{
+    margin-top: -124px;
+  }
 }
 @media (max-height: 800px) {
   .cont_sections {
