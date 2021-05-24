@@ -182,7 +182,7 @@ export default function Clm() {
           />
           <div >
           <div className="prueba" ref={ref8}></div>
-            <div className="pruebanew" >
+            <div className="pruebanew2" >
               <div ref={ref4}></div>
             </div>
             <SectionCustom
