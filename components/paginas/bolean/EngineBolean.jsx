@@ -18,7 +18,7 @@ const EngineBolean = () => {
       <div className={`flex_box ${style.contendor_lista}`}>
         <div className={style.lista1}>
           <ul>
-            <li>Esternal APIs</li>
+            <li>External APIs</li>
             <li>Raw documents</li>
             <li>Databases</li>
             <li>Clients</li>
