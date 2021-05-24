@@ -60,12 +60,14 @@ img {
   position: relative;
   height: 20px;
   top: 19vh;
+  background-color: blue;
 }
 
 .pruebanew1{
   height: 10px;
   top: 0px;
   margin-top: -90px;
+  background-color: chocolate ;
 }
 .espacio3-4{
   height: 200px;
@@ -110,7 +112,10 @@ img {
   margin-bottom: 33vh;
 }
 .pruebanew{
-  top: 10vh;
+  top: 6vh;
+}
+.pruebanew1{
+  margin-top: -27vh;
 }
 }
 @media (max-height:800px) {
@@ -121,10 +126,10 @@ img {
     margin-top: -165px;
   }
   .margen_custom{
-    margin-bottom: 3rem !important;
+    margin-bottom: 6rem !important;
   }
   .margen_custom2{
-    margin-bottom: 3rem !important;
+    margin-bottom: 6rem !important;
   }
 }
 @media (max-width:1024px) {
