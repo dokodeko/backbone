@@ -230,7 +230,7 @@ export default function Clm() {
             estilo={style.logo_movil}
           />
           <div >
-          <div className="prueba" ref={ref9}></div>
+          <div className="pruebanot" ref={ref9}></div>
             <div className="pruebanew1" >
               <div ref={ref5}></div>
             </div>

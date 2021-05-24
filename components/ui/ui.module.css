@@ -107,7 +107,7 @@
   margin-right: 7%;
   margin-left: auto;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: contain;
   color: #fff;
 }
 .fondoMapa p {

@@ -55,6 +55,12 @@ img {
   top: 40vh;
   position: relative;
 }
+.pruebanot{
+  display: block;
+  height: 10px;
+  top: 15vh;
+  position: relative;
+}
 .prueba1{
   height: 200px; 
 }
