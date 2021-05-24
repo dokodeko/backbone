@@ -235,7 +235,7 @@
     height: auto !important;
   }
   .cont_imagen {
-    height: 1805px;
+    height: 1815px;
     z-index: 0;
   }
   .custom_imagen{
@@ -253,7 +253,10 @@
     height: 1425px;
   }
   .custom_imagen{
-    margin-top: -00px;
+    margin-top: -85px;
+  }
+  .cont_sections:nth-child(4) .custom_imagen{
+    margin: -85px;
   }
 }
 @media (max-width: 1920px){
