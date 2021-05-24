@@ -253,10 +253,13 @@
     height: 1425px;
   }
   .custom_imagen{
-    margin-top: -85px;
+    margin-top: -25px;
   }
   .cont_sections:nth-child(4) .custom_imagen{
-    margin: -85px;
+    margin-top: -164px;
+  }
+  .cont_sections h5{
+    margin-top: 5rem;
   }
 }
 @media (max-width: 1920px){
