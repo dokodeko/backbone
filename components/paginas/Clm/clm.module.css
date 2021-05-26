@@ -176,9 +176,9 @@
     
   }
   .cont_imagen_movil{
-    width: 40%;
+    width: 95%;
     margin-right: 4%;
-    display: contents;
+    display: flex;
   }
   .cambio p {
     margin-bottom: 1.5rem;
