@@ -4,7 +4,7 @@ const HeroClm = () => {
   return (
     <div className="contenedor flex_box fintech">
       <div className={style.cont_imagen_movil}>
-        <img src="/png/hero_clm.png" />
+        <img src="/png/hero_index.png" />
       </div>
       <div className={`${style.cont_texto} ${style.cambio}`}>
         <h1 className="colorBlanco">
