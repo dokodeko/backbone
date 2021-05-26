@@ -18,11 +18,11 @@
 }
 
 .fondo_card {
-  /*  background-image: url("/png/fondo_card.png");
+  background-image: url("/png/fondo_card.png");
   background-repeat: no-repeat;
 
-  background-size: 100% 100%; */
-  background-color: #375056;
+  background-color: rgba(255,255, 255, 0.0);
+  background-size: 100% 100%;
 }
 .contenedor_cards_index {
   width: 80%;
@@ -37,6 +37,7 @@
   padding: 3rem !important;
   border-color: var(--azul2) !important;
   position: relative;
+  border-radius: 30px;
 }
 .card_3:nth-of-type(2) img{
   width: 59px;
@@ -49,6 +50,7 @@
   margin-right: auto;
   padding: 2.5rem 1.8rem !important;
   border-color: var(--azul2) !important;
+  border-radius: 35px;
 }
 .card_4 p {
   line-height: 1.67;
@@ -313,6 +315,9 @@
   .cont_engines_1 {
     flex: 0 0 90%;
   }
+  .cont_engines_1  h4{
+    margin-top: 0rem;
+  }
   .engines_img1 {
     margin-left: auto;
     margin-top: 3rem;
@@ -328,6 +333,9 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
+  }
+  .texto_engines_index {
+    margin-top: 0rem;
   }
   .texto_engines_index:last-of-type {
     flex-direction: column-reverse;

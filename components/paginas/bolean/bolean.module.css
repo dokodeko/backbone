@@ -209,8 +209,8 @@
     height: auto;
     background-size: 92% 250px;
     height: 495px;
-    margin-top: 1rem;
-    background-position: bottom center;
+    margin-top: 2rem;
+    background-position: top center;
   }
   .cont_izquierda h1 {
     font-size: 1.7rem;
@@ -219,6 +219,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 33vh;
   }
   .card_3 {
     width: 80%;
@@ -239,6 +240,7 @@
   }
   .contenedor_engine {
     margin-top: 5rem;
+    margin-bottom: 1rem;
   }
   .contenedor_engine > p {
     font-size: 0.7rem;

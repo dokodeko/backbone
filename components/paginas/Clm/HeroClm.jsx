@@ -3,6 +3,9 @@ import style from "./clm.module.css";
 const HeroClm = () => {
   return (
     <div className="contenedor flex_box fintech">
+      <div className={style.cont_imagen_movil}>
+        <img src="/png/hero_clm.png" />
+      </div>
       <div className={`${style.cont_texto} ${style.cambio}`}>
         <h1 className="colorBlanco">
           SUPERCHARGE <br /> YOUR <span>FINTECH</span>

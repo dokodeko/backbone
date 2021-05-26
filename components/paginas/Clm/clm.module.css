@@ -35,6 +35,9 @@
   margin-right: 8%;
   margin-left: auto;
 }
+.cont_imagen_movil{
+  display: none;
+}
 /* Fintech */
 .imagen_fintech {
   width: 33%;
@@ -168,8 +171,13 @@
     width: 47%;
   }
   .cont_imagen {
+    display: none;
+    
+  }
+  .cont_imagen_movil{
     width: 40%;
     margin-right: 4%;
+    display: contents;
   }
   .cambio p {
     margin-bottom: 1.5rem;
@@ -217,8 +225,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .cont_imagen {
-    width: 60%;
+  .cont_imagen_movil img {
+    width: 70%;
     margin: 2rem auto;
   }
   .imagen_fintech {
