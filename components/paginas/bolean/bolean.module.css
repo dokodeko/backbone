@@ -263,8 +263,8 @@
   .lista1 ul,
   .lista2 ul {
     padding: 0;
-    padding-top: .1rem;
- 
+    line-height: 1.65;
+    margin-bottom: 0rem !important;
   }
   .lista1 li,
   .lista2 li {
