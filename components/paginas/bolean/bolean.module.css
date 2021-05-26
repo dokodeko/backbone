@@ -273,6 +273,11 @@
     padding: 0;
     margin-bottom: 0.82rem;
   }
+  .lista1 li:nth-child(5),
+  .lista2 li:nth-child(5) {
+    margin-top: 2px; 
+    background-color: blue;
+  }
   .lista1 li {
     padding-right: 0.2rem;
   }
