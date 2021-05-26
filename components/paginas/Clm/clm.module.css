@@ -231,6 +231,7 @@
   .cont_imagen_movil img {
     width: 70%;
     margin: 2rem auto;
+    height: auto;
   }
   .imagen_fintech {
     width: 82%;
