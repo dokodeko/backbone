@@ -88,7 +88,8 @@
   padding-top: 0.3rem;
 }
 .cont_imagen {
-  width: 60%;
+  width: 80%;
+  margin-left: 6%;
 }
 .contendor_lista li {
   color: #fff;
