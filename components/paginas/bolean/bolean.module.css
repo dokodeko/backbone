@@ -275,15 +275,15 @@
   }
   .lista1 li:nth-child(3),
   .lista2 li:nth-child(3) {
-    padding-top: 1px; 
+    padding-top: 0px; 
   }
   .lista1 li:nth-child(4),
   .lista2 li:nth-child(4) {
-    padding-top: 1px; 
+    padding-top: -1px; 
   }
   .lista1 li:nth-child(5),
   .lista2 li:nth-child(5) {
-    padding-top: 1px; 
+    padding-top: -1px; 
   }
   .lista1 li {
     padding-right: 0.2rem;
