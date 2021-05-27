@@ -16,27 +16,10 @@ const EngineBolean = () => {
         and <br /> execute real-life actions.
       </p>
       <div className={`flex_box ${style.contendor_lista}`}>
-        <div className={style.lista1}>
-          <ul>
-            <li>External APIs</li>
-            <li>Raw documents</li>
-            <li>Databases</li>
-            <li>Clients</li>
-            <li>Employees</li>
-          </ul>
-        </div>
         <div className={style.cont_imagen}>
-          <img src="/png/engine_middle.png" />
+          <img src="/png/middleng.png" />
         </div>
-        <div className={style.lista2}>
-          <ul>
-            <li>Customizable APIs</li>
-            <li>Communications</li>
-            <li>Business-ready documents</li>
-            <li>Software inputs</li>
-            <li>Dashboards</li>
-          </ul>
-        </div>
+       
       </div>
     </section>
   );

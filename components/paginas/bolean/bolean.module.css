@@ -129,11 +129,15 @@
     margin-bottom: 2.48rem;
   }
   .cont_imagen {
-    width: 54%;
+    width: 100%;
   }
   .lista1,
   .lista2 {
     width: 23%;
+  }
+  .lista1 li:nth-child(5),
+  .lista2 li:nth-child(5) {
+    padding-bottom: 4px !important; 
   }
 }
 @media (max-width: 1300px) {
@@ -249,7 +253,7 @@
     margin-right: auto;
   }
   .cont_imagen {
-    width: 60%;
+    width: 95%;
   }
   .contendor_lista {
     height: 150px;
@@ -281,10 +285,7 @@
   .lista2 li:nth-child(4) {
     padding-top: -1px; 
   }
-  .lista1 li:nth-child(5),
-  .lista2 li:nth-child(5) {
-    padding-top: -1px; 
-  }
+  
   .lista1 li {
     padding-right: 0.2rem;
   }
